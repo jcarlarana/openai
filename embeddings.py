@@ -106,16 +106,24 @@ df = pd.DataFrame(shortened, columns = ['text'])
 df['n_tokens'] = df.text.apply(lambda x: len(tokenizer.encode(x)))
 df.n_tokens.hist()
 # plt.show()
+
 from openai import OpenAI
+from tenacity import (
+    retry,
+    stop_after_attempt,
+    wait_random_exponential,
+)  # for exponential backoff
 
 client = OpenAI(
     api_key=os.environ.get("OPENAI_API_KEY"),
 )
 
-def get_embedding(text, model):
-   return client.embeddings.create(input = [text], model=model).data[0].embedding
+@retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(6))
+def embedding_with_backoff(*args, **kwargs):
+    print("calling embedding with backoff function")
+    return client.embeddings.create(*args, **kwargs).data[0].embedding
 
-df['embeddings'] = df.text.apply(lambda x: get_embedding(x, model='text-embedding-ada-002'))
+df['embeddings'] = df.text.apply(lambda x: embedding_with_backoff(input=x, model='text-embedding-ada-002'))
 
 df.to_csv('processed/embeddings.csv')
 df.head()
