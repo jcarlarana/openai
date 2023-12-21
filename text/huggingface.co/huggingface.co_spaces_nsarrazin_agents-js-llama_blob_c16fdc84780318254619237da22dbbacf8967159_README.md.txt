@@ -1,0 +1,162 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+README.md · nsarrazin/agents-js-llama at c16fdc84780318254619237da22dbbacf8967159
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+					Duplicated from 
+					nsarrazin/agents-js-oasst
+
+
+nsarrazin
+/
+agents-js-llama
+
+
+
+like
+1
+
+			Runtime error
+			
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+			c16fdc8
+		
+
+agents-js-llama
+/
+README.md
+
+
+nsarrazin
+					
+HF staff
+
+latest changes
+43e4cb7
+5 months ago
+preview
+code
+|
+
+							raw
+						
+							history
+						
+							blame
+						
+
+
+							No virus
+						
+154 Bytes
+
+metadata
+title: Agents.js PoC - Llama 2 70B
+emoji: 🦙
+colorFrom: blue
+colorTo: red
+sdk: docker
+app_port: 3000
+duplicated_from: nsarrazin/agents-js-oasst
+
+
+
+
+
+
+
+
+
+

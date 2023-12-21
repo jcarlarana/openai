@@ -1,0 +1,268 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21world (j)
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+
+
+1
+2
+1
+j
+
+21world
+Follow
+
+
+afrideva's profile picture
+
+pritamdeka's profile picture
+
+Haiart's profile picture
+
+31
+					followers
+·
+2946 following
+				
+
+https://www.youtube.com/@21world
+
+
+21world
+
+			AI & ML interests
+		
+virtualization of ai/ml in mcu .Funding require.
+https://www.buymeacoffee.com/21world                     .
+
+https://ko-fi.com/21world .
+https://play.google.com/store/apps/details?id=calendar.univers.pro
+
+			Organizations
+		
+
+
+
+
+
+
+
+
+
+
+Collections
+22
+
+
+
+24 layers(pcb) X 2048(?h_dim?) neurons [*_________]
+Model quality test - 1/10 stars
+
+
+
+
+TheBloke/deepseek-coder-1.3b-instruct-GGUF
+
+
+Updated
+				Nov 5
+• 
+
+				59
+			• 
+
+				18
+			
+
+
+
+in text/static.video -> out static.video   - LCM  - MOD
+Additional Conceptual MOD
+
+
+
+
+latent-consistency/lcm-sdxl
+
+
+
+			Text-to-Image
+			• 
+Updated
+				Nov 12
+• 
+
+				8.09k
+			• 
+
+				114
+			
+
+
+
+
+latent-consistency/lcm-lora-ssd-1b
+
+
+
+			Text-to-Image
+			• 
+Updated
+				Nov 10
+• 
+
+				10.3k
+			• 
+
+				66
+			
+
+
+
+
+latent-consistency/lcm-lora-sdxl
+
+
+
+			Text-to-Image
+			• 
+Updated
+				27 days ago
+• 
+
+				129k
+			• 
+
+				504
+			
+
+
+
+
+latent-consistency/lcm-ssd-1b
+
+
+
+			Text-to-Image
+			• 
+Updated
+				Nov 10
+• 
+
+				1.28k
+			• 
+
+				30
+			
+
+
+
+
+						Expand 22 collections
+					
+
+
+models
+1
+
+
+
+
+
+
+21world/go-bruins-v2.1.1.GGUF
+
+
+Updated
+				4 days ago
+
+
+
+datasets
+
+
+
+None public yet
+
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

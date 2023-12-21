@@ -1,0 +1,205 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+requirements.txt · csalabs/Replicate-7b-chat-Llama-streamlit at 18149dac88d16cdd6fab845028afd335bb827a70
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+
+csalabs
+/
+Replicate-7b-chat-Llama-streamlit
+
+
+
+like
+0
+
+			Runtime error
+			
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+			18149da
+		
+
+Replicate-7b-chat-Llama-streamlit
+/
+requirements.txt
+
+
+csalabs
+					
+
+Update requirements.txt
+18149da
+3 months ago
+
+
+							raw
+						
+							history
+						
+							blame
+						
+
+
+							No virus
+						
+193 Bytes
+
+
+
+
+langchain
+
+
+torch
+
+
+accelerate
+
+
+sentence_transformers
+
+
+streamlit_chat
+
+
+streamlit
+
+
+faiss-cpu
+
+
+tiktoken
+
+
+ctransformers
+
+
+huggingface-hub
+
+
+pypdf
+
+
+pypdf2
+
+
+python-dotenv
+
+
+replicate
+
+
+docx2txt
+
+
+streamlit_chat
+
+
+chromadb
+
+
+
+
+
+
+
+
+
+
+
+
+
+

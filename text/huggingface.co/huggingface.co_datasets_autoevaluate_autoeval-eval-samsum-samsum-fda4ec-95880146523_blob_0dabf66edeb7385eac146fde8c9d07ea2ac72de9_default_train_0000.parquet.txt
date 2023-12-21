@@ -1,0 +1,162 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+default/train/0000.parquet · autoevaluate/autoeval-eval-samsum-samsum-fda4ec-95880146523 at 0dabf66edeb7385eac146fde8c9d07ea2ac72de9
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Datasets:
+
+
+autoevaluate
+/
+autoeval-eval-samsum-samsum-fda4ec-95880146523
+
+
+
+like
+0
+
+Tags:
+	
+
+Trained with AutoTrain
+
+evaluation
+
+
+
+			Dataset card
+			
+			
+		
+Files
+Files and versions
+
+			Community
+			
+			
+		
+
+
+
+
+
+			0dabf66
+		
+
+autoeval-eval-samsum-samsum-fda4ec-95880146523
+/
+default
+							
+/train
+							
+/0000.parquet
+
+
+parquet-converter
+					
+
+Update parquet files
+aedd1f6
+2 months ago
+
+
+							download
+						
+							history
+						
+							blame
+						
+
+
+							No virus
+						
+379 kB
+
+This file is stored with
+							Git LFS
+							. It is too big to display, but you can still
+							download
+							it.
+						
+Git LFS Details
+SHA256:
+								093bf99131d101ab7c5a27b48eddfab5f15f2da7cdf376df340dc9590803db93
+Pointer size:
+								131 Bytes
+Size of remote file:
+								379 kB
+
+								Raw pointer file
+							
+Git Large File Storage (LFS) replaces large files with text pointers inside Git, while storing the file
+							contents on a remote server.
+							More info.
+						
+
+
+
+
+
+
+
+

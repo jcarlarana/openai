@@ -1,0 +1,145 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+app.py · paredena/microsoft-BiomedCLIP-PubMedBERT_256-vit_base_patch16_224 at main
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+
+paredena
+/
+microsoft-BiomedCLIP-PubMedBERT_256-vit_base_patch16_224
+
+
+
+like
+0
+
+			Runtime error
+			
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+			main
+		
+
+microsoft-BiomedCLIP-PubMedBERT_256-vit_base_patch16_224
+
+
+File size: 114 Bytes
+			
+bcd9a71
+ 
+ 
+123
+import gradio as gr
+
+gr.Interface.load("models/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224").launch()
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

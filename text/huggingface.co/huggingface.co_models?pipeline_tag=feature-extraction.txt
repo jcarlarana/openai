@@ -1,0 +1,724 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Models - Hugging Face
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Edit Models filters
+
+Tasks
+				1
+					
+Libraries
+				
+Datasets
+				
+Languages
+				
+Licenses
+				
+Other
+				
+
+
+
+
+				Reset Tasks
+Multimodal
+				
+
+Feature Extraction
+
+Text-to-Image
+
+Image-to-Text
+
+Image-to-Video
+
+Text-to-Video
+
+Visual Question Answering
+
+Document Question Answering
+
+Graph Machine Learning
+
+Text-to-3D
+
+Image-to-3D
+
+Computer Vision
+				
+
+Depth Estimation
+
+Image Classification
+
+Object Detection
+
+Image Segmentation
+
+Image-to-Image
+
+Unconditional Image Generation
+
+Video Classification
+
+Zero-Shot Image Classification
+
+Mask Generation
+
+Zero-Shot Object Detection
+
+Natural Language Processing
+				
+
+Text Classification
+
+Token Classification
+
+Table Question Answering
+
+Question Answering
+
+Zero-Shot Classification
+
+Translation
+
+Summarization
+
+Conversational
+
+Text Generation
+
+Text2Text Generation
+
+Fill-Mask
+
+Sentence Similarity
+
+Audio
+				
+
+Text-to-Speech
+
+Text-to-Audio
+
+Automatic Speech Recognition
+
+Audio-to-Audio
+
+Audio Classification
+
+Voice Activity Detection
+
+Tabular
+				
+
+Tabular Classification
+
+Tabular Regression
+
+Reinforcement Learning
+				
+
+Reinforcement Learning
+
+Robotics
+
+
+
+
+				Apply filters
+			
+Models
+6,511
+
+
+new
+				Full-text search
+			
+
+					Edit filters
+				
+
+
+
+		Sort: 
+		Trending
+	
+		
+
+Active filters: 
+					feature-extraction
+Clear all 
+
+
+intfloat/multilingual-e5-large
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Sep 23
+• 
+
+				78.1k
+			• 
+
+				310
+			
+
+BAAI/bge-large-zh-v1.5
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Oct 12
+• 
+
+				31.1k
+			• 
+
+				128
+			
+
+WhereIsAI/UAE-Large-V1
+
+
+
+			Feature Extraction
+			• 
+Updated
+				9 days ago
+• 
+
+				54.2k
+			• 
+
+				42
+			
+
+BAAI/bge-large-zh
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Oct 12
+• 
+
+				3.73k
+			• 
+
+				214
+			
+
+BAAI/bge-large-en-v1.5
+
+
+
+			Feature Extraction
+			• 
+Updated
+				3 days ago
+• 
+
+				205k
+			• 
+
+				176
+			
+
+BAAI/bge-small-en-v1.5
+
+
+
+			Feature Extraction
+			• 
+Updated
+				3 days ago
+• 
+
+				362k
+			• 
+
+				72
+			
+
+google/vit-base-patch16-224-in21k
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Feb 27
+• 
+
+				1.24M
+			• 
+
+				88
+			
+
+BAAI/bge-base-en-v1.5
+
+
+
+			Feature Extraction
+			• 
+Updated
+				3 days ago
+• 
+
+				102k
+			• 
+
+				77
+			
+
+alchemab/antiberta2-cssp
+
+
+
+			Feature Extraction
+			• 
+Updated
+				5 days ago
+• 
+
+				25
+			• 
+
+				5
+			
+
+jinaai/jina-embeddings-v2-base-en
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Nov 16
+• 
+
+				212k
+			• 
+
+				488
+			
+
+BAAI/llm-embedder
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Nov 14
+• 
+
+				22.5k
+			• 
+
+				62
+			
+
+facebook/bart-base
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Nov 16, 2022
+• 
+
+				753k
+			• 
+
+				119
+			
+
+facebook/contriever-msmarco
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Jun 25, 2022
+• 
+
+				93.8k
+			• 
+
+				13
+			
+
+ai-forever/sbert_large_mt_nlu_ru
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Jul 28
+• 
+
+				9.85k
+			• 
+
+				16
+			
+
+microsoft/unixcoder-base
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Nov 9, 2022
+• 
+
+				58.6k
+			• 
+
+				28
+			
+
+microsoft/xclip-base-patch16-zero-shot
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Sep 12
+• 
+
+				67k
+			• 
+
+				18
+			
+
+laion/clap-htsat-fused
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Apr 24
+• 
+
+				6.43k
+			• 
+
+				13
+			
+
+BAAI/bge-base-zh-v1.5
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Oct 12
+• 
+
+				3.54k
+			• 
+
+				27
+			
+
+BAAI/bge-small-zh-v1.5
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Oct 12
+• 
+
+				27.9k
+			• 
+
+				13
+			
+
+llmrails/ember-v1
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Oct 22
+• 
+
+				26.4k
+			• 
+
+				36
+			
+
+nvidia/RADIO
+
+
+
+			Feature Extraction
+			• 
+Updated
+				2 days ago
+• 
+
+				1.1k
+			• 
+
+				2
+			
+
+Craig/paraphrase-MiniLM-L6-v2
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Oct 13, 2021
+• 
+
+				1.38k
+			• 
+
+				2
+			
+
+cointegrated/LaBSE-en-ru
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Nov 4
+• 
+
+				21.9k
+			• 
+
+				27
+			
+
+facebook/bart-large
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Jun 3, 2022
+• 
+
+				916k
+			• 
+
+				130
+			
+
+facebook/dino-vits8
+
+
+
+			Feature Extraction
+			• 
+Updated
+				May 22
+• 
+
+				19.6k
+			• 
+
+				10
+			
+
+facebook/hubert-base-ls960
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Nov 5, 2021
+• 
+
+				57.6k
+			• 
+
+				26
+			
+
+funnel-transformer/xlarge
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Dec 11, 2020
+• 
+
+				24
+			• 
+
+				1
+			
+
+microsoft/codebert-base
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Feb 11, 2022
+• 
+
+				218k
+			• 
+
+				149
+			
+
+microsoft/wavlm-base-plus
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Dec 22, 2021
+• 
+
+				33.5k
+			• 
+
+				12
+			
+
+naver-clova-ocr/bros-base-uncased
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Apr 5, 2022
+• 
+
+				9.61k
+			• 
+
+				8
+			
+
+		Previous
+1
+2
+3
+...
+218
+
+Next
+		
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

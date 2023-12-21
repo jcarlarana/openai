@@ -1,0 +1,672 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Models - Hugging Face
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Edit Models filters
+
+Tasks
+				1
+					
+Libraries
+				
+Datasets
+				
+Languages
+				
+Licenses
+				
+Other
+				
+
+
+
+
+				Reset Tasks
+Multimodal
+				
+
+Feature Extraction
+
+Text-to-Image
+
+Image-to-Text
+
+Image-to-Video
+
+Text-to-Video
+
+Visual Question Answering
+
+Document Question Answering
+
+Graph Machine Learning
+
+Text-to-3D
+
+Image-to-3D
+
+Computer Vision
+				
+
+Depth Estimation
+
+Image Classification
+
+Object Detection
+
+Image Segmentation
+
+Image-to-Image
+
+Unconditional Image Generation
+
+Video Classification
+
+Zero-Shot Image Classification
+
+Mask Generation
+
+Zero-Shot Object Detection
+
+Natural Language Processing
+				
+
+Text Classification
+
+Token Classification
+
+Table Question Answering
+
+Question Answering
+
+Zero-Shot Classification
+
+Translation
+
+Summarization
+
+Conversational
+
+Text Generation
+
+Text2Text Generation
+
+Fill-Mask
+
+Sentence Similarity
+
+Audio
+				
+
+Text-to-Speech
+
+Text-to-Audio
+
+Automatic Speech Recognition
+
+Audio-to-Audio
+
+Audio Classification
+
+Voice Activity Detection
+
+Tabular
+				
+
+Tabular Classification
+
+Tabular Regression
+
+Reinforcement Learning
+				
+
+Reinforcement Learning
+
+Robotics
+
+
+
+
+				Apply filters
+			
+Models
+34,024
+
+
+new
+				Full-text search
+			
+
+					Edit filters
+				
+
+
+
+		Sort: 
+		Trending
+	
+		
+
+Active filters: 
+					reinforcement-learning
+Clear all 
+
+
+Awal/Awal-LunarLander-v3
+
+
+
+			Reinforcement Learning
+			• 
+Updated
+				May 6, 2022
+• 
+
+				1
+			• 
+
+				1
+			
+
+HumanCompatibleAI/ppo-seals-CartPole-v0
+
+
+
+			Reinforcement Learning
+			• 
+Updated
+				Sep 19
+• 
+
+				26.6k
+			• 
+
+				15
+			
+
+PKU-Alignment/beaver-7b-v1.0
+
+
+
+			Reinforcement Learning
+			• 
+Updated
+				3 days ago
+• 
+
+				1.07k
+			• 
+
+				6
+			
+
+c-gohlke/Connect4SAC
+
+
+
+			Reinforcement Learning
+			• 
+Updated
+				about 7 hours ago
+• 
+
+				1
+			
+
+Draichi/ppo-Huggy
+
+
+
+			Reinforcement Learning
+			• 
+Updated
+				1 day ago
+• 
+
+				11
+			• 
+
+				1
+			
+
+ThomasSimonini/ML-Agents-SnowballFight-1vs1
+
+
+
+			Reinforcement Learning
+			• 
+Updated
+				Nov 30, 2021
+• 
+
+				1
+			• 
+
+				4
+			
+
+ThomasSimonini/demo-hf-CartPole-v1
+
+
+
+			Reinforcement Learning
+			• 
+Updated
+				May 3
+• 
+
+				4
+			
+			
+
+ThomasSimonini/mlagents-snowballfight-1vs1-ppo
+
+
+
+			Reinforcement Learning
+			• 
+Updated
+				Nov 22, 2021
+
+
+ThomasSimonini/ppo-AntBulletEnv-v0
+
+
+
+			Reinforcement Learning
+			• 
+Updated
+				Apr 7, 2022
+• 
+
+				6
+			
+			
+
+ThomasSimonini/ppo-BreakoutNoFrameskip-v4
+
+
+
+			Reinforcement Learning
+			• 
+Updated
+				Apr 7, 2022
+• 
+
+				9
+			• 
+
+				2
+			
+
+ThomasSimonini/ppo-LunarLander-v2
+
+
+
+			Reinforcement Learning
+			• 
+Updated
+				Aug 28
+• 
+
+				15
+			• 
+
+				9
+			
+
+ThomasSimonini/ppo-PongNoFrameskip-v4
+
+
+
+			Reinforcement Learning
+			• 
+Updated
+				Apr 7, 2022
+• 
+
+				31
+			
+			
+
+ThomasSimonini/ppo-QbertNoFrameskip-v4
+
+
+
+			Reinforcement Learning
+			• 
+Updated
+				Apr 7, 2022
+• 
+
+				9
+			
+			
+
+ThomasSimonini/ppo-SeaquestNoFrameskip-v4
+
+
+
+			Reinforcement Learning
+			• 
+Updated
+				Apr 7, 2022
+• 
+
+				7
+			
+			
+
+ThomasSimonini/ppo-SpaceInvadersNoFrameskip-v4
+
+
+
+			Reinforcement Learning
+			• 
+Updated
+				Apr 7, 2022
+• 
+
+				6
+			• 
+
+				3
+			
+
+ThomasSimonini/ppo-Walker2DBulletEnv-v0
+
+
+
+			Reinforcement Learning
+			• 
+Updated
+				Jul 15, 2022
+• 
+
+				3
+			
+			
+
+ThomasSimonini/stable-baselines3-ppo-LunarLander-v2
+
+
+
+			Reinforcement Learning
+			• 
+Updated
+				Apr 7, 2022
+
+
+carlosaguayo/Simonini-ppo-LunarLander-v2
+
+
+
+			Reinforcement Learning
+			• 
+Updated
+				Jan 22, 2022
+• 
+
+				1
+			
+			
+
+edbeeching/decision_transformer_atari
+
+
+
+			Reinforcement Learning
+			• 
+Updated
+				Feb 21, 2022
+
+
+mrm8488/a2c-Pong-v0
+
+
+
+			Reinforcement Learning
+			• 
+Updated
+				Feb 11, 2022
+• 
+
+				2
+			
+			
+
+mrm8488/a2c-PongNoFrameskip-v0
+
+
+
+			Reinforcement Learning
+			• 
+Updated
+				Feb 12, 2022
+• 
+
+				2
+			
+			
+
+osanseviero/ppo-LunarLander-v2
+
+
+
+			Reinforcement Learning
+			• 
+Updated
+				Jul 5, 2022
+• 
+
+				1
+			
+
+sb3/demo-hf-CartPole-v1
+
+
+
+			Reinforcement Learning
+			• 
+Updated
+				Jan 21, 2022
+• 
+
+				18
+			• 
+
+				1
+			
+
+edbeeching/decision-transformer-gym-halfcheetah-expert
+
+
+
+			Reinforcement Learning
+			• 
+Updated
+				Jun 29, 2022
+• 
+
+				143
+			• 
+
+				1
+			
+
+edbeeching/decision-transformer-gym-halfcheetah-medium
+
+
+
+			Reinforcement Learning
+			• 
+Updated
+				Jun 29, 2022
+• 
+
+				10
+			
+			
+
+edbeeching/decision-transformer-gym-halfcheetah-medium-replay
+
+
+
+			Reinforcement Learning
+			• 
+Updated
+				Jun 29, 2022
+• 
+
+				17
+			
+			
+
+edbeeching/decision-transformer-gym-hopper-expert
+
+
+
+			Reinforcement Learning
+			• 
+Updated
+				Jun 29, 2022
+• 
+
+				444
+			• 
+
+				12
+			
+
+edbeeching/decision-transformer-gym-hopper-medium
+
+
+
+			Reinforcement Learning
+			• 
+Updated
+				Jun 29, 2022
+• 
+
+				806
+			• 
+
+				2
+			
+
+edbeeching/decision-transformer-gym-hopper-medium-replay
+
+
+
+			Reinforcement Learning
+			• 
+Updated
+				Jun 29, 2022
+
+
+edbeeching/decision-transformer-gym-walker2d-expert
+
+
+
+			Reinforcement Learning
+			• 
+Updated
+				Jun 29, 2022
+• 
+
+				17
+			• 
+
+				2
+			
+
+		Previous
+1
+2
+3
+...
+1,135
+
+Next
+		
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

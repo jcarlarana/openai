@@ -1,0 +1,375 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Phind/Phind-CodeLlama-34B-v2 · Hugging Face
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+
+
+Phind
+/
+Phind-CodeLlama-34B-v2
+
+
+
+like
+606
+
+
+Text Generation
+
+Transformers
+
+PyTorch
+
+llama
+
+code llama
+
+Eval Results
+
+Inference Endpoints
+
+text-generation-inference
+
+
+
+License: 
+llama2
+
+
+
+
+			Model card
+			
+			
+		
+Files
+Files and versions
+
+			Community
+			30
+				
+
+
+
+
+
+
+
+
+
+
+			Train
+		
+
+
+
+
+
+			Deploy
+		
+
+
+
+		Use in Transformers
+
+
+
+
+						Edit model card
+					
+
+
+
+
+Phind-CodeLlama-34B-v2
+Model Details
+
+Dataset Details
+
+How to Get Started with the Model
+
+How to Prompt the Model
+
+How to reproduce HumanEval Results
+
+Bias, Risks, and Limitations
+
+Training details
+
+
+
+
+
+
+
+
+
+Phind-CodeLlama-34B-v2
+
+
+We've fine-tuned Phind-CodeLlama-34B-v1 on an additional 1.5B tokens high-quality programming-related data, achieving 73.8% pass@1 on HumanEval. It's the current state-of-the-art amongst open-source models.
+Furthermore, this model is instruction-tuned on the Alpaca/Vicuna format to be steerable and easy-to-use.
+More details can be found on our blog post.
+
+
+
+
+
+		Model Details
+	
+
+This model is fine-tuned from Phind-CodeLlama-34B-v1 and achieves 73.8% pass@1 on HumanEval.
+Phind-CodeLlama-34B-v2 is multi-lingual and is proficient in Python, C/C++, TypeScript, Java, and more.
+
+
+
+
+
+		Dataset Details
+	
+
+We fined-tuned on a proprietary dataset of 1.5B tokens of high quality programming problems and solutions. This dataset consists of instruction-answer pairs instead of code completion examples, making it structurally different from HumanEval. LoRA was not used -- both models are a native finetune. We used DeepSpeed ZeRO 3 and Flash Attention 2 to train these models in 15 hours on 32 A100-80GB GPUs. We used a sequence length of 4096 tokens.
+
+
+
+
+
+		How to Get Started with the Model
+	
+
+Make sure to install Transformers from the main git branch:
+pip install git+https://github.com/huggingface/transformers.git
+
+
+
+
+
+
+		How to Prompt the Model
+	
+
+This model accepts the Alpaca/Vicuna instruction format.
+For example: 
+### System Prompt
+You are an intelligent programming assistant.
+
+### User Message
+Implement a linked list in C++
+
+### Assistant
+...
+
+
+
+
+
+
+		How to reproduce HumanEval Results
+	
+
+To reproduce our results:
+
+from transformers import AutoTokenizer, LlamaForCausalLM
+from human_eval.data import write_jsonl, read_problems
+from tqdm import tqdm
+
+# initialize the model
+
+model_path = "Phind/Phind-CodeLlama-34B-v2"
+model = LlamaForCausalLM.from_pretrained(model_path, device_map="auto")
+tokenizer = AutoTokenizer.from_pretrained(model_path)
+
+# HumanEval helper
+
+def generate_one_completion(prompt: str):
+    tokenizer.pad_token = tokenizer.eos_token
+    inputs = tokenizer(prompt, return_tensors="pt", truncation=True, max_length=4096)
+
+    # Generate
+    generate_ids = model.generate(inputs.input_ids.to("cuda"), max_new_tokens=384, do_sample=True, top_p=0.75, top_k=40, temperature=0.1)
+    completion = tokenizer.batch_decode(generate_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0]
+    completion = completion.replace(prompt, "").split("\n\n\n")[0]
+
+    return completion
+
+# perform HumanEval
+problems = read_problems()
+
+num_samples_per_task = 1
+samples = [
+    dict(task_id=task_id, completion=generate_one_completion(problems[task_id]["prompt"]))
+    for task_id in tqdm(problems)
+    for _ in range(num_samples_per_task)
+]
+write_jsonl("samples.jsonl", samples)
+
+# run `evaluate_functional_correctness samples.jsonl` in your HumanEval code sandbox
+
+
+
+
+
+
+		Bias, Risks, and Limitations
+	
+
+This model has undergone very limited testing. Additional safety testing should be performed before any real-world deployments.
+
+
+
+
+
+		Training details
+	
+
+
+Hardware Type: 32x A100-80GB
+Hours used: 480 GPU-hours
+Cloud Provider: AWS
+Compute Region: us-east-1
+
+
+
+Downloads last month16,800
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						Spaces using
+						Phind/Phind-CodeLlama-34B-v2
+68
+🏆
+HuggingFaceH4/open_llm_leaderboard🚀
+Vokturz/can-it-run-llm💻
+yentinglin/Taiwan-LLaMa2🏆
+gsaivinay/open_llm_leaderboard💻⚔️💻
+mishig/phind-wizardcoder-playground🔥
+hallucinations-leaderboard/leaderboard🔥
+thnqls/Phind-Phind-CodeLlama-34B-v2🚀
+lethalhames/Phind-Phind-CodeLlama-34B-v2🔥
+EmbeddedLLM/chat-template-generation📊
+yavorbel/Phind-Phind-CodeLlama-34B-v2⚡
+KevinCrash/Phind-Phind-CodeLlama-34B-v2🏆
+Chat-GpT-Z/open_llm_leaderboard-4👁
+be2hyu/Phind-Phind-CodeLlama-34B-v2🏃
+oscarwang2/Phind-Phind-CodeLlama-34B-v2🐨
+Optimusprime123/Phind-Phind-CodeLlama-34B-v2💻
+UltraMarkoBR/Phind-Phind-CodeLlama-34B-v2🚀
+imjunaidafzal/can-it-run-llm🚀
+muellerzr/can-it-run-llm🏆
+nirvor/Phind-Phind-CodeLlama-34B-v2🏢
+SallyHS/Phind-Phind-CodeLlama-34B-v2
++ 63 Spaces
+				
++ 48 Spaces
+				
+
+
+		Evaluation results
+		
+
+
+pass@1
+							on HumanEval
+self-reported
+							
+
+73.8%
+
+
+				View on Papers With Code
+
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

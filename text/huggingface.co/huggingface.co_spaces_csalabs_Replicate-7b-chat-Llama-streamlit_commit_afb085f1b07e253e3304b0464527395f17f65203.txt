@@ -1,0 +1,300 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Update requirements.txt · csalabs/Replicate-7b-chat-Llama-streamlit at afb085f
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+
+csalabs
+/
+Replicate-7b-chat-Llama-streamlit
+
+
+
+like
+0
+
+			Runtime error
+			
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+csalabs
+			
+commited on
+		Sep 21
+
+Commit 
+
+afb085f
+
+
+• 
+1
+								Parent(s):
+							
+18149da
+								
+Update requirements.txt
+
+							Browse files
+						
+Adding unstructured and unstructured[pdf]
+
+
+
+Files changed (1)
+hide
+show
+
+
+
+
+
+
+ requirements.txt
+
++2
+-0
+
+
+
+
+
+
+
+
+
+
+ requirements.txt
+CHANGED
+
+
+    Viewed
+
+
+
+
+
+
+
+
+
+
+@@ -15,3 +15,5 @@ replicate
+
+
+
+      15
+    
+
+
+ 
+docx2txt
+
+
+
+
+      16
+    
+
+
+ 
+streamlit_chat
+
+
+
+
+      17
+    
+
+
+ 
+chromadb
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      15
+    
+
+
+ 
+docx2txt
+
+
+
+
+      16
+    
+
+
+ 
+streamlit_chat
+
+
+
+
+      17
+    
+
+
+ 
+chromadb
+
+
+
+
+      18
+    
+
+
++
+unstructured[pdf]
+
+
+
+
+      19
+    
+
+
++
+unstructured
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,289 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+src/routes/generate/+server.ts · nsarrazin/agents-js-llama at 43e4cb7ce86fd45b6a992e27edccc199e9506663
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+					Duplicated from 
+					nsarrazin/agents-js-oasst
+
+
+nsarrazin
+/
+agents-js-llama
+
+
+
+like
+1
+
+			Runtime error
+			
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+			43e4cb7
+		
+
+agents-js-llama
+/
+src
+							
+/routes
+							
+/generate
+							
+/+server.ts
+
+
+nsarrazin
+					
+HF staff
+
+latest changes
+43e4cb7
+5 months ago
+
+
+							raw
+						
+							history
+						
+							blame
+						
+
+
+							No virus
+						
+946 Bytes
+
+
+
+
+import { error, json } from "@sveltejs/kit";
+
+
+import {
+
+
+  defaultTools,
+
+
+ HfAgent,
+
+
+ LLMFromEndpoint,
+
+
+ LLMFromHub,
+
+
+} from "@huggingface/agents";
+
+
+import { HF_ACCESS_TOKEN, HF_ENDPOINT } from "$env/static/private";
+
+
+
+
+
+
+export async function POST({ request }) {
+
+
+ const r = await request.json();
+
+
+ const { prompt, tools: selectedTools, filetypes } = r;
+
+
+ const tools = defaultTools.filter((el) => selectedTools.includes(el.name));
+
+
+
+
+
+
+ let agent;
+
+
+ if (HF_ENDPOINT !== "") {
+
+
+    agent = new HfAgent(
+
+
+ HF_ACCESS_TOKEN,
+
+
+ LLMFromEndpoint(HF_ACCESS_TOKEN, HF_ENDPOINT),
+
+
+      tools
+
+
+    );
+
+
+  } else {
+
+
+    agent = new HfAgent(HF_ACCESS_TOKEN, LLMFromHub(HF_ACCESS_TOKEN), tools);
+
+
+  }
+
+
+
+
+
+
+ const files = filetypes
+
+
+    ? filetypes.map((el: string) => ({
+
+
+ type: el,
+
+
+      }))
+
+
+    : undefined;
+
+
+
+
+
+
+ let code = "";
+
+
+ try {
+
+
+    code = await agent.generateCode(prompt, files);
+
+
+  } catch (e) {
+
+
+ throw error(500, e as Error);
+
+
+  }
+
+
+
+
+
+
+ return json(code);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

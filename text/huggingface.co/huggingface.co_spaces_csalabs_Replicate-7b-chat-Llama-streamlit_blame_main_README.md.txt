@@ -1,0 +1,166 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+README.md · csalabs/Replicate-7b-chat-Llama-streamlit at main
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+
+csalabs
+/
+Replicate-7b-chat-Llama-streamlit
+
+
+
+like
+0
+
+			Runtime error
+			
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+			main
+		
+
+Replicate-7b-chat-Llama-streamlit
+
+
+File size: 285 Bytes
+			
+c50c563
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1234567891011121314
+---
+title: Replicate 7b Chat Llama Streamlit
+emoji: 🦀
+colorFrom: blue
+colorTo: indigo
+sdk: streamlit
+sdk_version: 1.26.0
+app_file: app.py
+pinned: false
+license: bigcode-openrail-m
+---
+
+Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

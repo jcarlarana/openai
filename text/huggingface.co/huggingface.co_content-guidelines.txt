@@ -1,0 +1,272 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Content Policy – Hugging Face
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+Terms of Service
+		Privacy Policy
+		Content Policy
+		Code of Conduct
+		
+Content Policy 🤗
+💡 Also read the Hugging Face Code of Conduct which gives a general overview and states our standards and how we wish the community will behave.
+
+🗓 Effective Date: August 30, 2023
+
+Hugging Face's purpose is to help the Hugging Face Community work together to advance Open, Collaborative, and Responsible Machine Learning. Hugging Face's achievements are only possible thanks to the awesome Community on our Platform.
+We value these relationships and aim to maintain an environment where people feel welcome and supported and get the most out of their contributions and experiences. Therefore, we created the following Content Guidelines and Policy (these "Guidelines") for our Platform and its Users.
+These Guidelines aim to outline Hugging Face's actions to protect our Community on our Platform. Our goal is to enable our Community to flag types of Content with a higher risk of harming people so we may give it extra scrutiny according to the Guidelines that follow.
+Please read these Guidelines as they contain important information about the Content we authorize to be posted on our Platform.
+These Guidelines are a policy incorporated into our Terms of Service, which is a binding agreement between us and you. You should also carefully review all of our other guidelines, policies, and documents available on our Website, including our Terms of Service and Privacy Policy.
+By accessing or using our Platform, you consent to all of these Guidelines and our other policies and terms. So, if you do not agree with any of those, please do not access or use our Platform.
+We may change or update these Guidelines from time to time. Changes will be effective 10 days following posting the updated Guidelines on the Website. If you continue using our Platform 10 days following such posting, that means you accept those changes.
+📚 A few definitions
+Capitalized terms used but not defined herein shall have the meaning assigned in our Terms of Service, Privacy Policy and all other policies available on our Website.
+"Content" refers to any material posted, displayed, or accessed on our Website or Hub, including but not limited to code, data, text, graphics, images, applications, or software you, we, or any third party provide or make available.
+Content types may include:
+
+"ML Artifacts": Code and assets hosted as Hugging Face Repositories, including Models, Datasets, Spaces;
+
+"Community Content": Content that can be found in the Community section of the Hugging Face Platform, including discussions, comments, and usernames, as well as related documentation such as READMEs, model cards, data cards, pull requests, and merges.
+
+
+"Community" refers to all Users of the Hugging Face Platform, including Hugging Face personnel.
+"Community Tab" refers to a collaborative feature where the Community can discuss specific Repositories, including providing feedback, brainstorming ideas and opening pull requests for improvements.
+"Hugging Face" refers to Hugging Face Inc., which may perform its obligations through its affiliates, directors, subsidiaries, contractors, licensors, officers, agents and/or employees.
+"Platform" or "Hugging Face Hub", or "Hub" refers to the hosting platform where Users can build, benchmark, share, version and deploy Repositories, which may include Models, Datasets and Machine Learning Applications.
+"Repository" refers to a data structure that contains all of the project files and the entire revision history.
+A Repository may be:
+
+"Public": anyone on the internet can see it, but only you or members of your organization can make changes;
+
+"Private": only you or members of your organization can see and make changes to the Repository; New Users need to join the maintaining organization in order to both see the Repository and access its Content.
+
+"Gated": Gated Repositories and their Community Content are visible to everyone, but access to their ML artifacts (data, model weights) requires either accepting conditions in a click-through form or approval by the Repository maintainers.
+
+"Disabled": a Repository that has its access blocked to all Community members except its owner.
+
+
+"Repository Label" refers to a label assigned to a Repository. For example:
+
+"Not For All Audiences" (NFAA): Content that Hugging Face or the Repository's authors have determined may not be suitable for all Community members, e.g., sexual Content.
+
+"Team" or "Hugging Face Team" refers to Hugging Face personnel.
+🕵️ How do we assess whether Content follows our Guidelines?
+These Guidelines address two categories of content.
+Some Content is deemed broadly inappropriate for the Platform, and will be removed and may lead to further consequences for the Users depending on severity. Such Content is covered in the 🙅‍♂️ Restricted Content section and will usually be addressed directly by the Hugging Face Team.
+Some Content requires an iterative approach to determine whether and under what conditions it may be hosted on the Platform. Such Content is covered in the 🤝 Moderated Content section and will usually be addressed in collaboration with both the Repository owner and any concerned party, as part of our decision-making process. Direct interaction fosters communication and clarification among interested parties, and consequently, might improve the Repository's code and documentation quality. The three main aspects we will pay attention to are: the origin of the ML artifact, how the ML artifact is handled by its developers, and how the ML artifact has been used.
+🙅‍♂️ Restricted Content
+We do not tolerate the following Content on our Platform:
+
+Unlawful, defamatory, fraudulent or intentionally deceptive Content, including, but not limited to coordinated or other inauthentic behavior, disinformation, phishing or scams;
+
+Content that harms others;
+
+Content promoting discrimination (see our Code of Conduct), or hate speech;
+
+Content harassing, demeaning, or bullying;
+
+Sexual content used or created for harassment, bullying, or without explicit consent of the people represented;
+
+All sexual content involving minors;
+
+Content that promotes or glorifies violence or the suffering or humiliation of another;
+
+Content that promotes or induces unlawful or fraudulent currencies, securities, investments, or other transactions;
+
+Content published without the explicit consent of the people represented;
+
+Spam, such as advertising a product or service, or excessive bulk activity;
+
+Cryptomining practices;
+
+Content that infringes or violates any rights of a third party or an applicable License;
+
+Content that violates the privacy of a third party;
+
+Content that violates any applicable law or regulation;
+
+Content that attempts to transmit or generate code that is designed to disrupt, damage or gain unauthorized access to a computer system or device;
+
+Content that is malware, a trojan horse or virus, or other malicious code;
+
+Proxies that are primarily designed to bypass restrictions imposed by the original service provider;
+
+Content that promotes high-risk activities, including but not limited to, weapons development, self-harm, suicide, gambling, plagiarism, scams or pseudo-pharmaceuticals.
+
+
+For any Content not listed above that requires our attention, we will decide on a case-by-case basis whether it is to be restricted or whether it is to be moderated as described in the following section.
+Furthermore, if we become aware that personal information belonging to individuals below the age of 13 has been collected without parental consent, we will take appropriate action to remove this data from our Platform (see § 7 of our Privacy Policy).
+🤝 Moderated Content
+In addition to Restricted Content, Moderated Content may warrant extra scrutiny and is handled through a collaborative iterative approach that allows us to classify the Content and respond accordingly. This includes Content that has a higher risk of causing harm, such as Content with strong dual-use potential, or Content whose legal status depends on the specifics of how it is shared, among others. Content that is reported by the Community on such grounds using the community flagging feature (see below) triggers the moderation process.
+To guide this iterative process, we hold consent as a core value. While existing regulations do protect people's rights to work, image, and data, new ways of processing information enabled by Machine Learning technology are posing new questions with respect to these rights. In this evolving legal landscape, prioritizing consent not only supports forethought and more empathy toward stakeholders but also encourages proactive measures to address cultural and contextual factors.
+We prioritize collaborative solutions for both ML Artifacts and Community Content (see definitions above) that involve the owner of the Repository whenever possible, especially in cases where modifications or additional guardrails can help the Content meet the Guidelines.
+🤖 ML Artifacts
+When Content is reported, we typically allow approximately 72 hours for the Repository owner to respond. In case of non-engagement or other circumstances, the Hugging Face Team may trigger unilateral actions. Specifically, we identify two levels of intervention:
+A. Community features: in order to reduce the risk of problematic outcomes, we may require Users sharing Content to leverage the following three mechanisms. These are not necessarily sequential and can be required independently or in conjunction. You can find more context on the role of these mechanisms in our previously published blog post on ethical openness. For transparency, discussions occur in the public Community tab.
+
+
+
+📄 Documentation
+🚪 Gating
+🫣 Private
+
+
+
+We publicly ask the Repository owner to clearly identify risk factors in the text of the Model or Dataset cards , and to add the "Not For All Audiences" tag in the card metadata.
+We publicly ask the Repository owner to leverage the Gated Repository feature to control how the Artifact is accessed.
+We publicly ask the Repository owner to make the artifact private to an Organization, in order to manage who sees and can use it.
+
+
+B. "Not-for-all-Audiences" tag: out of consideration for other Users of the Hub, we request you flag applicable Content via the "Not For All Audiences" tag and in the Repository's card metadata, as it will allow Users of the Hub to choose whether they see it or not by default. The Hugging Face Team may also tag the at-issue Repositories of Content if they meet any of the following criteria.
+ Flagged content should include, but should not be limited to:
+
+Un-requested sexual Content
+
+Determining whether the Content is "sexual" can be subjective, cultural, and context-dependent. However, criteria include but are not limited to:
+Depictions of nudity or partial nudity that are sexually suggestive or arousing to the viewer
+Sexual topics or themes, such as:
+Pornography and soft porn
+Hentai and/or ecchi
+
+
+
+
+
+
+Un-requested violent Content
+
+Toxic speech in models and/or datasets, such as ad hominem attacks, hate speech, trolling, threats, harassment, bullying, targeted misinformation and disinformation.
+
+
+
+C. Hugging Face tools: when an ML Artifact is deemed to pose too high a risk even with the above guardrails, the Hugging Face Team may take direct action. The following three actions are not necessarily sequential and can occur independently. Discussion of these actions takes place in the Community tab.
+
+
+
+📉 Downgrade
+👁️ Private
+❌ Disable
+
+
+
+We open a public discussion raising the issue and asking for feedback. We limit the artifact's visibility across the Hub in the trending tab and in feeds.
+We open a public discussion raising the issue and asking for feedback. We make the Repository private so only the owner can see or access it.
+We open a public discussion raising the issue and asking for feedback. We disable the Repository, which will still be visible with its documentation and Community tab discussions, but the ML artifacts can only be accessed by the owner.
+
+
+🧑 Community Content
+In order to keep a welcoming and safe environment on our Platform, we also take a collaborative approach to moderating Community Content. In addition to respecting Content restrictions outlined above, Community Content needs to follow our Code of Conduct. The following three measures may be taken when it fails to do so; they are not necessarily sequential and can occur independently:
+
+
+
+🧐 Hey… friendly warning
+🤨 Ouch… reaching the limit
+😡 Ok… enough is enough!
+
+
+
+A private, written warning from the Hugging Face Team, providing clarity around the nature of the Content and an explanation of why the behavior was inappropriate.
+A warning with consequences including hiding or closing current discussions and permanent deactivation in case of continued behavior. We might also restrict your posting in the Community tab for 48h.
+A deactivation from any public interaction within the Community Tab on the Platform.
+
+
+🛎️ How can you report Content?
+We encourage collective responsibility in order to maintain a healthy and thriving Community. The Community Tab allows you to bring issues to the attention of the Community by opening discussions within each Repository, proposing Pull Requests to modify its Content, and suggesting ways to address the problems. If you encounter harmful Content, you can directly flag it via the "Report" button on the Hub. This action will open a public discussion in the Community Tab and ping the Hugging Face Team, who will act accordingly to the given rules.
+In addition, in some situations, the Hugging Face Team may flag Content to reflect requests or concerts expressed through other channels (e.g., via email or social media). Depending on the severity of the issue we may leverage the mechanisms described above, while remaining active in moderating the communication as mediators between different entities involved.
+Finally, please note that reports are Community Content and are themselves subject to these Guidelines. Abusive uses of the flagging feature, including but not limited to spamming or harassment, will not be tolerated.
+🛠️ Additional tools
+We provide a comprehensive list of additional and useful tools on our Platform at our Users' disposal. Our list is regularly updated and allows the Community to participate in Content moderation efforts.
+
+Authors of a discussion or a pull request can edit the discussion's title.
+Repository owners can:
+Choose to hide a community comment
+Tag their Content as being "Not For All Audiences"
+Gate the access to their Repository, allowing the owners to manually review and approve/reject access to their ML artifacts (see the documentation for Models and Datasets).
+
+
+
+👷‍♀️ Intellectual property rights infringement
+If you have any claims that any Content on our website violates or infringes your intellectual property rights, you may send your complaint to dmca@huggingface.co with detailed and accurate information supporting your claim, in addition to the possibility of flagging the allegedly infringing Content. You also represent and warrant that you will not knowingly provide misleading information to support your claim.
+👋 Contact us
+We are always open to feedback - contact us at legal@huggingface.co with any question or concern!
+
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+
+Select your LLM
+
+ (llm = "openai")}
+    on:keypress={() => (llm = "openai")}
+  >
+    OpenAI
+
+
+ (llm = "hf")}
+    on:keypress={() => (llm = "hf")}
+  >
+    Hugging Face
+
+
+

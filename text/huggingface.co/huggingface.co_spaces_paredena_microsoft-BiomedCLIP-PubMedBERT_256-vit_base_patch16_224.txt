@@ -1,0 +1,107 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Microsoft-BiomedCLIP-PubMedBERT 256-vit Base Patch16 224 - a Hugging Face Space by paredena
+
+
+
+
+
+Spaces
+
+
+
+
+
+paredena
+/
+microsoft-BiomedCLIP-PubMedBERT_256-vit_base_patch16_224
+
+
+
+like
+0
+
+			Runtime error
+			
+
+
+
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+runtime error
+		
+/home/user/app/app.py:3: GradioDeprecationWarning: gr.Interface.load() will be deprecated. Use gr.load() instead.
+  gr.Interface.load("models/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224").launch()
+Fetching model from: https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224
+Traceback (most recent call last):
+  File "/home/user/app/app.py", line 3, in <module>
+    gr.Interface.load("models/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224").launch()
+  File "/home/user/.local/lib/python3.10/site-packages/gradio/interface.py", line 98, in load
+    return external.load(
+  File "/home/user/.local/lib/python3.10/site-packages/gradio/external.py", line 70, in load
+    return load_blocks_from_repo(
+  File "/home/user/.local/lib/python3.10/site-packages/gradio/external.py", line 109, in load_blocks_from_repo
+    blocks: gradio.Blocks = factory_methods[src](name, hf_token, alias, **kwargs)
+  File "/home/user/.local/lib/python3.10/site-packages/gradio/external.py", line 401, in from_model
+    raise ValueError(f"Unsupported pipeline type: {p}")
+ValueError: Unsupported pipeline type: zero-shot-image-classification
+
+Container logs:
+			
+
+Fetching error logs...
+
+
+
+
+
+
+
+

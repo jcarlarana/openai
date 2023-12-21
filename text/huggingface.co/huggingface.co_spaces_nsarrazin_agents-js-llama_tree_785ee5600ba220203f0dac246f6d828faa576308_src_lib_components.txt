@@ -1,0 +1,254 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nsarrazin/agents-js-llama at 785ee5600ba220203f0dac246f6d828faa576308
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+					Duplicated from 
+					nsarrazin/agents-js-oasst
+
+
+nsarrazin
+/
+agents-js-llama
+
+
+
+like
+1
+
+			Runtime error
+			
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+			785ee56
+		
+
+agents-js-llama
+/
+src
+							
+/lib
+							
+/components
+
+
+1 contributor
+
+History:
+3 commits
+
+
+
+nsarrazin
+					
+HF staff
+
+latest updates
+785ee56
+5 months ago
+
+
+ApiKeyModal.svelte
+
+
+
+1.32 kB
+				
+
+				
+
+latest changes
+5 months ago
+
+
+CodePreview.svelte
+
+
+
+997 Bytes
+				
+
+				
+
+Duplicate from nsarrazin/agents-js-oasst
+5 months ago
+
+
+DataDisplay.svelte
+
+
+
+898 Bytes
+				
+
+				
+
+latest updates
+5 months ago
+
+
+FileUpload.svelte
+
+
+
+725 Bytes
+				
+
+				
+
+Duplicate from nsarrazin/agents-js-oasst
+5 months ago
+
+
+LLMSelector.svelte
+
+
+
+745 Bytes
+				
+
+				
+
+Duplicate from nsarrazin/agents-js-oasst
+5 months ago
+
+
+LogoHuggingFaceBorderless.svelte
+
+
+
+4.83 kB
+				
+
+				
+
+Duplicate from nsarrazin/agents-js-oasst
+5 months ago
+
+
+ResultsDisplay.svelte
+
+
+
+666 Bytes
+				
+
+				
+
+latest updates
+5 months ago
+
+
+ToolSelector.svelte
+
+
+
+1.07 kB
+				
+
+				
+
+Duplicate from nsarrazin/agents-js-oasst
+5 months ago
+
+
+
+
+
+
+
+
+
+
+

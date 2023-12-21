@@ -1,0 +1,652 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+zeroshot/twitter-financial-news-topic · Datasets at Hugging Face
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Datasets:
+
+
+zeroshot
+/
+twitter-financial-news-topic
+
+
+
+like
+16
+
+Tasks:
+	
+
+Text Classification
+
+Sub-tasks:
+	
+
+multi-class-classification
+
+Languages:
+	
+
+English
+
+Multilinguality:
+	
+
+monolingual
+
+Size Categories:
+	
+
+10K<n<100K
+
+Language Creators:
+	
+
+other
+
+Annotations Creators:
+	
+
+other
+
+Source Datasets:
+	
+
+original
+
+Tags:
+	
+
+twitter
+
+finance
+
+markets
+
++ 4License:
+	
+
+
+
+mit
+
+
+
+
+
+			Dataset card
+			
+			
+		
+Files
+Files and versions
+
+			Community
+			1
+				
+
+
+
+
+
+
+Dataset Viewer
+
+
+Auto-converted to Parquet
+					
+
+		API
+
+
+Go to dataset viewer
+Viewer
+Subset
+default (21.1k rows)
+Split
+train (17k rows)validation (4.12k rows)
+
+
+
+
+
+text
+			stringlengths
+
+2
+316
+label
+			int64
+
+0
+19
+
+Here are Thursday's biggest analyst calls: Apple, Amazon, Tesla, Palantir, DocuSign, Exxon &amp; more  https://t.co/QPN8Gwl7Uh
+0
+
+Buy Las Vegas Sands as travel to Singapore builds, Wells Fargo says  https://t.co/fLS2w57iCz
+0
+
+Piper Sandler downgrades DocuSign to sell, citing elevated risks amid CEO transition  https://t.co/1EmtywmYpr
+0
+
+Analysts react to Tesla's latest earnings, break down what's next for electric car maker  https://t.co/kwhoE6W06u
+0
+
+Netflix and its peers are set for a ‘return to growth,’ analysts say, giving one stock 120% upside  https://t.co/jPpdl0D9s4
+0
+
+Barclays believes earnings for these underperforming stocks may surprise Wall Street  https://t.co/PHbsyVGAyE
+0
+
+Bernstein upgrades Alibaba, says shares can rally more than 20% from here  https://t.co/m3ApoPRGU0
+0
+
+Analysts react to Netflix's strong quarter, with some pointing to a potential bottom for the stock  https://t.co/cQngJsyefD
+0
+
+Buy Chevron as shares look attractive at these levels, HSBC says  https://t.co/GkDpFvxjEP
+0
+
+Morgan Stanley says these global stocks are set for earnings beats — and gives one over 45% upside  https://t.co/GeWxa5YoWr
+0
+
+Investing Club: Analysts dropped a bunch of new notes on energy stocks. Here's where we stand on ours  https://t.co/faKcXzyMGZ
+0
+
+CFRA downgrades Disney, says lack of cash dividend could hurt its streaming platform  https://t.co/KG5V0NDfK4
+0
+
+Bank of America is more bullish than JPMorgan. Here's what that means for Wall Street and the economy  https://t.co/zHxjgjmwJv
+0
+
+Here are Tuesday's biggest analyst calls: Meta, Chipotle, Apple, Tesla, Exxon, Netflix, Sunrun &amp; more  https://t.co/xgyzBGpBvc
+0
+
+Citi cuts Microsoft price target, citing foreign exchange headwinds  https://t.co/ZsnMboYnGw
+0
+
+Exchange operator Cboe is a buy as recession chances rise, Morgan Stanley says  https://t.co/Z51h67lv4O
+0
+
+Strong earnings may not be enough to bring Netflix out of its funk, Credit Suisse says  https://t.co/99YkU9j8X2
+0
+
+Tesla's bitcoin holdings could result in a $460 million hit for the carmaker, Barclays says  https://t.co/J50bSXAsf6
+0
+
+Morningstar strategist says two FAANG stocks look incredibly cheap right now  https://t.co/DKr5Q5o0ei
+0
+
+Analyst call of the day for @CNBCPro subscribers: Citi added a positive catalyst watch to Delta and said it sees “upside risk.”  Subscribe to see the analyst calls of the day curated by CNBC Pro.  https://t.co/eAYz0ec9dO
+0
+
+Apple's near-term future looks murky as consumer spending slows, Bernstein says  https://t.co/21T9LREta4
+0
+
+Buy Tesla in the short term to capture potential upside from earnings, says Deutsche Bank  https://t.co/Q4MqoSVmXJ
+0
+
+Here are Monday's biggest analyst calls of the day: Tesla, Apple, Yum, Delta, Fox, Netflix &amp; more  https://t.co/Pt2oqzwPvB
+0
+
+Deutsche Bank downgrades General Motors, cites looming pricing risks to automakers  https://t.co/40yhalOoOU
+0
+
+Morgan Stanley downgrades Paramount and Fox, warns of possible 'streaming recession'  https://t.co/apofBK4yVZ
+0
+
+Buy Yum Brands to defend against a slowdown in consumer spending, Goldman Sachs says  https://t.co/88zGuVwEXi
+0
+
+Analysts reveal the top stocks with 'significant upside potential' heading into earnings  https://t.co/lfaLK3nwAz
+0
+
+Argus downgrades Delta citing weak outlook following second-quarter earnings  https://t.co/MuWXm66fAo
+0
+
+Analyst call of the day for @CNBCPro subscribers: Bank of America kept its buy rating on shares of Nvidia, but said any weakness in the stock could impact other semiconductor companies.  Subscribe to see the analyst calls of the day curated by CNBC Pro.  https://t.co/lHRN17009h
+0
+
+Here are Friday's biggest analyst calls of the day: McDonald's, Netflix, Amazon, Nvidia, Visa &amp; more  https://t.co/DyiE4GH2LD
+0
+
+Bernstein calls medtech company Dexcom a clear buy, citing long-term runway for diabetes management  https://t.co/y3RmrIhMwz
+0
+
+UBS slashes Netflix price target ahead of earnings, warns of cautious outlook for streaming giant  https://t.co/x3f9WNCS2o
+0
+
+BMO cuts Microsoft price target, citing pressure on software valuations and potential recession  https://t.co/JUOYvrXXVx
+0
+
+Edward Jones says buy Qualcomm as the chipmaker's pullback creates an attractive buying opportunity  https://t.co/rVOfTewDXw
+0
+
+Credit Suisse adds financials to its top stock picks for July  https://t.co/CoPMyQ0L7S
+0
+
+Here are Thursday's biggest analyst calls: Tesla, Amazon, Twitter, Qualcomm, Costco, Apple &amp; more  https://t.co/ISMHM2UZRJ
+0
+
+Deutsche Bank upgrades Costco to buy, says club business model will outperform in uncertain economy  https://t.co/rVFXlknshz
+0
+
+Morgan Stanley's Jonas trims price target for Tesla, citing slowing economy  https://t.co/XvfRerTNGr
+0
+
+BMO upgrades Advanced Micro Devices, says chipmaker is gaining market share from rivals  https://t.co/3kGsQnHJ0D
+0
+
+Bank of America slashes S&amp;P 500 target, sees stocks falling another 5% by year-end  https://t.co/CC02X5ZguX
+0
+
+Truist initiates coverage of Tesla with a buy rating and $1,000 price target  https://t.co/ecDt58j4Cz
+0
+
+Goldman says this stock is a smart defensive play in the economically sensitive construction group  https://t.co/pBgwsq06Ok
+0
+
+Wall Street bets on analysts cutting earnings estimates as the economy shows signs of slowing  https://t.co/RFaVYNxnk7
+0
+
+Raymond James says Bath &amp; Body Works is oversold and will jump nearly 70% from here  https://t.co/SpGPi6zVko
+0
+
+Analyst call of the day for @CNBCPro subscribers: Citi reiterates Nvidia as buy. It lowered its price target on Nvidia to $285 per share from $315, but said gaming weakness is priced in.  Subscribe to see the analyst calls of the day curated by CNBC Pro.  https://t.co/Mczemx4nek
+0
+
+Company downgrades are picking up steam as profit outlooks dim  https://t.co/89B4wuA8NS
+0
+
+Morgan Stanley names its top stocks in a "safe haven" tech sector — giving one upside of 60%  https://t.co/EJWD9uzzzP
+0
+
+Susquehanna downgrades JetBlue, cites struggles with cost structure  https://t.co/eVYtLZGWaf
+0
+
+Here are Tuesday's biggest analyst calls: Tesla, Apple, Gap, JPMorgan chase, Nvidia, Southwest  https://t.co/PDr6BL9S9j
+0
+
+Morgan Stanley downgrades American Express on lower spending among high-end consumers  https://t.co/LhzFvUMP2i
+0
+
+Citi upgrades JPMorgan Chase to buy, says stock is at an attractive entry point  https://t.co/8sEdKZNOq2
+0
+
+Morgan Stanley names its top stocks in a ‘safe haven’ tech sector — giving one upside of 60%  https://t.co/IDWpetaIFr
+0
+
+UBS cuts S&amp;P 500 price target for 2022, says earnings estimates could go down even more  https://t.co/QUc93a9bkg
+0
+
+Evercore ISI says 'gazumped growth growers' could do well in a potentially tough earnings season  https://t.co/I1nrduZ7UB
+0
+
+Evercore ISI cuts S&amp;P 500 target, citing slower growth and lower earnings  https://t.co/DdYg7qX1wd
+0
+
+Shares of Mattel could see more than 30% upside on TV and movie releases, Goldman Sachs says  https://t.co/iRAGaxXr1t
+0
+
+Occidental Petroleum looks overbought after its rally this year, Goldman Sachs says  https://t.co/E1t7DwKUxM
+0
+
+Analyst call of the day for @CNBCPro subscribers: Cowen reiterates Apple as outperform and says the stock remains a “defensive name” heading into earnings later this month.  Subscribe to see the analyst calls of the day curated by CNBC Pro.  https://t.co/qUf6a7HXO4
+0
+
+Here are Monday's biggest analyst calls: Apple, Amazon, Meta, Honeywell, CVS, Mattel, Qorvo &amp; more  https://t.co/PAkmEd0o4E
+0
+
+Bank of America upgrades Honeywell to buy, citing potential growth in aerospace and oil and gas  https://t.co/LY8knvUUoJ
+0
+
+It's time to sell Meta until it figures out the metaverse, Needham says in downgrade  https://t.co/KZ6bGZicgk
+0
+
+Bank of America shares are a compelling buy even in a recession, Societe Generale says in upgrade  https://t.co/9hqnRT1ogm
+0
+
+Cowen downgrades chip stock Qorvo as demand for smartphone slows  https://t.co/OSnynL1SN3
+0
+
+$COF (104.70, -2.47, -2.3%): Capital One was downgraded to Perform from Outperform at Oppenheimer and downgraded to Equal-Weight from Overweight at Morgan Stanley
+0
+
+$ZG: Zillow finally gets an analyst upgrade, which we found notable, but will other firms follow suit?  https://t.co/WR1thzlRb8
+0
+
+@FibonacciSQNC "E" estimates been coming down sharply ex-Oil/Gas as well, feels a lot positioned for nasty outlooks, think could surprise
+0
+
+$PYPL Morgan Stanley maintained Paypal coverage with Overweight and $129 PT .... im still long
+0
+
+JMP Securities maintained $HOOD coverage with a market Outperform and $28 price target
+0
+
+$FRLN just out: Wedbush Outperform rating and $3 PT
+0
+
+$EPIX Just out: $25 price target at Zacks Small Cap Research  https://t.co/AhL91TafQl
+0
+
+AM Best Removes From Under Review With Negative Implications and Affirms Credit Ratings of R&amp;Q Insurance Holdings Ltd. and Rated Subsidiaries  https://t.co/5CxW4lNxPC  https://t.co/OT5wh3hFpC
+0
+
+KBRA Assigns Preliminary Ratings to Progress Residential 2022-SFR6  https://t.co/51Sdyk17wk  https://t.co/eZl28Rf6Ac
+0
+
+KBRA Commentary on Fire Near Starz Mortgage Securities 2021-1 DAC Brixton Loan Collateral  https://t.co/G55xhqhEgz  https://t.co/MDpq4rxruQ
+0
+
+AM Best Places Credit Ratings of Brightsideco Insurance Limited Under Review With Negative Implications  https://t.co/HtnytwDNYY  https://t.co/24IlfA9zmF
+0
+
+Ventas’s Outlook Revised by Fitch Ratings to Stable  https://t.co/i6CVfL0skF  https://t.co/3ps8EgKAeo
+0
+
+AM Best Revises Outlooks to Positive for Frank Winston Crum Insurance Company  https://t.co/EmZy6sevSL  https://t.co/NeBRmF4EZS
+0
+
+AM Best Comments on Credit Ratings of Covéa Coopérations and PartnerRe Ltd. Following Sale Completion  https://t.co/ZgLYM3one6  https://t.co/pLAIiXalIr
+0
+
+AM Best Comments on Credit Ratings of Athora Holding Ltd.’s Subs Following its Announced Acquisition of a Closed Life and Pension Portfolio  https://t.co/ewg89dtPPE  https://t.co/tIrduKQ5oZ
+0
+
+AM Best Affirms Credit Ratings of Crum &amp; Forster Insurance Group’s Members and Monitor Life Insurance Company of New York  https://t.co/qam1VLkFfA  https://t.co/7mrO8NXkgv
+0
+
+AM Best Assigns Credit Ratings to ONIX Asigurari S.A.  https://t.co/xdZ7EM0piV  https://t.co/bVeXWEySbJ
+0
+
+NICE Named a Leader in Journey Orchestration by Top Analyst Firm  https://t.co/w5QJnqrfXg  https://t.co/avXD4NTLbL
+0
+
+S&amp;P Affirms Assured Guaranty’s AA Financial Strength Ratings with Stable Outlook  https://t.co/f8ZnN9u0tX
+0
+
+AM Best Places Credit Ratings of Western Health Advantage Under Review With Developing Implications  https://t.co/Ga6r7bpkjG  https://t.co/DOaZpuRkYA
+0
+
+JPMorgan analysts have put out their monthly list of top-idea stocks  https://t.co/LuVncnTPN8
+0
+
+Grizzly Research's bear report on NIO highlights possible accounting issues and corporate governance red flags  https://t.co/75WEh5PQGX
+0
+
+JPMorgan analysts have put out their monthly list of top-idea stocks  https://t.co/yw6c0DSCqB
+0
+
+Klarna’s valuation slashed to under $7bn in latest funding round  https://t.co/AxssvjoZ4L
+0
+
+Kraft Heinz coverage started at buy at Mizuho, citing 'portfolio with potential'  https://t.co/oEalu6AJ6e
+0
+
+JPMorgan lifted to hold from sell at Berenberg, because 'good banks have bad years'  https://t.co/Ybixekqctt
+0
+
+Bank of America slashes S&amp;P 500 target to ‘lowest on the Street’ after recession forecast  https://t.co/7LfsnQnpEx
+0
+
+Twitter has a new bullish backer on Wall Street, as Rosenblatt Securities said the social media’s company’s disclosures have “flipped” the narrative, and now makes Elon Musk look like the bad guy.    https://t.co/8MBXxJaDHB
+0
+
+“[T]witter’s disclosure of very detailed efforts to explain its spam bot calculations to Musk, and Musk’s reluctance to engage, largely ends our skepticism about Twitter, and instead makes us skeptical about Musk,” one analyst wrote.  https://t.co/qO1oI2aOYQ
+0
+
+Klarna valuation slashed to $6.7 billion from $45.6 billion in new funding round  https://t.co/TtVB8QkhtR
+0
+
+$LULU $FTCH $JWN - Lululemon, Nike and Nordstrom headline KeyBanc's list of top retail picks  https://t.co/qlqRDXMsdC
+0
+
+$NXPI $ON $NVDA - Citi gets positive on NXP, ON, as firm says semiconductor rally could last into August  https://t.co/CFla3nO61i
+0
+
+$TMUS $T $VZ - Citi still sees solid revenue growth in broadband, wireless despite headwinds  https://t.co/KuHvQnbx8S
+0
+
+$MORF - Morphic coverage initiated with Outperform by SVB Securities  https://t.co/jprWFc8k82
+0
+
+$RGEN - Repligen attracts initial bull rating at UBS Group on long-term growth prospects  https://t.co/KrUSj8h57O
+0
+
+$WWW $BIRD $PLBY - Stifel downgrades Allbirds, Wolverine, PLBY in downbeat retail review  https://t.co/pb0XVrknY2
+0
+
+$GOOG $GOOGL - Exane hits sidelines on Alphabet amid ad pressures, rival headwinds  https://t.co/uAM3RGaCae
+0
+
+
+End of preview. Expand
+						in Dataset Viewer.
+					
+
+
+		Previous
+1
+2
+3
+...
+170
+
+Next
+		
+
+
+
+
+Read this BLOG to see how I fine-tuned a sparse transformer on this dataset.
+
+
+
+
+
+		Dataset Description
+	
+
+The Twitter Financial News dataset is an English-language dataset containing an annotated corpus of finance-related tweets. This dataset is used to classify finance-related tweets for their topic.
+
+The dataset holds 21,107 documents annotated with 20 labels:
+
+topics = {
+    "LABEL_0": "Analyst Update",
+    "LABEL_1": "Fed | Central Banks",
+    "LABEL_2": "Company | Product News",
+    "LABEL_3": "Treasuries | Corporate Debt",
+    "LABEL_4": "Dividend",
+    "LABEL_5": "Earnings",
+    "LABEL_6": "Energy | Oil",
+    "LABEL_7": "Financials",
+    "LABEL_8": "Currencies",
+    "LABEL_9": "General News | Opinion",
+    "LABEL_10": "Gold | Metals | Materials",
+    "LABEL_11": "IPO",
+    "LABEL_12": "Legal | Regulation",
+    "LABEL_13": "M&A | Investments",
+    "LABEL_14": "Macro",
+    "LABEL_15": "Markets",
+    "LABEL_16": "Politics",
+    "LABEL_17": "Personnel Change",
+    "LABEL_18": "Stock Commentary",
+    "LABEL_19": "Stock Movement",
+}
+
+The data was collected using the Twitter API. The current dataset supports the multi-class classification task.
+
+
+
+
+
+		Task: Topic Classification
+	
+
+
+
+
+
+
+		Data Splits
+	
+
+There are 2 splits: train and validation. Below are the statistics:
+
+
+
+Dataset Split
+Number of Instances in Split
+
+
+Train
+16,990
+
+
+Validation
+4,118
+
+
+
+
+
+
+
+
+
+		Licensing Information
+	
+
+The Twitter Financial Dataset (topic) version 1.0.0 is released under the MIT License.
+
+Downloads last month331
+
+
+
+
+
+
+
+
+		Use in dataset library
+
+
+							Edit dataset card
+						
+
+
+Size of downloaded dataset files:
+
+2.97 MBSize of the auto-converted Parquet files:
+
+1.78 MBNumber of rows:
+
+21,107
+
+
+						Models trained or fine-tuned on
+						zeroshot/twitter-financial-news-topic
+
+
+nickmuchi/finbert-tone-finetuned-finance-topic-classification
+
+
+
+			Text Classification
+			• 
+Updated
+				Jul 12
+• 
+
+				2.09k
+			• 
+
+				44
+			
+
+
+
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

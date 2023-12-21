@@ -1,0 +1,133 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Commits · autoevaluate/autoeval-eval-samsum-samsum-fda4ec-95880146523
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Datasets:
+
+
+autoevaluate
+/
+autoeval-eval-samsum-samsum-fda4ec-95880146523
+
+
+
+like
+0
+
+Tags:
+	
+
+Trained with AutoTrain
+
+evaluation
+
+
+
+			Dataset card
+			
+			
+		
+Files
+Files and versions
+
+			Community
+			
+			
+		
+
+
+
+
+
+			8f64f8b
+		
+
+autoeval-eval-samsum-samsum-fda4ec-95880146523
+
+
+Commit History
+				
+
+initial commit
+8f64f8b
+
+
+
+
+autoevaluator
+			
+HF staff
+commited on
+		Oct 18
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,287 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nsarrazin/agents-js-llama at 43e4cb7ce86fd45b6a992e27edccc199e9506663
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+					Duplicated from 
+					nsarrazin/agents-js-oasst
+
+
+nsarrazin
+/
+agents-js-llama
+
+
+
+like
+1
+
+			Runtime error
+			
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+			43e4cb7
+		
+
+agents-js-llama
+
+
+
+1 contributor
+
+History:
+2 commits
+
+
+
+nsarrazin
+					
+HF staff
+
+latest changes
+43e4cb7
+5 months ago
+
+src
+
+latest changes
+5 months ago
+
+
+static
+
+Duplicate from nsarrazin/agents-js-oasst
+5 months ago
+
+
+
+Dockerfile
+
+
+
+837 Bytes
+				
+
+				
+
+Duplicate from nsarrazin/agents-js-oasst
+5 months ago
+
+
+README.md
+
+
+
+154 Bytes
+				
+
+				
+
+latest changes
+5 months ago
+
+
+package-lock.json
+
+
+
+147 kB
+				
+
+				
+
+latest changes
+5 months ago
+
+
+package.json
+
+
+
+1.51 kB
+				
+
+				
+
+latest changes
+5 months ago
+
+
+pnpm-lock.yaml
+
+
+
+78.9 kB
+				
+
+				
+
+Duplicate from nsarrazin/agents-js-oasst
+5 months ago
+
+
+postcss.config.js
+
+
+
+80 Bytes
+				
+
+				
+
+Duplicate from nsarrazin/agents-js-oasst
+5 months ago
+
+
+svelte.config.js
+
+
+
+775 Bytes
+				
+
+				
+
+Duplicate from nsarrazin/agents-js-oasst
+5 months ago
+
+
+tailwind.config.js
+
+
+
+185 Bytes
+				
+
+				
+
+Duplicate from nsarrazin/agents-js-oasst
+5 months ago
+
+
+tsconfig.json
+
+
+
+532 Bytes
+				
+
+				
+
+Duplicate from nsarrazin/agents-js-oasst
+5 months ago
+
+
+vite.config.ts
+
+
+
+318 Bytes
+				
+
+				
+
+Duplicate from nsarrazin/agents-js-oasst
+5 months ago
+
+
+
+
+
+
+
+
+
+
+

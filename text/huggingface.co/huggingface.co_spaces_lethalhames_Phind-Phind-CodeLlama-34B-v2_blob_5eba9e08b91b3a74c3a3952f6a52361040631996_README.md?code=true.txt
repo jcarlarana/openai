@@ -1,0 +1,193 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+README.md · lethalhames/Phind-Phind-CodeLlama-34B-v2 at 5eba9e08b91b3a74c3a3952f6a52361040631996
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+
+lethalhames
+/
+Phind-Phind-CodeLlama-34B-v2
+
+
+
+like
+2
+
+
+			Running
+			
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+			5eba9e0
+		
+
+Phind-Phind-CodeLlama-34B-v2
+/
+README.md
+
+
+lethalhames
+					
+
+initial commit
+5eba9e0
+4 months ago
+preview
+code
+|
+
+							raw
+						
+							history
+						
+							blame
+						
+
+
+							No virus
+						
+247 Bytes
+
+
+
+
+---
+
+
+title: Phind Phind CodeLlama 34B V2
+
+
+emoji: 🚀
+
+
+colorFrom: red
+
+
+colorTo: green
+
+
+sdk: gradio
+
+
+sdk_version: 3.41.2
+
+
+app_file: app.py
+
+
+pinned: false
+
+
+---
+
+
+
+
+
+Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+
+
+
+
+
+
+
+
+
+
+
+
+
+

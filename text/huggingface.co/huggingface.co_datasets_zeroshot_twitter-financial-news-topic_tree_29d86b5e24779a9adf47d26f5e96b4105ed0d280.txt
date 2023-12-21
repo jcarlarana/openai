@@ -1,0 +1,250 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+zeroshot/twitter-financial-news-topic at 29d86b5e24779a9adf47d26f5e96b4105ed0d280
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Datasets:
+
+
+zeroshot
+/
+twitter-financial-news-topic
+
+
+
+like
+16
+
+Tasks:
+	
+
+Text Classification
+
+Sub-tasks:
+	
+
+multi-class-classification
+
+Languages:
+	
+
+English
+
+Multilinguality:
+	
+
+monolingual
+
+Size Categories:
+	
+
+10K<n<100K
+
+Language Creators:
+	
+
+other
+
+Annotations Creators:
+	
+
+other
+
+Source Datasets:
+	
+
+original
+
+Tags:
+	
+
+twitter
+
+finance
+
+markets
+
++ 4License:
+	
+
+
+
+mit
+
+
+
+
+
+			Dataset card
+			
+			
+		
+Files
+Files and versions
+
+			Community
+			1
+				
+
+
+
+
+
+
+			29d86b5
+		
+
+twitter-financial-news-topic
+
+
+
+
+2 contributors
+
+History:
+6 commits
+
+
+
+Ricky Costa
+				
+			
+Update README.md
+29d86b5
+over 1 year ago
+
+
+.gitattributes
+
+
+
+2.13 kB
+				
+
+				
+
+initial commit
+over 1 year ago
+
+
+README.md
+
+
+
+1.92 kB
+				
+
+				
+
+Update README.md
+over 1 year ago
+
+
+topic_dataset_meta.txt
+
+
+
+626 Bytes
+				
+
+				
+
+Upload topic_dataset_meta.txt
+over 1 year ago
+
+
+topic_train.csv
+
+
+
+2.39 MB
+				
+
+				
+
+Upload topic_train.csv
+over 1 year ago
+
+
+topic_valid.csv
+
+
+
+580 kB
+				
+
+				
+
+Upload topic_valid.csv
+over 1 year ago
+
+
+
+
+
+
+
+
+
+
+

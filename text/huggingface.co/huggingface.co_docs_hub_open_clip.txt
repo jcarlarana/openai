@@ -1,0 +1,405 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Using OpenCLIP at Hugging Face
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+
+Hub documentation
+			
+Using OpenCLIP at Hugging Face
+
+
+
+
+
+					Hub
+					
+
+
+
+Search documentation
+
+
+EN
+
+
+
+
+
+
+
+
+
+🤗 Hugging Face Hub
+
+
+Repositories
+
+
+Getting Started with Repositories
+
+
+Repository Settings
+
+
+Pull Requests & Discussions
+
+
+Notifications
+
+
+Collections
+
+
+Webhooks
+
+
+Repository size recommendations
+
+
+Next Steps
+
+
+Licenses
+
+
+Models
+
+
+The Model Hub
+
+
+Model Cards
+
+
+Gated Models
+
+
+Uploading Models
+
+
+Downloading Models
+
+
+Integrated Libraries
+
+
+Adapter Transformers
+
+
+AllenNLP
+
+
+Asteroid
+
+
+Diffusers
+
+
+ESPnet
+
+
+fastai
+
+
+Flair
+
+
+Keras
+
+
+ML-Agents
+
+
+OpenCLIP
+
+
+PaddleNLP
+
+
+peft
+
+
+RL-Baselines3-Zoo
+
+
+Sample Factory
+
+
+Sentence Transformers
+
+
+SetFit
+
+
+spaCy
+
+
+SpanMarker
+
+
+SpeechBrain
+
+
+Stable-Baselines3
+
+
+Stanza
+
+
+TensorBoard
+
+
+timm
+
+
+Transformers
+
+
+Transformers.js
+
+
+Model Widgets
+
+
+Inference API docs
+
+
+Models Download Stats
+
+
+Frequently Asked Questions
+
+
+Advanced Topics
+
+
+Datasets
+
+
+Datasets Overview
+
+
+Dataset Cards
+
+
+Gated Datasets
+
+
+Uploading Datasets
+
+
+Downloading Datasets
+
+
+Integrated Libraries
+
+
+Dataset Viewer
+
+
+Datasets Download Stats
+
+
+Data files Configuration
+
+
+Spaces
+
+
+Spaces Overview
+
+
+Spaces GPU Upgrades
+
+
+Spaces Persistent Storage
+
+
+Gradio Spaces
+
+
+Streamlit Spaces
+
+
+Static HTML Spaces
+
+
+Docker Spaces
+
+
+Embed your Space
+
+
+Run Spaces with Docker
+
+
+Spaces Configuration Reference
+
+
+Sign-In with HF button
+
+
+Spaces Changelog
+
+
+Advanced Topics
+
+
+Other
+
+
+Organizations
+
+
+Billing
+
+
+Security
+
+
+Moderation
+
+
+Paper Pages
+
+
+Search
+
+
+Digital Object Identifier (DOI)
+
+
+Hub API Endpoints
+
+
+Sign-In with HF
+
+
+
+
+Join the Hugging Face community
+and get access to the augmented documentation experience
+		
+
+Collaborate on models, datasets and Spaces
+				
+
+Faster examples with accelerated inference
+				
+
+Switch between documentation themes
+				
+Sign Up
+to get started
+ 
+
+
+
+
+
+
+
+
+
+   Using OpenCLIP at Hugging Face OpenCLIP is an open-source implementation of OpenAI’s CLIP.  Exploring OpenCLIP on the Hub You can find OpenCLIP models by filtering at the left of the models page. OpenCLIP models hosted on the Hub have a model card with useful information about the models. Thanks to OpenCLIP Hugging Face Hub integration, you can load OpenCLIP models with a few lines of code. You can also deploy these models using Inference Endpoints.  Installation To get started, you can follow the OpenCLIP installation guide.
+You can also use the following one-line install through pip:   Copied $ pip install open_clip_torch  Using existing models All OpenCLIP models can easily be loaded from the Hub:   Copied import open_clip
+
+model, preprocess = open_clip.create_model_from_pretrained('hf-hub:laion/CLIP-ViT-g-14-laion2B-s12B-b42K')
+tokenizer = open_clip.get_tokenizer('hf-hub:laion/CLIP-ViT-g-14-laion2B-s12B-b42K') Once loaded, you can encode the image and text to do zero-shot image classification:   Copied import torch
+from PIL import Image
+
+url = 'http://images.cocodataset.org/val2017/000000039769.jpg'
+image = Image.open(requests.get(url, stream=True).raw)
+image = preprocess(image).unsqueeze(0)
+text = tokenizer(["a diagram", "a dog", "a cat"])
+
+with torch.no_grad(), torch.cuda.amp.autocast():
+    image_features = model.encode_image(image)
+    text_features = model.encode_text(text)
+    image_features /= image_features.norm(dim=-1, keepdim=True)
+    text_features /= text_features.norm(dim=-1, keepdim=True)
+
+    text_probs = (100.0 * image_features @ text_features.T).softmax(dim=-1)
+
+print("Label probs:", text_probs)  It outputs the probability of each possible class:   Copied Label probs: tensor([[0.0020, 0.0034, 0.9946]]) If you want to load a specific OpenCLIP model, you can click Use in OpenCLIP in the model card and you will be given a working snippet!      Additional resources OpenCLIP repository OpenCLIP docs OpenCLIP models in the Hub 
+
+
+←ML-Agents
+PaddleNLP→
+
+Using OpenCLIP at Hugging Face
+Exploring OpenCLIP on the Hub
+Installation
+Using existing models
+Additional resources
+
+
+
+
+
+
+
+
+
+

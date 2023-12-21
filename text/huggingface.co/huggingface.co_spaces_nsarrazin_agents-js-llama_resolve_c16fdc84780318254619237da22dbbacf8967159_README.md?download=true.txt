@@ -1,0 +1,9 @@
+---
+title: Agents.js PoC - Llama 2 70B
+emoji: 🦙
+colorFrom: blue
+colorTo: red
+sdk: docker
+app_port: 3000
+duplicated_from: nsarrazin/agents-js-oasst
+---

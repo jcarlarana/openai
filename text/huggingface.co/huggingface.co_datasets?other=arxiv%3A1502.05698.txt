@@ -1,0 +1,196 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hugging Face – The AI community building the future.
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Edit Datasets filters
+
+Tasks
+				
+Sizes
+				
+Sub-tasks
+				
+Languages
+				
+Licenses
+				
+Other
+				1
+					
+
+
+
+
+				Reset Other
+
+
+arxiv:
+1502.05698
+
+
+
+Other with no match
+			
+
+
+
+art
+
+Trained with AutoTrain
+
+code
+
+medical
+
+legal
+
+biology
+
+finance
+
+music
+
+chemistry
+
+climate
+
+
+
+				Apply filters
+			
+Datasets
+2
+
+
+new
+				Full-text search
+			
+
+					Edit filters
+				
+
+
+
+		Sort: 
+		Trending
+	
+		
+
+Active filters: 
+					1502.05698
+Clear all 
+
+
+facebook/babi_qa
+
+
+
+			Viewer
+			• 
+Updated
+				Jan 25
+• 
+
+				1.24k
+			• 
+
+				5
+			
+
+Heriot-WattUniversity/dialog_babi
+
+
+
+			Viewer
+			• 
+Updated
+				Jul 12, 2022
+• 
+
+				76
+			• 
+
+				2
+			
+
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

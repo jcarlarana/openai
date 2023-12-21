@@ -1,0 +1,22 @@
+
+
+Select your tools
+
+    {#each defaultTools as tool}
+      
+
+          {tool.name}
+        
+
+
+    {/each}
+  
+
+    {#if selectedTools.length === defaultTools.length}
+       (selectedTools = [])}>clear
+    {:else}
+       (selectedTools = defaultTools.map((el) => el.name))}
+        >select all
+    {/if}
+  
+

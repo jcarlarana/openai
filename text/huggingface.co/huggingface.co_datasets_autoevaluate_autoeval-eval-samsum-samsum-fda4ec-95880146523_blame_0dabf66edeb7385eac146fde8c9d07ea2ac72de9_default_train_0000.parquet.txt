@@ -1,0 +1,138 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+default/train/0000.parquet · autoevaluate/autoeval-eval-samsum-samsum-fda4ec-95880146523 at 0dabf66edeb7385eac146fde8c9d07ea2ac72de9
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Datasets:
+
+
+autoevaluate
+/
+autoeval-eval-samsum-samsum-fda4ec-95880146523
+
+
+
+like
+0
+
+Tags:
+	
+
+Trained with AutoTrain
+
+evaluation
+
+
+
+			Dataset card
+			
+			
+		
+Files
+Files and versions
+
+			Community
+			
+			
+		
+
+
+
+
+
+			0dabf66
+		
+
+autoeval-eval-samsum-samsum-fda4ec-95880146523
+
+
+File size: 131 Bytes
+			
+aedd1f6
+ 
+ 
+1234
+version https://git-lfs.github.com/spec/v1
+oid sha256:093bf99131d101ab7c5a27b48eddfab5f15f2da7cdf376df340dc9590803db93
+size 378620
+
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

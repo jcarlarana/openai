@@ -1,0 +1,334 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Create test version · ThomasSimonini/Stable-Baselines3 at 821e8de
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+
+ThomasSimonini
+/
+Stable-Baselines3
+
+
+
+like
+12
+
+			Sleeping
+			
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+Thomas Simonini
+commited on
+		Oct 5, 2021
+
+Commit 
+
+821e8de
+
+
+• 
+1
+								Parent(s):
+							
+78f544e
+								
+Create test version
+
+							Browse files
+						
+
+
+
+
+Files changed (1)
+hide
+show
+
+
+
+
+
+
+ app.py
+
++7
+-0
+
+
+
+
+
+
+
+
+
+
+ app.py
+ADDED
+
+
+    Viewed
+
+
+
+
+
+
+
+
+
+
+@@ -0,0 +1,7 @@
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      1
+    
+
+
++
+import gradio as gr
+
+
+
+
+      2
+    
+
+
++
+
+
+
+
+
+      3
+    
+
+
++
+def greet(name):
+
+
+
+
+      4
+    
+
+
++
+    return "Hello " + name + "!!"
+
+
+
+
+      5
+    
+
+
++
+
+
+
+
+
+      6
+    
+
+
++
+iface = gr.Interface(fn=greet, inputs="text", outputs="text")
+
+
+
+
+      7
+    
+
+
++
+iface.launch()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

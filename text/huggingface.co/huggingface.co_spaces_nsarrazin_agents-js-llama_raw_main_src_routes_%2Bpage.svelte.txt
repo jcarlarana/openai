@@ -1,0 +1,44 @@
+
+
+
+
+
+Agents.js
+ dialogElement.showModal()}
+      on:keydown={() => dialogElement.showModal()}>API keys
+
+
+
+    This demo is meant to showcase some of the features that we released with agents.js. This demo is using
+    {PUBLIC_MODEL_NAME}.
+  
+
+
+
+ Input your request 
+
+
+generate
+
+  {#await codePromise}
+    
+  {:then}
+    {#if code !== ""}
+      
+    {/if}
+  {:catch error}
+    
+Error
+{error.message}
+
+  {/await}
+
+  {#if messages.length !== 0}
+    
+
+  {/if}
+  {#if isLoading}
+    
+
+  {/if}
+

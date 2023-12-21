@@ -1,0 +1,434 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+amazon (Amazon Web Services)
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+
+Amazon Web Services
+
+company
+
+	Verified
+
+
+
+https://aws.amazon.com/
+
+
+aws
+
+
+
+
+				AI & ML interests
+			
+None defined yet.
+
+Team members
+		1069
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
++1035
++1022
++1001
++991
++971
+
+
+
+			Organization Card
+		
+
+				About org cards
+			
+
+
+
+        Hugging Face is working with Amazon Web Services to make it easier than
+        ever for startups and enterprises to train and deploy Hugging Face models in Amazon SageMaker.
+    
+
+
+
+
+Read announcement blog post
+
+
+
+Video Walkthrough with Philipp Schmid
+
+
+
+
+
+Documentation: Hugging Face in SageMaker
+
+
+
+            To train Hugging Face models in Amazon SageMaker, you can use the
+            Hugging Face Deep Learning Containers (DLCs) and the Hugging Face
+            support in the SageMaker Python SDK.
+        
+
+            The DLCs are fully integrated with the SageMaker distributed training
+            libraries to train models more quickly using the latest generation of
+            accelerated computing instances available on Amazon EC2. With the
+            SageMaker Python SDK, you can start training with just a single line of
+            code, enabling your teams to move from idea to production more quickly.
+        
+
+            To deploy Hugging Face models in Amazon SageMaker, you can use the
+            Hugging Face Deep Learning Containers with the new Hugging Face
+            Inference Toolkit.
+        
+
+            With the new Hugging Face Inference DLCs, deploy your trained models for
+            inference with just one more line of code, or select any of the 10,000+
+            models publicly available on the 🤗 Hub, and deploy them with Amazon
+            SageMaker, to easily create production-ready endpoints that scale
+            seamlessly, with built-in monitoring and enterprise-level security.
+        
+
+            More information: AWS blog post,
+            Community Forum
+
+
+
+
+
+models
+10
+
+
+
+
+
+
+		Sort: 
+		Recently updated
+	
+		
+
+
+
+amazon/MistralLite
+
+
+
+			Text Generation
+			• 
+Updated
+				1 day ago
+• 
+
+				7.63k
+			• 
+
+				359
+			
+
+amazon/FalconLite
+
+
+
+			Text Generation
+			• 
+Updated
+				Nov 17
+• 
+
+				2.07k
+			• 
+
+				172
+			
+
+amazon/FalconLite2
+
+
+
+			Text Generation
+			• 
+Updated
+				Nov 2
+• 
+
+				526
+			• 
+
+				46
+			
+
+amazon/sm-hackathon-actionability-9-multi-outputs-setfit-all-distilroberta-model-v0.2
+
+
+
+			Text Classification
+			• 
+Updated
+				Aug 24
+• 
+
+				1
+			
+
+amazon/sm-hackathon-actionability-9-multi-outputs-setfit-all-distilroberta-model-v0.1
+
+
+
+			Text Classification
+			• 
+Updated
+				Aug 24
+
+
+amazon/sm-hackathon-actionability-9-multi-outputs-setfit-all-roberta-large-model-v0.1
+
+
+
+			Text Classification
+			• 
+Updated
+				Aug 24
+
+
+amazon/sm-hackathon-actionability-9-multi-outputs-setfit-model-v0.1
+
+
+
+			Text Classification
+			• 
+Updated
+				Aug 24
+
+
+amazon/sm-hackathon-setfit-model
+
+
+
+			Text Classification
+			• 
+Updated
+				Aug 23
+• 
+
+				1
+			
+			
+
+amazon/LightGPT
+
+
+
+			Text Generation
+			• 
+Updated
+				Jun 6
+• 
+
+				2.25k
+			• 
+
+				69
+			
+
+amazon/bort
+
+
+
+			Fill-Mask
+			• 
+Updated
+				May 18, 2021
+• 
+
+				349
+			• 
+
+				12
+			
+
+
+
+datasets
+
+
+
+None public yet
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

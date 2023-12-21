@@ -1,0 +1,20 @@
+
+
+{#if Array.isArray(data)}
+  {#each data as el}
+    
+
+  {/each}
+{:else if !!data && isBlob(data)}
+  {#if data.type.startsWith("image")}
+    
+
+
+  {:else if data.type.startsWith("audio")}
+    
+  {:else}
+    blob type unknown
+  {/if}
+{:else if !!data}
+  {data}
+{/if}

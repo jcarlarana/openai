@@ -1,0 +1,244 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+src/lib/components/ResultsDisplay.svelte · nsarrazin/agents-js-llama at 785ee5600ba220203f0dac246f6d828faa576308
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+					Duplicated from 
+					nsarrazin/agents-js-oasst
+
+
+nsarrazin
+/
+agents-js-llama
+
+
+
+like
+1
+
+			Runtime error
+			
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+			785ee56
+		
+
+agents-js-llama
+/
+src
+							
+/lib
+							
+/components
+							
+/ResultsDisplay.svelte
+
+
+nsarrazin
+					
+HF staff
+
+latest updates
+785ee56
+5 months ago
+
+
+							raw
+						
+							history
+						
+							blame
+						
+
+
+							No virus
+						
+666 Bytes
+
+
+
+
+<script lang="ts">
+
+
+ import type { Data } from "../../app";
+
+
+ import DataDisplay from "./DataDisplay.svelte";
+
+
+
+
+
+
+ export let messages: Array<{
+
+
+    message: string;
+
+
+    data: Data | Array<Data>;
+
+
+  }>;
+
+
+</script>
+
+
+
+
+
+
+<div class="w-fit mx-auto">
+
+
+ <h3 class="text-lg pb-5">Results</h3>
+
+
+ <div class="space-y-5">
+
+
+ {#each messages as message}
+
+
+ <div class="collapse bg-base-200 collapse-plus">
+
+
+ <input type="checkbox" />
+
+
+ <div class="collapse-title text-xl font-medium">
+
+
+ {message.message}
+
+
+ </div>
+
+
+ <div class="collapse-content">
+
+
+ <DataDisplay data={message.data} />
+
+
+ </div>
+
+
+ </div>
+
+
+ {/each}
+
+
+ </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

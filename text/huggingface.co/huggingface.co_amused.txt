@@ -1,0 +1,375 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+amused (Open Reproduction of MUSE)
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+
+Open Reproduction of MUSE
+
+community
+
+
+
+ Request to join this org
+				
+
+
+				AI & ML interests
+			
+Reproducing  https://muse-model.github.io/
+
+Team members
+		4
+
+
+
+
+
+
+
+
+
+
+			Organization Card
+		
+
+				About org cards
+			
+
+
+
+
+
+
+		Open Reproduction Effort to reproduce MUSE
+	
+
+Open-muse is a project to openly reproduce the transformer-based MUSE text-to-image model.
+The open-muse repo contains the model implementation, training code and everything related to training.
+All the artefacts of this project, such as the training checkpoints and final models will be uploaded to this organization.
+
+
+
+
+
+		Training Logs:
+	
+
+All training logs can be found in this W&B Project
+
+
+
+
+
+		Steps:
+	
+
+
+Setup the codebase and train a class-conditional model on imagenet.
+Conduct text2image experiments on CC12M.
+Train improved VQGANs models.
+Train the full (base-256) model on LAION + COYO.
+Train the full (base-512) model on LAION + COYO.
+
+
+
+
+
+
+		Weekly Log
+	
+
+...
+
+
+Collections
+1
+
+
+
+MUSE - research release
+
+
+
+
+amused/muse-512-finetuned
+
+
+Updated
+				Sep 19
+
+
+
+
+
+amused/muse-512
+
+
+Updated
+				Sep 19
+
+
+
+
+
+amused/muse-256
+
+
+Updated
+				Sep 20
+
+
+
+
+
+			Running
+			ona10g
+
+
+
+18
+📊
+MUSE
+
+
+
+
+
+
+spaces
+4
+
+
+
+
+
+
+		Sort: 
+		Recently updated
+	
+		
+
+
+
+			Running
+			ona10g
+
+
+
+18
+📊
+MUSE
+
+
+
+					Build error
+
+2
+📊
+MUSE Compare
+
+
+
+
+1
+🌍
+MUSE Open Parti Prompts
+
+
+
+
+2
+📊
+Parti Prompts Leaderboard
+
+
+
+
+models
+30
+
+
+
+
+
+
+		Sort: 
+		Recently updated
+	
+		
+
+
+
+amused/amused-512
+
+
+Updated
+				about 15 hours ago
+
+
+amused/amused-256
+
+
+Updated
+				about 15 hours ago
+
+
+amused/diffusers-pipeline-256-finetuned
+
+
+Updated
+				23 days ago
+• 
+
+				40
+			
+			
+
+amused/diffusers-pipeline
+
+
+Updated
+				23 days ago
+• 
+
+				157
+			
+			
+
+amused/diffusers-pipeline-256
+
+
+Updated
+				23 days ago
+• 
+
+				42
+			
+			
+
+amused/muse-256-finetuned
+
+
+Updated
+				27 days ago
+
+
+amused/muse-256
+
+
+Updated
+				Sep 20
+
+
+amused/muse-512
+
+
+Updated
+				Sep 19
+
+
+amused/muse-512-finetuned
+
+
+Updated
+				Sep 19
+
+
+amused/vgg_lpips
+
+
+Updated
+				Sep 19
+
+
+
+							Expand 30
+							models
+
+
+
+datasets
+
+
+
+None public yet
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

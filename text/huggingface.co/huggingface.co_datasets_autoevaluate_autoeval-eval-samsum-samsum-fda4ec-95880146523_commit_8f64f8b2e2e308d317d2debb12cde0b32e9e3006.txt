@@ -1,0 +1,1239 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+initial commit · autoevaluate/autoeval-eval-samsum-samsum-fda4ec-95880146523 at 8f64f8b
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Datasets:
+
+
+autoevaluate
+/
+autoeval-eval-samsum-samsum-fda4ec-95880146523
+
+
+
+like
+0
+
+Tags:
+	
+
+Trained with AutoTrain
+
+evaluation
+
+
+
+			Dataset card
+			
+			
+		
+Files
+Files and versions
+
+			Community
+			
+			
+		
+
+
+
+autoevaluator
+			
+HF staff
+commited on
+		Oct 18
+
+Commit 
+
+8f64f8b
+
+
+• 
+0
+								Parent(s):
+							
+
+initial commit
+
+							Browse files
+						
+
+
+
+
+Files changed (1)
+hide
+show
+
+
+
+
+
+
+ .gitattributes
+
++55
+-0
+
+
+
+
+
+
+
+
+
+
+ .gitattributes
+ADDED
+
+
+    Viewed
+
+
+
+
+
+
+
+
+
+
+@@ -0,0 +1,55 @@
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      1
+    
+
+
++
+*.7z filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      2
+    
+
+
++
+*.arrow filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      3
+    
+
+
++
+*.bin filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      4
+    
+
+
++
+*.bz2 filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      5
+    
+
+
++
+*.ckpt filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      6
+    
+
+
++
+*.ftz filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      7
+    
+
+
++
+*.gz filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      8
+    
+
+
++
+*.h5 filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      9
+    
+
+
++
+*.joblib filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      10
+    
+
+
++
+*.lfs.* filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      11
+    
+
+
++
+*.lz4 filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      12
+    
+
+
++
+*.mlmodel filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      13
+    
+
+
++
+*.model filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      14
+    
+
+
++
+*.msgpack filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      15
+    
+
+
++
+*.npy filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      16
+    
+
+
++
+*.npz filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      17
+    
+
+
++
+*.onnx filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      18
+    
+
+
++
+*.ot filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      19
+    
+
+
++
+*.parquet filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      20
+    
+
+
++
+*.pb filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      21
+    
+
+
++
+*.pickle filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      22
+    
+
+
++
+*.pkl filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      23
+    
+
+
++
+*.pt filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      24
+    
+
+
++
+*.pth filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      25
+    
+
+
++
+*.rar filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      26
+    
+
+
++
+*.safetensors filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      27
+    
+
+
++
+saved_model/**/* filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      28
+    
+
+
++
+*.tar.* filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      29
+    
+
+
++
+*.tar filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      30
+    
+
+
++
+*.tflite filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      31
+    
+
+
++
+*.tgz filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      32
+    
+
+
++
+*.wasm filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      33
+    
+
+
++
+*.xz filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      34
+    
+
+
++
+*.zip filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      35
+    
+
+
++
+*.zst filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      36
+    
+
+
++
+*tfevents* filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      37
+    
+
+
++
+# Audio files - uncompressed
+
+
+
+
+      38
+    
+
+
++
+*.pcm filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      39
+    
+
+
++
+*.sam filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      40
+    
+
+
++
+*.raw filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      41
+    
+
+
++
+# Audio files - compressed
+
+
+
+
+      42
+    
+
+
++
+*.aac filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      43
+    
+
+
++
+*.flac filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      44
+    
+
+
++
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      45
+    
+
+
++
+*.ogg filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      46
+    
+
+
++
+*.wav filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      47
+    
+
+
++
+# Image files - uncompressed
+
+
+
+
+      48
+    
+
+
++
+*.bmp filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      49
+    
+
+
++
+*.gif filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      50
+    
+
+
++
+*.png filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      51
+    
+
+
++
+*.tiff filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      52
+    
+
+
++
+# Image files - compressed
+
+
+
+
+      53
+    
+
+
++
+*.jpg filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      54
+    
+
+
++
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+      55
+    
+
+
++
+*.webp filter=lfs diff=lfs merge=lfs -text
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

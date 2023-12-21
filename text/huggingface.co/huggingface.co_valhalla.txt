@@ -1,0 +1,397 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+valhalla (Suraj Patil)
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+
+
+1895
+4
+83
+Suraj Patil
+
+valhalla
+Follow
+
+
+Chunte's profile picture
+
+mishig's profile picture
+
+Weyaxi's profile picture
+
+81
+					followers
+·
+0 following
+				
+
+https://github.com/patil-suraj
+
+psuraj28
+
+patil-suraj
+
+			AI & ML interests
+		
+None yet
+
+			Organizations
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Papers
+2
+
+
+arxiv:2311.05556
+
+
+
+arxiv:2211.05100
+
+
+
+
+
+spaces
+3
+
+
+
+
+
+
+		Sort: 
+		Recently updated
+	
+		
+
+
+
+
+					Runtime error
+
+8
+🌏
+XGLM Zero Shot COPA
+
+
+
+					Runtime error
+
+15
+🔥
+MinDALL E
+
+
+
+
+63
+📊
+Glide Text2im
+
+
+
+models
+156
+
+
+
+
+
+
+		Sort: 
+		Recently updated
+	
+		
+
+
+
+valhalla/muse-dit-imgnt
+
+
+Updated
+				Nov 1
+
+
+valhalla/vqgan-finetune-512-2
+
+
+Updated
+				Oct 31
+• 
+
+				65
+			
+			
+
+valhalla/cc12m-mr
+
+
+Updated
+				Oct 30
+
+
+valhalla/muse-imgnt-mr-fixed
+
+
+Updated
+				Oct 28
+
+
+valhalla/muse-finetuned-text-lora-2
+
+
+Updated
+				Oct 27
+
+
+valhalla/muse-finetuned-text-lora
+
+
+Updated
+				Oct 27
+
+
+valhalla/styledrop-glowing
+
+
+Updated
+				Oct 26
+
+
+valhalla/muse-finetuned-4
+
+
+Updated
+				Oct 25
+
+
+valhalla/muse-imagenet-mr-2
+
+
+Updated
+				Oct 25
+
+
+valhalla/muse-imagenet-mr
+
+
+Updated
+				Oct 21
+
+
+
+							Expand 156
+							models
+
+
+datasets
+6
+
+
+
+
+
+
+		Sort: 
+		Recently updated
+	
+		
+
+
+
+valhalla/images
+
+
+
+			Viewer
+			• 
+Updated
+				Sep 8
+• 
+
+				12
+			• 
+
+				1
+			
+
+valhalla/sketch-images
+
+
+
+			Viewer
+			• 
+Updated
+				Aug 29
+• 
+
+				2
+			
+			
+
+valhalla/dept-large-depth-images
+
+
+
+			Viewer
+			• 
+Updated
+				Aug 28
+• 
+
+				2
+			
+			
+
+valhalla/zoe-depth-images
+
+
+
+			Viewer
+			• 
+Updated
+				Aug 16
+• 
+
+				2
+			
+			
+
+valhalla/emoji-dataset
+
+
+
+			Viewer
+			• 
+Updated
+				Oct 5, 2022
+• 
+
+				58
+			• 
+
+				3
+			
+
+valhalla/pokemon-dataset
+
+
+
+			Viewer
+			• 
+Updated
+				Oct 2, 2022
+• 
+
+				123
+			• 
+
+				2
+			
+
+
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

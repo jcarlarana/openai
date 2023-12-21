@@ -1,0 +1,438 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Heriot-WattUniversity/dialog_babi · Issue while creating the loading script
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Datasets:
+
+
+Heriot-WattUniversity
+/
+dialog_babi
+
+
+
+like
+2
+
+ArXiv:
+	
+
+
+
+arxiv:
+1605.07683
+
+
+
+
+
+
+arxiv:
+1502.05698
+
+
+
+
+
+			Dataset card
+			
+			
+		
+Files
+Files and versions
+
+			Community
+			1
+				
+
+
+
+
+Issue while creating the loading script
+#1
+
+
+by
+						
+
+albertvillanova
+HF staff
+						- opened
+							Jul 11, 2022
+
+
+			Discussion
+			
+			
+		
+
+
+
+
+
+
+albertvillanova
+Jul 11, 2022
+
+
+
+
+
+
+
+
+
+
+As reported by 
+@asuglia
+ here, some problems were found while implementing the loading script.
+We are having a look at it.
+
+👍
+1
+1
+								
+
+	asuglia
+							
+
++
+						
+
+
+
+
+albertvillanova
+Jul 11, 2022
+•
+edited Jul 11, 2022
+
+
+
+
+
+
+
+
+
+Hi 
+@asuglia
+, 
+First we removed the malformed dataset_infos.json.
+Then we runned the command for the generation of the metadata, but replacing wrong --all-configs (with hyphen) with right --all_configs (with underscore):
+datasets-cli test Heriot-WattUniversity/dialog-babi/dialog_babi.py --save_infos --all_configs
+
+This raises an error because your loading script has a bug:
+Testing builder 'task3-options' (3/6)
+...
+  File ".../.cache/huggingface/modules/datasets_modules/datasets/dialog_babi/bdd22cbea0c6e4dac2e4bc82dc2f2e1cdc14c3562282f1e5b926adac491f1a6a/dialog_babi.py", line 149, in _format_dialogue
+    rest_turn, sys_turn = turn.split("\t")
+ValueError: not enough values to unpack (expected 2, got 1)
+
+Apparently, one of the turns in your dialogue_rows does not have any tab character \t. You split on Tab and as there is none,  it returns a list with a single element, while you are trying to unpack it into 2 variables.
+You should fix this.
+
+
+
+
+
+asuglia
+Heriot-Watt University org
+Jul 12, 2022
+•
+edited Jul 12, 2022
+
+
+
+
+
+
+
+
+
+Hey 
+@albertvillanova
+, thank you for the hint. I have now fixed the issue and seems that I'm able to make the test pass without any problems. However, when I try to use the dataset using the load_dataset function I receive the following error:
+File ~/workspace/Heriot-WattUniversity/dialog-babi/.venv/lib/python3.9/site-packages/datasets/utils/info_utils.py:33, in verify_checksums(expected_checksums, recorded_checksums, verification_name)
+     31     return
+     32 if len(set(expected_checksums) - set(recorded_checksums)) > 0:
+---> 33     raise ExpectedMoreDownloadedFiles(str(set(expected_checksums) - set(recorded_checksums)))
+     34 if len(set(recorded_checksums) - set(expected_checksums)) > 0:
+     35     raise UnexpectedDownloadedFile(str(set(recorded_checksums) - set(expected_checksums)))
+ExpectedMoreDownloadedFiles: {'https://www.dropbox.com/s/20rgyj8rryvos9l/dialog-bAbI-tasks-1_6.zip?dl=1'}
+
+This seems to be because I have the file LICENSE.txt inside my folder. Now if I remove this file, the load_dataset doesn't work anymore:
+FileNotFoundError: Unable to resolve any data file that matches '['**']' at /Users/as2180/workspace/Heriot-WattUniversity/dialog-babi with any supported extension ['csv', 'tsv', 'json', 'jsonl', 'parquet', 'txt', 'blp', 'bmp', 'dib', 'bufr', 'cur', 'pcx', 'dcx', 'dds', 'ps', 'eps', 'fit', 'fits', 'fli', 'flc', 'ftc', 'ftu', 'gbr', 'gif', 'grib', 'h5', 'hdf', 'png', 'apng', 'jp2', 'j2k', 'jpc', 'jpf', 'jpx', 'j2c', 'icns', 'ico', 'im', 'iim', 'tif', 'tiff', 'jfif', 'jpe', 'jpg', 'jpeg', 'mpg', 'mpeg', 'msp', 'pcd', 'pxr', 'pbm', 'pgm', 'ppm', 'pnm', 'psd', 'bw', 'rgb', 'rgba', 'sgi', 'ras', 'tga', 'icb', 'vda', 'vst', 'webp', 'wmf', 'emf', 'xbm', 'xpm', 'zip']
+
+
+
+
+
+
+albertvillanova
+Jul 12, 2022
+
+
+
+
+
+
+
+
+
+
+Hi 
+@asuglia
+, I have:
+
+pulled your repo to its current state
+remove the dataset_infos.json file (it is not valid)
+generated it with datasets-cli test dialog_babi.py --save_infos --all_configs
+tried loading your datasets and it works OK
+
+>>> from datasets import load_dataset; ds = load_dataset("dialog_babi.py", split="train", streaming=True); item = next(iter(ds)); item
+No config specified, defaulting to: dialog_babi/task1-API-calls
+{'user_turns': ['hi',
+  'can you book a table',
+  '<SILENCE>',
+  'i love italian food',
+  'in paris',
+  'we will be two',
+  'in a cheap price range please',
+  '<SILENCE>'],
+ 'system_turns': ['hello what can i help you with today',
+  "i'm on it",
+  'any preference on a type of cuisine',
+  'where should it be',
+  'how many people would be in your party',
+  'which price range are looking for',
+  'ok let me look into some options for you',
+  'api_call italian paris two cheap']}
+
+
+
+
+
+
+albertvillanova
+Jul 12, 2022
+
+
+
+
+
+
+
+
+
+
+I think I know what your issue is:
+
+You try to load the dataset locally by pointing its direcotry: load_dataset("dialog-babi",...
+As you point to a directory, the datasets library tries to find within that directory a Python script with the same name as the directory, thst is dialog-babi.py
+But your script is named with an underscore, instead of an hyphen
+
+
+
+You should align both directory and file names:
+
+either rename your repo to Heriot-WattUniversity/dialog_babi (underscore intead of hyphen)
+or rename your script to dialog-babi.py (hyphen instead of underscore)
+
+I did not find the same issue like you beacuse when loading locally I pointed to the script file (instead of the directory): load_dataset("dialog-babi/dialog_babi.py", ...
+
+🤗
+1
+1
+								
+
+	asuglia
+							
+
++
+						
+
+
+
+
+asuglia
+Heriot-Watt University org
+Jul 12, 2022
+
+
+
+
+
+
+
+
+
+
+Hi 
+@albertvillanova
+, thanks again for your help. I can finally load the dataset. However, I don't know why you say that that my dataset_info.json is not valid? I've tried to recreate it using the command that you posted but it hasn't changed... Any ideas?
+
+
+
+
+
+albertvillanova
+Jul 13, 2022
+
+
+
+
+
+
+
+
+
+
+OK, you can forget about that.
+I told you it was wrong because I regenerated it and in my case it changed. But I have carefully investigated what the changes are and these are not important: some sizes in bytes are slightly different, but this can happen depending on the installed PyArrow version...
+For example:
+
+old "task3-options" "dataset_size": 9554153
+new "task3-options" "dataset_size": 9566155
+
+Your dataset_infos.json file is right.
+
+❤️
+1
+1
+								
+
+	asuglia
+							
+
++
+						
+
+
+
+
+asuglia
+Heriot-Watt University org
+Jul 13, 2022
+
+
+
+
+
+
+
+
+
+
+Super. Thanks a lot 
+@albertvillanova
+!
+
+
+
+
+asuglia
+
+changed discussion status to
+		closed
+Jul 13, 2022
+
+EditPreview
+
+
+
+
+Upload images, audio, and videos by dragging in the text input, pasting, or clicking here.
+			
+Tap or paste here to upload images
+
+
+
+
+				Comment
+			
+·
+Sign up or
+					log in to comment
+				
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

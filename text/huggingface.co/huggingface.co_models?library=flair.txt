@@ -1,0 +1,708 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Models - Hugging Face
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Edit Models filters
+
+Tasks
+				
+Libraries
+				1
+					
+Datasets
+				
+Languages
+				
+Licenses
+				
+Other
+				
+
+
+
+
+				Reset Libraries
+
+
+Flair
+
+PyTorch
+
+TensorBoard
+
+ONNX
+
+Transformers
+
+
+
+Libraries with no match
+			
+
+
+google-tensorflow
+TensorFlow
+
+JAX
+
+Safetensors
+
+Diffusers
+
+PEFT
+
+Stable-Baselines3
+
+ML-Agents
+
+Sentence Transformers
+
+GGUF
+
+Timm
+
+Sample Factory
+
+Keras
+
+SetFit
+
+Adapter Transformers
+
+Transformers.js
+
+spaCy
+
+ESPnet
+
+fastai
+
+Core ML
+
+NeMo
+
+Rust
+
+fastText
+
+Joblib
+
+Scikit-learn
+
+speechbrain
+
+BERTopic
+
+PaddlePaddle
+
+OpenCLIP
+
+OpenVINO
+
+Fairseq
+
+Graphcore
+
+TF Lite
+
+Asteroid
+
+Stanza
+
+PaddleNLP
+
+allenNLP
+
+SpanMarker
+
+Habana
+
+pyannote.audio
+
+Pythae
+
+
+
+				Apply filters
+			
+Models
+1,456
+
+
+new
+				Full-text search
+			
+
+					Edit filters
+				
+
+
+
+		Sort: 
+		Trending
+	
+		
+
+Active filters: 
+					flair
+Clear all 
+
+
+acheong08/f222
+
+
+Updated
+				Feb 15
+• 
+
+				181
+			
+
+flair/ner-english-ontonotes-large
+
+
+
+			Token Classification
+			• 
+Updated
+				May 8, 2021
+• 
+
+				266k
+			• 
+
+				77
+			
+
+UGARIT/flair_grc_bert_ner
+
+
+
+			Token Classification
+			• 
+Updated
+				Nov 5, 2022
+• 
+
+				16
+			• 
+
+				2
+			
+
+Wikidepia/SB-AutoSegment
+
+
+
+			Token Classification
+			• 
+Updated
+				Dec 26, 2021
+• 
+
+				11
+			
+			
+
+amtam0/timer-ner-en
+
+
+
+			Token Classification
+			• 
+Updated
+				Nov 28, 2021
+• 
+
+				2
+			• 
+
+				1
+			
+
+amtam0/timer-ner-fr
+
+
+
+			Token Classification
+			• 
+Updated
+				Mar 3, 2022
+• 
+
+				8
+			
+			
+
+dbmdz/flair-clef-hipe-german-base
+
+
+
+			Token Classification
+			• 
+Updated
+				Apr 9, 2021
+• 
+
+				5
+			• 
+
+				1
+			
+
+dbmdz/flair-distilbert-ner-germeval14
+
+
+
+			Token Classification
+			• 
+Updated
+				Mar 2, 2021
+• 
+
+				838
+			• 
+
+				1
+			
+
+dbmdz/flair-historic-ner-lft
+
+
+
+			Token Classification
+			• 
+Updated
+				Dec 11, 2020
+• 
+
+				5
+			• 
+
+				1
+			
+
+dbmdz/flair-historic-ner-onb
+
+
+
+			Token Classification
+			• 
+Updated
+				Feb 26, 2021
+• 
+
+				9
+			• 
+
+				3
+			
+
+flair/chunk-english-fast
+
+
+
+			Token Classification
+			• 
+Updated
+				Apr 5
+• 
+
+				2.76k
+			• 
+
+				4
+			
+
+flair/chunk-english
+
+
+
+			Token Classification
+			• 
+Updated
+				Apr 5
+• 
+
+				24.7k
+			• 
+
+				15
+			
+
+flair/frame-english-fast
+
+
+
+			Token Classification
+			• 
+Updated
+				Apr 7
+• 
+
+				15
+			• 
+
+				1
+			
+
+flair/frame-english
+
+
+
+			Token Classification
+			• 
+Updated
+				Apr 7
+• 
+
+				86
+			• 
+
+				1
+			
+
+flair/ner-danish
+
+
+
+			Token Classification
+			• 
+Updated
+				Feb 26, 2021
+• 
+
+				83
+			
+			
+
+flair/ner-dutch-large
+
+
+
+			Token Classification
+			• 
+Updated
+				May 8, 2021
+• 
+
+				1.38k
+			• 
+
+				5
+			
+
+flair/ner-dutch
+
+
+
+			Token Classification
+			• 
+Updated
+				Mar 2, 2021
+• 
+
+				48
+			• 
+
+				1
+			
+
+flair/ner-english-fast
+
+
+
+			Token Classification
+			• 
+Updated
+				Feb 26, 2021
+• 
+
+				70.1k
+			• 
+
+				17
+			
+
+flair/ner-english-large
+
+
+
+			Token Classification
+			• 
+Updated
+				May 8, 2021
+• 
+
+				69k
+			• 
+
+				32
+			
+
+flair/ner-english-ontonotes-fast
+
+
+
+			Token Classification
+			• 
+Updated
+				Apr 5
+• 
+
+				63.1k
+			• 
+
+				17
+			
+
+flair/ner-english-ontonotes
+
+
+
+			Token Classification
+			• 
+Updated
+				Apr 7
+• 
+
+				200k
+			• 
+
+				16
+			
+
+flair/ner-english
+
+
+
+			Token Classification
+			• 
+Updated
+				Mar 2, 2021
+• 
+
+				635k
+			• 
+
+				22
+			
+
+flair/ner-french
+
+
+
+			Token Classification
+			• 
+Updated
+				Apr 7
+• 
+
+				17.1k
+			• 
+
+				7
+			
+
+flair/ner-german-large
+
+
+
+			Token Classification
+			• 
+Updated
+				Aug 28, 2022
+• 
+
+				24.9k
+			• 
+
+				26
+			
+
+flair/ner-german-legal
+
+
+
+			Token Classification
+			• 
+Updated
+				Feb 26, 2021
+• 
+
+				381
+			• 
+
+				12
+			
+
+flair/ner-german
+
+
+
+			Token Classification
+			• 
+Updated
+				Apr 5
+• 
+
+				148k
+			• 
+
+				15
+			
+
+flair/ner-multi-fast
+
+
+
+			Token Classification
+			• 
+Updated
+				Oct 4, 2022
+• 
+
+				649
+			• 
+
+				1
+			
+
+flair/ner-multi
+
+
+
+			Token Classification
+			• 
+Updated
+				Apr 5
+• 
+
+				1.28k
+			• 
+
+				8
+			
+
+flair/ner-spanish-large
+
+
+
+			Token Classification
+			• 
+Updated
+				May 8, 2021
+• 
+
+				7.5k
+			• 
+
+				8
+			
+
+flair/pos-english-fast
+
+
+
+			Token Classification
+			• 
+Updated
+				Mar 2, 2021
+• 
+
+				26.4k
+			• 
+
+				5
+			
+
+		Previous
+1
+2
+3
+...
+49
+
+Next
+		
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

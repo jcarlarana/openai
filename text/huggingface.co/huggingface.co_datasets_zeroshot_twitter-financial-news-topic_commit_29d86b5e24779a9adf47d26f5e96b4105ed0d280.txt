@@ -1,0 +1,1013 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Update README.md · zeroshot/twitter-financial-news-topic at 29d86b5
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Datasets:
+
+
+zeroshot
+/
+twitter-financial-news-topic
+
+
+
+like
+16
+
+Tasks:
+	
+
+Text Classification
+
+Sub-tasks:
+	
+
+multi-class-classification
+
+Languages:
+	
+
+English
+
+Multilinguality:
+	
+
+monolingual
+
+Size Categories:
+	
+
+10K<n<100K
+
+Language Creators:
+	
+
+other
+
+Annotations Creators:
+	
+
+other
+
+Source Datasets:
+	
+
+original
+
+Tags:
+	
+
+twitter
+
+finance
+
+markets
+
++ 4License:
+	
+
+
+
+mit
+
+
+
+
+
+			Dataset card
+			
+			
+		
+Files
+Files and versions
+
+			Community
+			1
+				
+
+
+
+
+Ricky Costa
+commited on
+		Sep 7, 2022
+
+Commit 
+
+29d86b5
+
+
+• 
+1
+								Parent(s):
+							
+5b4b91d
+								
+Update README.md
+
+							Browse files
+						
+
+
+
+
+Files changed (1)
+hide
+show
+
+
+
+
+
+
+ README.md
+
++3
+-24
+
+
+
+
+
+
+
+
+
+
+ README.md
+CHANGED
+
+
+    Viewed
+
+
+
+
+
+
+
+
+
+
+@@ -31,9 +31,9 @@ task_ids:
+
+
+
+      31
+    
+
+
+ 
+
+
+
+
+
+      32
+    
+
+
+ 
+### Dataset Description
+
+
+
+
+      33
+    
+
+
+ 
+
+
+
+
+
+      34
+    
+
+
+-
+The Twitter Financial News dataset is an English-language dataset containing an annotated corpus of finance-related tweets. The dataset is split into two groups:
+
+
+
+
+      35
+    
+
+
+ 
+
+
+
+
+
+      36
+    
+
+
+-
+1. Topic classification: 21,107 documents annotated with 20 labels:
+
+
+
+
+      37
+    
+
+
+ 
+
+
+
+
+
+      38
+    
+
+
+ 
+```python
+
+
+
+
+      39
+    
+
+
+ 
+topics = {
+
+
+
+
+
+@@ -60,30 +60,9 @@ topics = {
+
+
+
+      60
+    
+
+
+ 
+}
+
+
+
+
+      61
+    
+
+
+ 
+```
+
+
+
+
+      62
+    
+
+
+ 
+
+
+
+
+
+      63
+    
+
+
+-
+2. Sentiment analysis: 11,932 documents annotated with 3 labels:
+
+
+
+
+      64
+    
+
+
+-
+
+
+
+
+
+      65
+    
+
+
+-
+```python
+
+
+
+
+      66
+    
+
+
+-
+sentiments = {
+
+
+
+
+      67
+    
+
+
+-
+    "LABEL_0": "Bearish", 
+
+
+
+
+      68
+    
+
+
+-
+    "LABEL_1": "Bullish", 
+
+
+
+
+      69
+    
+
+
+-
+    "LABEL_2": "Neutral"
+
+
+
+
+      70
+    
+
+
+-
+}  
+
+
+
+
+      71
+    
+
+
+-
+```
+
+
+
+
+      72
+    
+
+
+-
+
+
+
+
+
+      73
+    
+
+
+ 
+The data was collected using the Twitter API. The current dataset supports the multi-class classification task.
+
+
+
+
+      74
+    
+
+
+ 
+
+
+
+
+
+      75
+    
+
+
+-
+### Task 1: Sentiment Analysis
+
+
+
+
+      76
+    
+
+
+-
+
+
+
+
+
+      77
+    
+
+
+-
+# Data Splits
+
+
+
+
+      78
+    
+
+
+-
+There are 2 splits: train and validation. Below are the statistics:
+
+
+
+
+      79
+    
+
+
+-
+
+
+
+
+
+      80
+    
+
+
+-
+| Dataset Split | Number of Instances in Split                |
+
+
+
+
+      81
+    
+
+
+-
+| ------------- | ------------------------------------------- |
+
+
+
+
+      82
+    
+
+
+-
+| Train         | 9,938                                       |
+
+
+
+
+      83
+    
+
+
+-
+| Validation    | 2,486                                       |
+
+
+
+
+      84
+    
+
+
+-
+
+
+
+
+
+      85
+    
+
+
+-
+
+
+
+
+
+      86
+    
+
+
+-
+### Task 2: Topic Classification
+
+
+
+
+      87
+    
+
+
+ 
+
+
+
+
+
+      88
+    
+
+
+ 
+# Data Splits
+
+
+
+
+      89
+    
+
+
+ 
+There are 2 splits: train and validation. Below are the statistics:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      31
+    
+
+
+ 
+
+
+
+
+
+      32
+    
+
+
+ 
+### Dataset Description
+
+
+
+
+      33
+    
+
+
+ 
+
+
+
+
+
+      34
+    
+
+
++
+The Twitter Financial News dataset is an English-language dataset containing an annotated corpus of finance-related tweets. This dataset is used to classify finance-related tweets for their topic.
+
+
+
+
+      35
+    
+
+
+ 
+
+
+
+
+
+      36
+    
+
+
++
+1. The dataset holds 21,107 documents annotated with 20 labels:
+
+
+
+
+      37
+    
+
+
+ 
+
+
+
+
+
+      38
+    
+
+
+ 
+```python
+
+
+
+
+      39
+    
+
+
+ 
+topics = {
+
+
+
+
+
+
+
+
+
+      60
+    
+
+
+ 
+}
+
+
+
+
+      61
+    
+
+
+ 
+```
+
+
+
+
+      62
+    
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+      63
+    
+
+
+ 
+The data was collected using the Twitter API. The current dataset supports the multi-class classification task.
+
+
+
+
+      64
+    
+
+
+ 
+
+
+
+
+
+      65
+    
+
+
++
+### Task: Topic Classification
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+      66
+    
+
+
+ 
+
+
+
+
+
+      67
+    
+
+
+ 
+# Data Splits
+
+
+
+
+      68
+    
+
+
+ 
+There are 2 splits: train and validation. Below are the statistics:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

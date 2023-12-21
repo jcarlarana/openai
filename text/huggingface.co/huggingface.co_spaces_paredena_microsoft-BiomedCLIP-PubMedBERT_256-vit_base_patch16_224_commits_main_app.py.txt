@@ -1,0 +1,141 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Commits · paredena/microsoft-BiomedCLIP-PubMedBERT_256-vit_base_patch16_224
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+
+paredena
+/
+microsoft-BiomedCLIP-PubMedBERT_256-vit_base_patch16_224
+
+
+
+like
+0
+
+			Runtime error
+			
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+			main
+		
+
+microsoft-BiomedCLIP-PubMedBERT_256-vit_base_patch16_224
+/
+app.py
+
+Commit History
+				
+
+initial commit
+bcd9a71
+
+
+
+
+paredena
+			
+commited on
+		Sep 20
+
+
+
+
+
+
+
+
+
+
+

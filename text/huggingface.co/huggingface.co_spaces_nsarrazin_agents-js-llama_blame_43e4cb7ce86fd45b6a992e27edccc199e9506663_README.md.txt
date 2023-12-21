@@ -1,0 +1,161 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+README.md · nsarrazin/agents-js-llama at 43e4cb7ce86fd45b6a992e27edccc199e9506663
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+					Duplicated from 
+					nsarrazin/agents-js-oasst
+
+
+nsarrazin
+/
+agents-js-llama
+
+
+
+like
+1
+
+			Runtime error
+			
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+			43e4cb7
+		
+
+agents-js-llama
+
+
+File size: 154 Bytes
+			
+d61fb4a
+43e4cb7
+ 
+ 
+ 
+d61fb4a
+ 
+ 
+ 
+12345678910
+---
+title: Agents.js PoC - Llama 2 70B
+emoji: 🦙
+colorFrom: blue
+colorTo: red
+sdk: docker
+app_port: 3000
+duplicated_from: nsarrazin/agents-js-oasst
+---
+
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

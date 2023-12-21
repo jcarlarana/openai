@@ -1,0 +1,150 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+autoevaluate/autoeval-eval-samsum-samsum-fda4ec-95880146523 at aedd1f66a3dd2413b46c646c1976880a737ba7ac
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Datasets:
+
+
+autoevaluate
+/
+autoeval-eval-samsum-samsum-fda4ec-95880146523
+
+
+
+like
+0
+
+Tags:
+	
+
+Trained with AutoTrain
+
+evaluation
+
+
+
+			Dataset card
+			
+			
+		
+Files
+Files and versions
+
+			Community
+			
+			
+		
+
+
+
+
+
+			aedd1f6
+		
+
+autoeval-eval-samsum-samsum-fda4ec-95880146523
+/
+default
+							
+/train
+
+
+1 contributor
+
+History:
+1 commit
+
+
+
+parquet-converter
+					
+
+Update parquet files
+aedd1f6
+2 months ago
+
+
+0000.parquet
+
+
+
+379 kB
+				
+	LFS
+
+
+
+Update parquet files
+2 months ago
+
+
+
+
+
+
+
+
+
+
+

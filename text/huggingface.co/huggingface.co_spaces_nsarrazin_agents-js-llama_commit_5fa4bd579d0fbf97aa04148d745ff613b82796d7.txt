@@ -1,0 +1,808 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+latest changes · nsarrazin/agents-js-llama at 5fa4bd5
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+					Duplicated from 
+					nsarrazin/agents-js-oasst
+
+
+nsarrazin
+/
+agents-js-llama
+
+
+
+like
+1
+
+			Runtime error
+			
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+nsarrazin
+			
+HF staff
+commited on
+		Jul 26
+
+Commit 
+
+5fa4bd5
+
+
+• 
+1
+								Parent(s):
+							
+43e4cb7
+								
+latest changes
+
+							Browse files
+						
+
+
+
+
+Files changed (3)
+hide
+show
+
+
+
+
+
+
+ src/lib/components/ApiKeyModal.svelte
+
++0
+-6
+
+
+
+
+
+
+
+ src/routes/+layout.svelte
+
++1
+-1
+
+
+
+
+
+
+
+ src/routes/+page.svelte
+
++1
+-1
+
+
+
+
+
+
+
+
+
+
+ src/lib/components/ApiKeyModal.svelte
+CHANGED
+
+
+    Viewed
+
+
+
+
+
+
+
+
+
+
+@@ -4,12 +4,6 @@
+
+
+
+      4
+    
+
+
+ 
+  import { goto } from "$app/navigation";
+
+
+
+
+      5
+    
+
+
+ 
+
+
+
+
+
+      6
+    
+
+
+ 
+  export let dialogElement: HTMLDialogElement;
+
+
+
+
+      7
+    
+
+
+-
+
+
+
+
+
+      8
+    
+
+
+-
+  onMount(() => {
+
+
+
+
+      9
+    
+
+
+-
+    if ($HF_ACCESS_TOKEN === "") {
+
+
+
+
+      10
+    
+
+
+-
+      dialogElement.showModal();
+
+
+
+
+      11
+    
+
+
+-
+    }
+
+
+
+
+      12
+    
+
+
+-
+  });
+
+
+
+
+      13
+    
+
+
+ 
+</script>
+
+
+
+
+      14
+    
+
+
+ 
+
+
+
+
+
+      15
+    
+
+
+ 
+<dialog
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      4
+    
+
+
+ 
+  import { goto } from "$app/navigation";
+
+
+
+
+      5
+    
+
+
+ 
+
+
+
+
+
+      6
+    
+
+
+ 
+  export let dialogElement: HTMLDialogElement;
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+      7
+    
+
+
+ 
+</script>
+
+
+
+
+      8
+    
+
+
+ 
+
+
+
+
+
+      9
+    
+
+
+ 
+<dialog
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ src/routes/+layout.svelte
+CHANGED
+
+
+    Viewed
+
+
+
+
+
+
+
+
+
+
+@@ -2,6 +2,6 @@
+
+
+
+      2
+    
+
+
+ 
+  import "../app.css";
+
+
+
+
+      3
+    
+
+
+ 
+</script>
+
+
+
+
+      4
+    
+
+
+ 
+
+
+
+
+
+      5
+    
+
+
+-
+<div class="p-4 max-w-xl mx-auto">
+
+
+
+
+      6
+    
+
+
+ 
+  <slot />
+
+
+
+
+      7
+    
+
+
+ 
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      2
+    
+
+
+ 
+  import "../app.css";
+
+
+
+
+      3
+    
+
+
+ 
+</script>
+
+
+
+
+      4
+    
+
+
+ 
+
+
+
+
+
+      5
+    
+
+
++
+<div class="p-4 max-w-2xl mx-auto">
+
+
+
+
+      6
+    
+
+
+ 
+  <slot />
+
+
+
+
+      7
+    
+
+
+ 
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ src/routes/+page.svelte
+CHANGED
+
+
+    Viewed
+
+
+
+
+
+
+
+
+
+
+@@ -76,7 +76,7 @@
+
+
+
+      76
+    
+
+
+ 
+
+
+
+
+
+      77
+    
+
+
+ 
+<ApiKeyModal bind:dialogElement />
+
+
+
+
+      78
+    
+
+
+ 
+
+
+
+
+
+      79
+    
+
+
+-
+<div class="flex flex-col space-y-4 max-w-xl">
+
+
+
+
+      80
+    
+
+
+ 
+  <div class="flex flex-row">
+
+
+
+
+      81
+    
+
+
+ 
+    <LogoHuggingFaceBorderless classNames="text-4xl" />
+
+
+
+
+      82
+    
+
+
+ 
+    <h1 class="text-3xl font-semibold mx-auto">Agents.js</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      76
+    
+
+
+ 
+
+
+
+
+
+      77
+    
+
+
+ 
+<ApiKeyModal bind:dialogElement />
+
+
+
+
+      78
+    
+
+
+ 
+
+
+
+
+
+      79
+    
+
+
++
+<div class="flex flex-col space-y-4 max-w-2xl">
+
+
+
+
+      80
+    
+
+
+ 
+  <div class="flex flex-row">
+
+
+
+
+      81
+    
+
+
+ 
+    <LogoHuggingFaceBorderless classNames="text-4xl" />
+
+
+
+
+      82
+    
+
+
+ 
+    <h1 class="text-3xl font-semibold mx-auto">Agents.js</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

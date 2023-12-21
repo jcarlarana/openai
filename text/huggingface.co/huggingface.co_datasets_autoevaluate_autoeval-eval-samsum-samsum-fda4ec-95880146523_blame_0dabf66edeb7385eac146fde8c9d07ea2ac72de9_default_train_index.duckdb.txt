@@ -1,0 +1,138 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+default/train/index.duckdb · autoevaluate/autoeval-eval-samsum-samsum-fda4ec-95880146523 at 0dabf66edeb7385eac146fde8c9d07ea2ac72de9
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Datasets:
+
+
+autoevaluate
+/
+autoeval-eval-samsum-samsum-fda4ec-95880146523
+
+
+
+like
+0
+
+Tags:
+	
+
+Trained with AutoTrain
+
+evaluation
+
+
+
+			Dataset card
+			
+			
+		
+Files
+Files and versions
+
+			Community
+			
+			
+		
+
+
+
+
+
+			0dabf66
+		
+
+autoeval-eval-samsum-samsum-fda4ec-95880146523
+
+
+File size: 132 Bytes
+			
+ad6e4b5
+0dabf66
+ad6e4b5
+1234
+version https://git-lfs.github.com/spec/v1
+oid sha256:828f73c26232d59b746777d68fbb6ac5775c67b4f01172278b1cd2582d130ed7
+size 1323008
+
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

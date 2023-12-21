@@ -1,0 +1,1945 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Models - Hugging Face
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Edit Models filters
+
+Tasks
+				
+Libraries
+				
+Datasets
+				
+Languages
+				1
+					
+Licenses
+				
+Other
+				
+
+
+
+
+				Reset Languages
+
+
+Achinese
+
+Afrikaans
+
+Tosk Albanian
+
+Amharic
+
+Old English (ca. 450-1100)
+
+Arabic
+
+Aragonese
+
+Egyptian Arabic
+
+Assamese
+
+Asturian
+
+Avaric
+
+Aymara
+
+South Azerbaijani
+
+Azerbaijani
+
+Bashkir
+
+Bavarian
+
+Central Bikol
+
+Belarusian
+
+Bengali
+
+Bhojpuri
+
+Banjar
+
+Tibetan
+
+Bosnian
+
+Bishnupriya
+
+Breton
+
+Bulgarian
+
+Russia Buriat
+
+Catalan
+
+Chavacano
+
+Min Dong Chinese
+
+Cebuano
+
+Czech
+
+Chechen
+
+Cherokee
+
+Chuvash
+
+Central Kurdish
+
+Cornish
+
+Corsican
+
+Crimean Tatar
+
+Kashubian
+
+Welsh
+
+Danish
+
+German
+
+Dimli (individual language)
+
+Dhivehi
+
+Lower Sorbian
+
+Dotyali
+
+Emilian
+
+Modern Greek (1453-)
+
+English
+
+Esperanto
+
+Estonian
+
+Basque
+
+Extremaduran
+
+Faroese
+
+Persian
+
+Finnish
+
+French
+
+Arpitan
+
+Western Frisian
+
+Friulian
+
+Gagauz
+
+Scottish Gaelic
+
+Irish
+
+Galician
+
+Gilaki
+
+Manx
+
+Guarani
+
+Gujarati
+
+Hakka Chinese
+
+Haitian
+
+Hausa
+
+Serbo-Croatian
+
+Hebrew
+
+Fiji Hindi
+
+Hindi
+
+Croatian
+
+Upper Sorbian
+
+Hungarian
+
+Armenian
+
+Igbo
+
+Ido
+
+Interlingue
+
+Iloko
+
+Interlingua (International Auxiliary Language Association)
+
+Indonesian
+
+Icelandic
+
+Italian
+
+Jamaican Creole English
+
+Javanese
+
+Lojban
+
+Japanese
+
+Kara-Kalpak
+
+Kabyle
+
+Kannada
+
+Georgian
+
+Kazakh
+
+Kabardian
+
+Khmer
+
+Kinyarwanda
+
+Kirghiz
+
+Komi-Permyak
+
+Konkani (macrolanguage)
+
+Komi
+
+Korean
+
+Karachay-Balkar
+
+Kölsch
+
+Kurdish
+
+Ladino
+
+Lao
+
+Latin
+
+Latvian
+
+Lezghian
+
+Ligurian
+
+Limburgan
+
+Lingala
+
+Lithuanian
+
+Lombard
+
+Northern Luri
+
+Latgalian
+
+Luxembourgish
+
+Ganda
+
+Literary Chinese
+
+Maithili
+
+Malayalam
+
+Marathi
+
+Moksha
+
+Eastern Mari
+
+Minangkabau
+
+Macedonian
+
+Malagasy
+
+Maltese
+
+Mongolian
+
+Maori
+
+Western Mari
+
+Malay (macrolanguage)
+
+multilingual
+
+Mirandese
+
+Burmese
+
+Erzya
+
+Mazanderani
+
+Min Nan Chinese
+
+Neapolitan
+
+Navajo
+
+Classical Nahuatl
+
+Low German
+
+Nepali (macrolanguage)
+
+Newari
+
+Dutch
+
+Norwegian Nynorsk
+
+Norwegian Bokmål
+
+Narom
+
+Pedi
+
+Occitan (post 1500)
+
+Livvi
+
+Oriya (macrolanguage)
+
+Oromo
+
+Ossetian
+
+Pangasinan
+
+Pampanga
+
+Panjabi
+
+Papiamento
+
+Picard
+
+Pennsylvania German
+
+Pfaelzisch
+
+Western Panjabi
+
+Polish
+
+Portuguese
+
+Pushto
+
+Quechua
+
+Romansh
+
+Romanian
+
+Rusyn
+
+Macedo-Romanian
+
+Russian
+
+Yakut
+
+Sanskrit
+
+Sicilian
+
+Scots
+
+Samogitian
+
+Sinhala
+
+Slovak
+
+Slovenian
+
+Northern Sami
+
+Shona
+
+Sindhi
+
+Somali
+
+Spanish
+
+Albanian
+
+Sardinian
+
+Sranan Tongo
+
+Serbian
+
+Saterfriesisch
+
+Sundanese
+
+Swahili (macrolanguage)
+
+Swedish
+
+Silesian
+
+Tamil
+
+Tatar
+
+Tulu
+
+Telugu
+
+Tetum
+
+Tajik
+
+Tagalog
+
+Thai
+
+Tonga (Tonga Islands)
+
+Tswana
+
+Turkmen
+
+Turkish
+
+Tuvinian
+
+Udmurt
+
+Uighur
+
+Ukrainian
+
+Urdu
+
+Uzbek
+
+Venetian
+
+Veps
+
+Vietnamese
+
+Vlaams
+
+Volapük
+
+Võro
+
+Waray (Philippines)
+
+Walloon
+
+Wolof
+
+Wu Chinese
+
+Xhosa
+
+Mingrelian
+
+Yiddish
+
+Yoruba
+
+Zeeuws
+
+Chinese
+
+
+
+Languages with no match
+			
+
+
+
+English
+
+Chinese
+
+French
+
+German
+
+Spanish
+
+Japanese
+
+Russian
+
+Korean
+
+Italian
+
+Portuguese
+
+Arabic
+
+Turkish
+
+Dutch
+
+Hindi
+
+Swedish
+
+Polish
+
+Enawené-Nawé
+
+Finnish
+
+Indonesian
+
+Vietnamese
+
+Romanian
+
+Ukrainian
+
+Thai
+
+Persian
+
+Bengali
+
+Danish
+
+Catalan
+
+Czech
+
+Tamil
+
+Greek
+
+Urdu
+
+Bulgarian
+
+Hungarian
+
+Estonian
+
+Marathi
+
+Swahili
+
+Norwegian
+
+Malayalam
+
+Telugu
+
+Gujarati
+
+Slovenian
+
+Icelandic
+
+Hebrew
+
+Malay
+
+Panjabi
+
+Kannada
+
+Galician
+
+Lithuanian
+
+Basque
+
+Slovak
+
+Nepali
+
+Serbian
+
+Mongolian
+
+Croatian
+
+Afrikaans
+
+Georgian
+
+Assamese
+
+Macedonian
+
+Welsh
+
+Amharic
+
+Belarusian
+
+Yoruba
+
+Latvian
+
+Armenian
+
+Kazakh
+
+Burmese
+
+Sinhala
+
+Hausa
+
+Tagalog
+
+Azerbaijani
+
+Khmer
+
+Somali
+
+Xhosa
+
+Albanian
+
+Uzbek
+
+Quechua
+
+Lao
+
+Sundanese
+
+Latin
+
+Pashto
+
+Shona
+
+Irish
+
+Oriya
+
+Esperanto
+
+Sindhi
+
+Maltese
+
+code
+
+Javanese
+
+Malagasy
+
+Bosnian
+
+Igbo
+
+Lingala
+
+Haitian
+
+Luxembourgish
+
+Yiddish
+
+Kyrgyz
+
+Sanskrit
+
+Zulu
+
+Norwegian Nynorsk
+
+Breton
+
+Tajik
+
+Scottish Gaelic
+
+Kinyarwanda
+
+Bashkir
+
+Occitan
+
+Chichewa
+
+Ganda
+
+Māori
+
+Western Frisian
+
+Tatar
+
+Wolof
+
+Norwegian Bokmål
+
+Faroese
+
+Tibetan
+
+Southern Sotho
+
+Kurdish
+
+Kirundi
+
+Tswana
+
+Turkmen
+
+Tsonga
+
+Fon
+
+Akan
+
+Uyghur
+
+Bambara
+
+Afar
+
+Twi
+
+Yue Chinese
+
+Divehi
+
+Hawaiian
+
+Kikuyu
+
+Samoan
+
+Oromo
+
+Tumbuka
+
+Tigrinya
+
+Ewe
+
+Guaraní
+
+Abkhaz
+
+Sango
+
+Fijian
+
+Swati
+
+Mossi
+
+jw
+
+Dzongkha
+
+Kongo
+
+Kashmiri
+
+Corsican
+
+Lushai
+
+Manipuri
+
+Chuvash
+
+Luba-Lulua
+
+Luo (Kenya and Tanzania)
+
+Bemba (Zambia)
+
+Fula
+
+Chokwe
+
+Dyula
+
+Kimbundu
+
+Shan
+
+Balinese
+
+Kachin
+
+Kabiyè
+
+Kabuverdianu
+
+Awadhi
+
+Chhattisgarhi
+
+Magahi
+
+Santali
+
+Umbundu
+
+Moroccan Arabic
+
+Ayacucho Quechua
+
+Sardinian
+
+Tok Pisin
+
+Nigerian Pidgin
+
+Limburgish
+
+Hmong
+
+Ancient Greek (to 1453)
+
+Chechen
+
+Kamba (Kenya)
+
+Aragonese
+
+Northern Kurdish
+
+North Azerbaijani
+
+Odia
+
+Tamasheq
+
+Nepali (individual language)
+
+Nuer
+
+Swahili (individual language)
+
+Central Atlas Tamazight
+
+Buginese
+
+Southwestern Dinka
+
+West Central Oromo
+
+Southern Pashto
+
+Plateau Malagasy
+
+Dari
+
+Filipino
+
+Avaric
+
+Mesopotamian Arabic
+
+Ta'izzi-Adeni Arabic
+
+Tunisian Arabic
+
+ajp
+
+Levantine Arabic
+
+Najdi Arabic
+
+Chamorro
+
+sh
+
+Central Aymara
+
+Nigerian Fulfulde
+
+Halh Mongolian
+
+Central Kanuri
+
+Standard Latvian
+
+Iranian Persian
+
+Northern Uzbek
+
+Eastern Yiddish
+
+Standard Malay
+
+Ossetian
+
+Romansh
+
+Bislama
+
+zhs
+
+zht
+
+Marshallese
+
+Aymara
+
+iw
+
+Manx
+
+Kanuri
+
+Zulu
+
+Gronings
+
+Undetermined
+
+Interlingua
+
+Avestan
+
+zle
+
+Tonga
+
+Northern Sami
+
+Walloon
+
+Komi
+
+Luba-Katanga
+
+Isoko
+
+Bambara
+
+Twi
+
+Venda
+
+Goan Konkani
+
+Seselwa Creole French
+
+Pijin
+
+Tetela
+
+Ghomálá'
+
+Ewe
+
+Zhuang
+
+Pohnpeian
+
+Gilbertese
+
+Tuvalu
+
+Cornish
+
+Hiligaynon
+
+Tiv
+
+Zande (individual language)
+
+ber
+
+Ido
+
+Hiri Motu
+
+Bodo (India)
+
+jp
+
+ns
+
+Chuukese
+
+Yapese
+
+Morisyen
+
+roa
+
+Hakha Chin
+
+Kwanyama
+
+Southern Ndebele
+
+lm
+
+Kalaallisut
+
+Basa (Cameroon)
+
+Coptic
+
+Bihari
+
+Ga
+
+Gun
+
+dk
+
+Volapük
+
+Tahitian
+
+Navajo
+
+Kalmyk
+
+Swiss German
+
+Wolaytta
+
+Efik
+
+Ainu (Japan)
+
+Brazilian Sign Language
+
+inc
+
+Piemontese
+
+Tzotzil
+
+Baoulé
+
+Rundi
+
+Lozi
+
+Niuean
+
+ud
+
+Buriat
+
+Yucateco
+
+Inuktitut
+
+Acoli
+
+Kaqchikel
+
+Wayuu
+
+Luvale
+
+Mari (Russia)
+
+Adyghe
+
+Guerrero Nahuatl
+
+Mam
+
+K'iche'
+
+Kekchí
+
+Epena
+
+Dinka
+
+Central Mazahua
+
+Ojibwe
+
+Congo Swahili
+
+cn
+
+Tonga (Zambia)
+
+Kaonde
+
+Iban
+
+Khasi
+
+Zaza
+
+Adangme
+
+Querétaro Otomi
+
+Falam Chin
+
+Romany
+
+Bikol
+
+Syriac
+
+Kumyk
+
+Paite Chin
+
+Zapotec
+
+Tày
+
+Huli
+
+Batak Toba
+
+Kuanua
+
+Eastern Huasteca Nahuatl
+
+Eastern Balochi
+
+Nzima
+
+Nande
+
+No linguistic content
+
+Dadibi
+
+Southern Altai
+
+Motu
+
+Betawi
+
+Ambulas
+
+Makhuwa-Meetto
+
+Mon
+
+Dombe
+
+Klingon
+
+Kedah Malay
+
+Matigsalug Manobo
+
+Northern Emberá
+
+Iu Mien
+
+Ngäbere
+
+Umbu-Ungu
+
+Fipa
+
+Batak Karo
+
+Bukiyip
+
+Réunion Creole French
+
+Tzeltal
+
+Uma
+
+Garifuna
+
+Krio
+
+Sena
+
+Ibibio
+
+Ditammari
+
+Eastern Bru
+
+Enga
+
+San Blas Kuna
+
+Huallaga Huánuco Quechua
+
+Tabassaran
+
+Batak Simalungun
+
+Kosraean
+
+Rawa
+
+Mutu
+
+Bulu (Cameroon)
+
+Tausug
+
+South Bolivian Quechua
+
+Makasar
+
+Mapudungun
+
+Shuar
+
+Tojolabal
+
+Termanu
+
+Guerrero Amuzgo
+
+Carpathian Romani
+
+Huastec
+
+Nias
+
+Khakas
+
+Guahibo
+
+Masai
+
+Saint Lucian Creole French
+
+Kadazan Dusun
+
+S'gaw Karen
+
+Belize Kriol English
+
+Madurese
+
+Sabah Malay
+
+Kupang Malay
+
+Lahu
+
+Imbabura Highland Quichua
+
+Eastern Maroon Creole
+
+Susu
+
+Saramaccan
+
+Chol
+
+Eastern Bolivian Guaraní
+
+Palauan
+
+Inga
+
+Popti'
+
+Gorontalo
+
+Saraiki
+
+Nyungwe
+
+Woun Meu
+
+Toraja-Sa'dan
+
+Guajajára
+
+Nogai
+
+Asháninka
+
+Teso
+
+Tandroy-Mahafaly Malagasy
+
+Sangir
+
+Rakhine
+
+Alur
+
+Eastern Tamang
+
+Chopi
+
+Caribbean Javanese
+
+Sabu
+
+Ngaju
+
+Dawro
+
+Izii
+
+Agusan Manobo
+
+Bokobaru
+
+Kituba (Democratic Republic of Congo)
+
+Tz'utujil
+
+Sunwar
+
+Western Kanjobal
+
+Bimoba
+
+Gulay
+
+Boko (Benin)
+
+Ticuna
+
+Parauk
+
+Lango (Uganda)
+
+Central Melanau
+
+Cañar Highland Quichua
+
+Nandi
+
+Akha
+
+Shipibo-Conibo
+
+Supyire Senoufo
+
+Kinaray-A
+
+Lambayeque Quechua
+
+Southern Luri
+
+Aguaruna
+
+Tswa
+
+Manggarai
+
+Gofa
+
+Garhwali
+
+Mískito
+
+Zarma
+
+Kanauji
+
+Northern Pastaza Quichua
+
+Surjapuri
+
+Rajasthani
+
+Khmu
+
+Banggai
+
+Batak Angkola
+
+Keley-I Kallahan
+
+Hassaniyya
+
+Chuj
+
+Southern Pastaza Quechua
+
+Sylheti
+
+Takestani
+
+Kok Borok
+
+Maranao
+
+Adhola
+
+Simte
+
+Serer
+
+Maasina Fulfulde
+
+Cajamarca Quechua
+
+Mewari
+
+Obolo
+
+Nimadi
+
+Nung (Viet Nam)
+
+Guyanese Creole English
+
+Awa-Cuaiquer
+
+Manado Malay
+
+Masbatenyo
+
+American Sign Language
+
+vn
+
+San Salvador Kongo
+
+Ruund
+
+ma
+
+tc
+
+Biangai
+
+Dogri (macrolanguage)
+
+in
+
+Nyanja
+
+Cree
+
+Wallisian
+
+gmq
+
+zlw
+
+gr
+
+Nasal
+
+Central Malay
+
+zls
+
+Kashmiri
+
+Muna
+
+tu
+
+sql
+
+ge
+
+po
+
+bu
+
+cz
+
+esc
+
+Nauru
+
+py
+
+Allar
+
+Lunda
+
+Nyaneka
+
+cel
+
+Old French (842-ca. 1400)
+
+Old Church Slavonic
+
+Votic
+
+Montenegrin
+
+gmw
+
+bat
+
+sp
+
+pe
+
+Dargwa
+
+Argentine Sign Language
+
+fiu
+
+Colombian Sign Language
+
+kb
+
+tp
+
+gem
+
+ine
+
+Ndonga
+
+sla
+
+Southern Sotho
+
+iir
+
+du
+
+afa
+
+cpp
+
+West Ambae
+
+Standard Moroccan Tamazight
+
+itc
+
+sem
+
+Chilean Sign Language
+
+Interlingue
+
+Kwangali
+
+urj
+
+Peruvian Sign Language
+
+Isthmus Zapotec
+
+Mexican Sign Language
+
+Finnish Sign Language
+
+Spanish Sign Language
+
+Tunzu
+
+Mandarin Chinese
+
+Fulah
+
+Multiple languages
+
+Sa
+
+jap
+
+Gan Chinese
+
+grk
+
+trk
+
+hk
+
+Tigrinya
+
+Hunsrik
+
+nah
+
+cus
+
+ger
+
+Lule Sami
+
+dra
+
+bnt
+
+Toki Pona
+
+Church Slavic
+
+aav
+
+al
+
+cpf
+
+map
+
+alv
+
+euq
+
+mkh
+
+sal
+
+Venezuelan Sign Language
+
+nic
+
+pqe
+
+phi
+
+Tetun Dili
+
+Gothic
+
+Old Russian
+
+Western Armenian
+
+qm
+
+Lingua Franca Nova
+
+Sri Lankan Creole Malay
+
+Middle High German (ca. 1050-1500)
+
+Inupiaq
+
+Herero
+
+Nuosu
+
+np
+
+ly
+
+art
+
+sami
+
+obj
+
+Classical Armenian
+
+rna
+
+kz
+
+ot
+
+Tai
+
+Maore Comorian
+
+Ngazidja Comorian
+
+Mwali Comorian
+
+Ndzwani Comorian
+
+cau
+
+Assyrian Neo-Aramaic
+
+ccs
+
+Kamwe
+
+Algerian Arabic
+
+scandinavia
+
+sit
+
+ua
+
+Hawai'i Creole English
+
+Basa-Gumna
+
+me
+
+pqw
+
+tut
+
+hn
+
+poz
+
+Venda
+
+ph
+
+Etchemin
+
+qtd
+
+Swedish Sign Language
+
+Bribri
+
+Guanano
+
+Tatuyo
+
+Tiéyaxo Bozo
+
+Huba
+
+Bisu
+
+Jarai
+
+Q'anjob'al
+
+Soninke
+
+Mamara Senoufo
+
+Sos Kundi
+
+Arammba
+
+Highland Oaxaca Chontal
+
+esp
+
+ai
+
+Southern Sami
+
+Inari Sami
+
+Skolt Sami
+
+pyt
+
+Chambri
+
+eml
+
+Northern Frisian
+
+Huichol
+
+Chiquihuitlán Mazatec
+
+Alacatlatzala Mixtec
+
+Highland Puebla Nahuatl
+
+Cacua
+
+Páez
+
+Cogui
+
+Camsá
+
+foc
+
+zhc
+
+Norwegian
+
+Baluchi
+
+Logudorese Sardinian
+
+Central Tagbanwa
+
+mo
+
+gli
+
+Ancient Hebrew
+
+qaf
+
+qpm
+
+Kela (Democratic Republic of Congo)
+
+Northern Ndebele
+
+Pāli
+
+chi
+
+
+
+				Apply filters
+			
+Models
+1
+
+
+new
+				Full-text search
+			
+
+					Edit filters
+				
+
+
+
+		Sort: 
+		Trending
+	
+		
+
+Active filters: 
+					tuk
+Clear all 
+
+
+m3hrdadfi/zabanshenas-roberta-base-mix
+
+
+
+			Text Classification
+			• 
+Updated
+				Sep 12, 2022
+• 
+
+				282
+			• 
+
+				5
+			
+
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

@@ -1,0 +1,165 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+src/app.css · nsarrazin/agents-js-llama at 785ee5600ba220203f0dac246f6d828faa576308
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+					Duplicated from 
+					nsarrazin/agents-js-oasst
+
+
+nsarrazin
+/
+agents-js-llama
+
+
+
+like
+1
+
+			Runtime error
+			
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+			785ee56
+		
+
+agents-js-llama
+/
+src
+							
+/app.css
+
+
+nsarrazin
+					
+HF staff
+
+Duplicate from nsarrazin/agents-js-oasst
+d61fb4a
+5 months ago
+
+
+							raw
+						
+							history
+						
+							blame
+						
+
+
+							No virus
+						
+58 Bytes
+
+
+
+
+@tailwind base;
+
+
+@tailwind components;
+
+
+@tailwind utilities;
+
+
+
+
+
+
+
+
+
+

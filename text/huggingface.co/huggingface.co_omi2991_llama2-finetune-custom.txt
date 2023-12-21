@@ -1,0 +1,177 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+omi2991/llama2-finetune-custom · Hugging Face
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+
+
+omi2991
+/
+llama2-finetune-custom
+
+
+
+like
+0
+
+
+Text Generation
+
+Transformers
+
+PyTorch
+
+llama
+
+Inference Endpoints
+
+text-generation-inference
+
+
+			Model card
+			
+			
+		
+Files
+Files and versions
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+			Train
+		
+
+
+
+
+
+			Deploy
+		
+
+
+
+		Use in Transformers
+
+
+
+No model card
+New: Create and edit this model card directly on the website!
+Contribute a Model Card
+							
+
+Downloads last month2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						Space using
+						omi2991/llama2-finetune-custom
+1
+💻
+omi2991/omi2991-llama2-finetune-custom
+
+
+
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

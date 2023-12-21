@@ -1,0 +1,340 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Single Sign-On (SSO)
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+
+Hub documentation
+			
+Single Sign-On (SSO)
+
+
+
+
+
+					Hub
+					
+
+
+
+Search documentation
+
+
+EN
+
+
+
+
+
+
+
+
+
+🤗 Hugging Face Hub
+
+
+Repositories
+
+
+Getting Started with Repositories
+
+
+Repository Settings
+
+
+Pull Requests & Discussions
+
+
+Notifications
+
+
+Collections
+
+
+Webhooks
+
+
+Repository size recommendations
+
+
+Next Steps
+
+
+Licenses
+
+
+Models
+
+
+The Model Hub
+
+
+Model Cards
+
+
+Gated Models
+
+
+Uploading Models
+
+
+Downloading Models
+
+
+Integrated Libraries
+
+
+Model Widgets
+
+
+Inference API docs
+
+
+Models Download Stats
+
+
+Frequently Asked Questions
+
+
+Advanced Topics
+
+
+Datasets
+
+
+Datasets Overview
+
+
+Dataset Cards
+
+
+Gated Datasets
+
+
+Uploading Datasets
+
+
+Downloading Datasets
+
+
+Integrated Libraries
+
+
+Dataset Viewer
+
+
+Datasets Download Stats
+
+
+Data files Configuration
+
+
+Spaces
+
+
+Spaces Overview
+
+
+Spaces GPU Upgrades
+
+
+Spaces Persistent Storage
+
+
+Gradio Spaces
+
+
+Streamlit Spaces
+
+
+Static HTML Spaces
+
+
+Docker Spaces
+
+
+Embed your Space
+
+
+Run Spaces with Docker
+
+
+Spaces Configuration Reference
+
+
+Sign-In with HF button
+
+
+Spaces Changelog
+
+
+Advanced Topics
+
+
+Other
+
+
+Organizations
+
+
+Billing
+
+
+Security
+
+
+User Access Tokens
+
+
+Git over SSH
+
+
+Signing Commits with GPG
+
+
+Single Sign-On (SSO)
+
+
+How to configure OIDC with Okta in the Hub
+
+
+How to configure SAML with Okta in the Hub
+
+
+How to configure SAML with Azure in the Hub
+
+
+Malware Scanning
+
+
+Pickle Scanning
+
+
+Secrets Scanning
+
+
+Moderation
+
+
+Paper Pages
+
+
+Search
+
+
+Digital Object Identifier (DOI)
+
+
+Hub API Endpoints
+
+
+Sign-In with HF
+
+
+
+
+Join the Hugging Face community
+and get access to the augmented documentation experience
+		
+
+Collaborate on models, datasets and Spaces
+				
+
+Faster examples with accelerated inference
+				
+
+Switch between documentation themes
+				
+Sign Up
+to get started
+ 
+
+
+
+
+
+
+
+
+
+   Single Sign-On (SSO) The Hugging Face Hub gives you the ability to implement mandatory Single Sign-On (SSO) for your organization. We support both SAML 2.0 and OpenID Connect (OIDC) protocols. This feature is part of the Enterprise Hub.  How does it work? When Single Sign-On is enabled, the members of your organization must authenticate through your Identity Provider (IdP) to access any content under the organization’s namespace. Public content will still be available to users who are not members of the organization. We use email addresses to identify SSO users. Make sure that your organizational email address (e.g. your company email) has been added to your user account. When users log in, they will be prompted to complete the Single Sign-On authentication flow with a banner similar to the following:   Single Sign-On only applies to your organization. Members may belong to other organizations on Hugging Face. We support role mapping: you can automatically assign roles to organization members based on attributes provided by your Identity Provider.  Supported Identity Providers You can easily integrate Hugging Face Hub with a variety of Identity Providers, such as Okta, OneLogin or Azure Active Directory (Azure AD). Hugging Face Hub can work with any OIDC-compliant or SAML Identity Provider.  How to configure OIDC/SAML provider in the Hub We have some guides available to help with configuring based on your chosen SSO provider, or to take inspiration from: How to configure OIDC with Okta in the Hub How to configure SAML with Okta in the Hub How to configure SAML with Azure in the Hub  Users Management    Session Timeout This value sets the duration of the session for members of your organization. After this time, members will be prompted to re-authenticate with your Identity Provider to access the organization’s resources. The default value is 7 days.  Role Mapping When enabled, Role Mapping allows you to dynamically assign roles to organization members based on data provided by your Identity Provider. This section allows you to define a mapping from your IdP’s user profile data from your IdP to the assigned role in Hugging Face. IdP Role Attribute Mapping A JSON path to an attribute in your user’s IdP profile data. Role Mapping A mapping from the IdP attribute value to the assigned role in the Hugging Face organization. You must map at least one admin role. If there is no match, a user will be assigned the default role for your organization. The default role can be customized in the Members section of the organization’s settings. Role synchronization is performed on login. 
+
+
+←Signing Commits with GPG
+How to configure OIDC with Okta in the Hub→
+
+Single Sign-On (SSO)
+How does it work?
+Supported Identity Providers
+How to configure OIDC/SAML provider in the Hub
+Users Management
+Session TimeoutRole Mapping
+
+
+
+
+
+
+
+
+

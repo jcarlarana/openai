@@ -1,0 +1,243 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+jeffboudier (Jeff Boudier)
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+
+
+15
+5
+86
+Jeff Boudier
+
+jeffboudier
+Follow
+
+
+Weyaxi's profile picture
+
+AdinaY's profile picture
+
+giadap's profile picture
+
+88
+					followers
+·
+113 following
+				
+
+https://huggingface.co/
+
+jeffboudier
+
+jeffboudier
+
+			AI & ML interests
+		
+Hugging Face!
+
+			Organizations
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+spaces
+2
+
+
+
+
+
+
+		Sort: 
+		Recently updated
+	
+		
+
+
+
+
+					Runtime error
+🦀
+Blip Api
+
+
+
+					Runtime error
+👁
+Emilyalsentzer-Bio ClinicalBERT
+
+
+
+models
+1
+
+
+
+
+
+
+jeffboudier/vision-transformers-spain-or-italy-fan
+
+
+
+			Image Classification
+			• 
+Updated
+				Jul 5
+• 
+
+				21
+			
+			
+
+
+datasets
+3
+
+
+
+
+
+
+		Sort: 
+		Recently updated
+	
+		
+
+
+
+jeffboudier/argilla-news-summary
+
+
+
+			Viewer
+			• 
+Updated
+				Feb 1
+
+
+jeffboudier/testing
+
+
+Updated
+				Mar 15, 2022
+
+
+jeffboudier/testing3
+
+
+Updated
+				Jan 26, 2022
+
+
+
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

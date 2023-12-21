@@ -1,0 +1,162 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+macadeliccc/Starling-LM-7B-alpha-chat · Discussions
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+
+macadeliccc
+/
+Starling-LM-7B-alpha-chat
+
+
+
+like
+7
+
+			Running
+			onzero
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			2
+				
+
+
+
+
+
+
+
+
+
+
+
+						New discussion
+					
+
+
+		New pull request
+
+Resources
+
+		PR & discussions documentation
+		Code of Conduct
+		Hub documentation
+All
+				
+Discussions
+				
+Pull requests
+				
+
+
+
+View closed (1)
+			
+
+
+						OpenChat claims to be made by  OpenAI
+
+
+#1 opened about 1 month ago
+		by
+		
+macadeliccc
+
+
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

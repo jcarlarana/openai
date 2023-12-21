@@ -1,0 +1,153 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+amused/diffusers-pipeline · Hugging Face
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+
+
+amused
+/
+diffusers-pipeline
+
+
+
+like
+0
+
+
+Diffusers
+
+Safetensors
+
+AmusedPipeline
+
+
+			Model card
+			
+			
+		
+Files
+Files and versions
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+		Use in Diffusers
+
+
+
+No model card
+New: Create and edit this model card directly on the website!
+Contribute a Model Card
+							
+
+Downloads last month157
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Unable to determine this model’s pipeline type. Check the
+				docs 
+.
+			
+
+
+
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

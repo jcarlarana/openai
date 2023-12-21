@@ -1,0 +1,142 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Commits · lethalhames/Phind-Phind-CodeLlama-34B-v2
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+
+lethalhames
+/
+Phind-Phind-CodeLlama-34B-v2
+
+
+
+like
+2
+
+
+			Running
+			
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+			5eba9e0
+		
+
+Phind-Phind-CodeLlama-34B-v2
+/
+app.py
+
+Commit History
+				
+
+initial commit
+5eba9e0
+
+
+
+
+lethalhames
+			
+commited on
+		Aug 29
+
+
+
+
+
+
+
+
+
+
+

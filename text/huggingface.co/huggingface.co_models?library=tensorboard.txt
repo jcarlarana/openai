@@ -1,0 +1,714 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Models - Hugging Face
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Edit Models filters
+
+Tasks
+				
+Libraries
+				1
+					
+Datasets
+				
+Languages
+				
+Licenses
+				
+Other
+				
+
+
+
+
+				Reset Libraries
+
+
+TensorBoard
+
+Transformers
+
+PyTorch
+
+Safetensors
+
+ONNX
+
+ML-Agents
+
+Diffusers
+
+JAX
+
+Sample Factory
+
+Flair
+google-tensorflow
+TensorFlow
+
+PEFT
+
+Keras
+
+Stable-Baselines3
+
+SpanMarker
+
+Adapter Transformers
+
+Habana
+
+allenNLP
+
+Sentence Transformers
+
+OpenCLIP
+
+ESPnet
+
+Joblib
+
+Timm
+
+Core ML
+
+Rust
+
+Transformers.js
+
+Graphcore
+
+OpenVINO
+
+pyannote.audio
+
+Fairseq
+
+GGUF
+
+TF Lite
+
+
+
+Libraries with no match
+			
+
+
+
+SetFit
+
+spaCy
+
+fastai
+
+NeMo
+
+fastText
+
+Scikit-learn
+
+speechbrain
+
+BERTopic
+
+PaddlePaddle
+
+Asteroid
+
+Stanza
+
+PaddleNLP
+
+Pythae
+
+
+
+				Apply filters
+			
+Models
+63,647
+
+
+new
+				Full-text search
+			
+
+					Edit filters
+				
+
+
+
+		Sort: 
+		Trending
+	
+		
+
+Active filters: 
+					tensorboard
+Clear all 
+
+
+venkycs/phi-2-instruct
+
+
+
+			Text Generation
+			• 
+Updated
+				6 days ago
+• 
+
+				194
+			• 
+
+				20
+			
+
+bigscience/bloom
+
+
+
+			Text Generation
+			• 
+Updated
+				Jul 28
+• 
+
+				13.2k
+			• 
+
+				4.25k
+			
+
+distil-whisper/distil-large-v2
+
+
+
+			Automatic Speech Recognition
+			• 
+Updated
+				13 days ago
+• 
+
+				83.9k
+			• 
+
+				385
+			
+
+mrm8488/distilroberta-finetuned-financial-news-sentiment-analysis
+
+
+
+			Text Classification
+			• 
+Updated
+				Mar 16
+• 
+
+				6.72M
+			• 
+
+				137
+			
+
+argilla/notus-7b-v1
+
+
+
+			Text Generation
+			• 
+Updated
+				16 days ago
+• 
+
+				4k
+			• 
+
+				86
+			
+
+Rijgersberg/GEITje-7B
+
+
+
+			Text Generation
+			• 
+Updated
+				5 days ago
+• 
+
+				66
+			• 
+
+				5
+			
+
+Rijgersberg/GEITje-7B-chat
+
+
+
+			Conversational
+			• 
+Updated
+				2 days ago
+• 
+
+				203
+			• 
+
+				5
+			
+
+bigscience/bloomz
+
+
+
+			Text Generation
+			• 
+Updated
+				May 27
+• 
+
+				1.47k
+			• 
+
+				471
+			
+
+distil-whisper/distil-small.en
+
+
+
+			Automatic Speech Recognition
+			• 
+Updated
+				9 days ago
+• 
+
+				2.47k
+			• 
+
+				53
+			
+
+PygmalionAI/pygmalion-6b
+
+
+
+			Conversational
+			• 
+Updated
+				Jan 13
+• 
+
+				10.6k
+			• 
+
+				711
+			
+
+alignment-handbook/zephyr-7b-sft-full
+
+
+
+			Text Generation
+			• 
+Updated
+				Nov 10
+• 
+
+				4.14k
+			• 
+
+				7
+			
+
+amphion/singing_voice_conversion
+
+
+Updated
+				about 2 hours ago
+• 
+
+				3
+			
+
+clibrain/mamba-2.8b-chat-no_robots
+
+
+
+			Text Generation
+			• 
+Updated
+				7 days ago
+• 
+
+				48
+			• 
+
+				7
+			
+
+Rijgersberg/GEITje-7B-chat-v2
+
+
+
+			Conversational
+			• 
+Updated
+				2 days ago
+• 
+
+				75
+			• 
+
+				3
+			
+
+oliverguhr/spelling-correction-english-base
+
+
+
+			Text2Text Generation
+			• 
+Updated
+				3 days ago
+• 
+
+				7.1k
+			• 
+
+				43
+			
+
+rizvandwiki/gender-classification-2
+
+
+
+			Image Classification
+			• 
+Updated
+				May 18
+• 
+
+				2.77k
+			• 
+
+				19
+			
+
+mrm8488/bart-legal-base-es
+
+
+
+			Text2Text Generation
+			• 
+Updated
+				Mar 24
+• 
+
+				211
+			• 
+
+				10
+			
+
+hearmeneigh/sd21-e621-rising-v2
+
+
+
+			Text-to-Image
+			• 
+Updated
+				Nov 2
+• 
+
+				2.6k
+			• 
+
+				26
+			
+
+foduucom/stockmarket-pattern-detection-yolov8
+
+
+
+			Object Detection
+			• 
+Updated
+				Sep 11
+• 
+
+				11.4k
+			• 
+
+				56
+			
+
+DunnBC22/opus-mt-zh-en-Chinese_to_English
+
+
+
+			Translation
+			• 
+Updated
+				Aug 23
+• 
+
+				12.7k
+			• 
+
+				5
+			
+
+distil-whisper/distil-medium.en
+
+
+
+			Automatic Speech Recognition
+			• 
+Updated
+				13 days ago
+• 
+
+				374k
+			• 
+
+				79
+			
+
+alignment-handbook/zephyr-7b-dpo-lora
+
+
+
+			Text Generation
+			• 
+Updated
+				Nov 12
+• 
+
+				43
+			• 
+
+				5
+			
+
+tonyassi/fashion-clothing-decade
+
+
+
+			Image Classification
+			• 
+Updated
+				8 days ago
+• 
+
+				59
+			• 
+
+				4
+			
+
+ilsilfverskiold/tech-keywords-extractor
+
+
+
+			Text2Text Generation
+			• 
+Updated
+				22 days ago
+• 
+
+				663
+			• 
+
+				3
+			
+
+ce-lery/japanese-mistral-300m-instruction
+
+
+
+			Text Generation
+			• 
+Updated
+				10 days ago
+• 
+
+				11
+			• 
+
+				2
+			
+
+Rijgersberg/Mistral-7B-v0.1-chat-nl
+
+
+
+			Conversational
+			• 
+Updated
+				6 days ago
+• 
+
+				2
+			• 
+
+				2
+			
+
+Babelscape/wikineural-multilingual-ner
+
+
+
+			Token Classification
+			• 
+Updated
+				May 23
+• 
+
+				198k
+			• 
+
+				60
+			
+
+Kevincp560/bart-large-cnn-finetuned-pubmed
+
+
+
+			Text2Text Generation
+			• 
+Updated
+				Feb 28, 2022
+• 
+
+				24
+			• 
+
+				2
+			
+
+Narrativaai/fake-news-detection-spanish
+
+
+
+			Text Classification
+			• 
+Updated
+				Oct 28, 2021
+• 
+
+				396
+			• 
+
+				10
+			
+
+ajrae/bert-base-uncased-finetuned-mrpc
+
+
+
+			Text Classification
+			• 
+Updated
+				Feb 21, 2022
+• 
+
+				3
+			• 
+
+				1
+			
+
+		Previous
+1
+2
+3
+...
+2,122
+
+Next
+		
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

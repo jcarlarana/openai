@@ -1,0 +1,162 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+autoevaluate/autoeval-eval-samsum-samsum-fda4ec-95880146523 at 0dabf66edeb7385eac146fde8c9d07ea2ac72de9
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Datasets:
+
+
+autoevaluate
+/
+autoeval-eval-samsum-samsum-fda4ec-95880146523
+
+
+
+like
+0
+
+Tags:
+	
+
+Trained with AutoTrain
+
+evaluation
+
+
+
+			Dataset card
+			
+			
+		
+Files
+Files and versions
+
+			Community
+			
+			
+		
+
+
+
+
+
+			0dabf66
+		
+
+autoeval-eval-samsum-samsum-fda4ec-95880146523
+/
+default
+							
+/train
+
+
+1 contributor
+
+History:
+3 commits
+
+
+
+parquet-converter
+					
+
+Update duckdb index files
+0dabf66
+about 1 month ago
+
+
+0000.parquet
+
+
+
+379 kB
+				
+	LFS
+
+
+
+Update parquet files
+2 months ago
+
+
+index.duckdb
+
+1.32 MB
+				
+	LFS
+
+
+
+Update duckdb index files
+about 1 month ago
+
+
+
+
+
+
+
+
+
+
+

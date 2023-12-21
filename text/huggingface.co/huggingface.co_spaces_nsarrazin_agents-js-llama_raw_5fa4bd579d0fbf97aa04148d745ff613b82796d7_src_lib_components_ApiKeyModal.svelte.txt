@@ -1,0 +1,24 @@
+
+ {
+    localStorage.setItem("HF_ACCESS_TOKEN", $HF_ACCESS_TOKEN);
+    goto("/");
+  }}
+>
+  
+
+
+
+HuggingFace API Token
+
+
+          You can optionally input your HF API token here. This will improve
+          rate limits in the demo. Get your token here.
+        
+
+
+
+
+Close
+
+
+

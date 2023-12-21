@@ -1,0 +1,158 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+default/train/index.duckdb · autoevaluate/autoeval-eval-samsum-samsum-fda4ec-95880146523 at 0dabf66edeb7385eac146fde8c9d07ea2ac72de9
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Datasets:
+
+
+autoevaluate
+/
+autoeval-eval-samsum-samsum-fda4ec-95880146523
+
+
+
+like
+0
+
+Tags:
+	
+
+Trained with AutoTrain
+
+evaluation
+
+
+
+			Dataset card
+			
+			
+		
+Files
+Files and versions
+
+			Community
+			
+			
+		
+
+
+
+
+
+			0dabf66
+		
+
+autoeval-eval-samsum-samsum-fda4ec-95880146523
+/
+default
+							
+/train
+							
+/index.duckdb
+
+
+parquet-converter
+					
+
+Update duckdb index files
+0dabf66
+about 1 month ago
+
+
+							download
+						
+							history
+						
+							blame
+						
+1.32 MB
+
+This file is stored with
+							Git LFS
+							. It is too big to display, but you can still
+							download
+							it.
+						
+Git LFS Details
+SHA256:
+								828f73c26232d59b746777d68fbb6ac5775c67b4f01172278b1cd2582d130ed7
+Pointer size:
+								132 Bytes
+Size of remote file:
+								1.32 MB
+
+								Raw pointer file
+							
+Git Large File Storage (LFS) replaces large files with text pointers inside Git, while storing the file
+							contents on a remote server.
+							More info.
+						
+
+
+
+
+
+
+
+

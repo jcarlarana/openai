@@ -1,0 +1,440 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+open-source-metrics (Hugging Face OSS Metrics)
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+
+Hugging Face OSS Metrics
+
+
+
+
+ Request to join this org
+				
+
+
+				AI & ML interests
+			
+None defined yet.
+
+Team members
+		32
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Collections
+1
+
+
+
+GitHub Repository Statistics
+
+
+
+
+
+
+10
+📊
+Repository statistics
+
+
+
+
+
+open-source-metrics/pip
+
+
+
+			Viewer
+			• 
+Updated
+				29 days ago
+• 
+
+				20
+			
+			
+
+
+
+
+open-source-metrics/pip-external
+
+
+
+			Viewer
+			• 
+Updated
+				29 days ago
+• 
+
+				44
+			
+			
+
+
+
+
+open-source-metrics/preprocessed_pip
+
+
+
+			Viewer
+			• 
+Updated
+				28 days ago
+• 
+
+				22
+			
+			
+
+
+
+
+
+spaces
+5
+
+
+
+
+
+
+		Sort: 
+		Recently updated
+	
+		
+
+
+
+
+
+10
+📊
+Repository statistics
+
+
+
+
+3
+🌖
+Dependents History
+
+
+
+					Sleeping
+
+3
+🌖
+Audio Stats
+
+
+			Running
+			oncpu upgrade
+
+
+
+18
+👀
+Models Explorer
+
+
+
+					Sleeping
+
+2
+🦀
+Transformers Checkpoints
+
+
+
+
+models
+
+
+
+None public yet
+
+
+datasets
+55
+
+
+
+
+
+
+		Sort: 
+		Recently updated
+	
+		
+
+
+
+open-source-metrics/transformers-dependents
+
+
+
+			Viewer
+			• 
+Updated
+				17 days ago
+• 
+
+				15
+			• 
+
+				2
+			
+
+open-source-metrics/diffusers-dependents
+
+
+
+			Viewer
+			• 
+Updated
+				17 days ago
+• 
+
+				12
+			
+			
+
+open-source-metrics/tokenizers-dependents
+
+
+
+			Viewer
+			• 
+Updated
+				17 days ago
+• 
+
+				12
+			
+			
+
+open-source-metrics/gradio-dependents
+
+
+
+			Viewer
+			• 
+Updated
+				17 days ago
+• 
+
+				7
+			
+			
+
+open-source-metrics/pytorch-image-models-dependents
+
+
+
+			Preview
+			• 
+Updated
+				17 days ago
+• 
+
+				5
+			• 
+
+				1
+			
+
+open-source-metrics/optimum-dependents
+
+
+
+			Viewer
+			• 
+Updated
+				17 days ago
+• 
+
+				12
+			
+			
+
+open-source-metrics/datasets-dependents
+
+
+
+			Viewer
+			• 
+Updated
+				17 days ago
+• 
+
+				12
+			
+			
+
+open-source-metrics/accelerate-dependents
+
+
+
+			Viewer
+			• 
+Updated
+				17 days ago
+• 
+
+				12
+			• 
+
+				1
+			
+
+open-source-metrics/evaluate-dependents
+
+
+
+			Viewer
+			• 
+Updated
+				17 days ago
+• 
+
+				12
+			
+			
+
+open-source-metrics/hub-docs-dependents
+
+
+
+			Preview
+			• 
+Updated
+				17 days ago
+• 
+
+				3
+			
+			
+
+
+							Expand 55
+							datasets
+
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

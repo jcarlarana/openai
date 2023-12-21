@@ -1,0 +1,402 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+facebook/fasttext-language-identification · Hugging Face
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+
+
+facebook
+/
+fasttext-language-identification
+
+
+
+like
+70
+
+
+Text Classification
+
+fastText
+
+language-identification
+
+
+
+
+arxiv:
+1607.04606
+
+
+
+
+
+
+arxiv:
+1802.06893
+
+
+
+
+
+
+arxiv:
+1607.01759
+
+
+
+
+
+
+arxiv:
+1612.03651
+
+
+
+
+
+License: 
+cc-by-nc-4.0
+
+
+
+
+			Model card
+			
+			
+		
+Files
+Files and versions
+
+			Community
+			7
+				
+
+
+
+
+
+
+
+
+
+
+			Deploy
+		
+
+
+
+		Use in fastText
+
+
+
+
+						Edit model card
+					
+
+
+
+
+fastText (Language Identification)
+Model description
+
+Intended uses & limitations
+How to use
+Limitations and bias
+
+Training data
+
+Training procedure
+Tokenization
+License
+Evaluation datasets
+BibTeX entry and citation info
+
+
+
+
+
+
+
+
+
+		fastText (Language Identification)
+	
+
+fastText is an open-source, free, lightweight library that allows users to learn text representations and text classifiers. It works on standard, generic hardware. Models can later be reduced in size to even fit on mobile devices. It was introduced in this paper. The official website can be found here.
+This LID (Language IDentification) model is used to predict the language of the input text, and the hosted version (lid218e) was released as part of the NLLB project and can detect 217 languages. You can find older versions (ones that can identify 157 languages) on the official fastText website.
+
+
+
+
+
+		Model description
+	
+
+fastText is a library for efficient learning of word representations and sentence classification. fastText is designed to be simple to use for developers, domain experts, and students. It's dedicated to text classification and learning word representations, and was designed to allow for quick model iteration and refinement without specialized hardware. fastText models can be trained on more than a billion words on any multicore CPU in less than a few minutes.
+It includes pre-trained models learned on Wikipedia and in over 157 different languages. fastText can be used as a command line, linked to a C++ application, or used as a library for use cases from experimentation and prototyping to production.
+
+
+
+
+
+		Intended uses & limitations
+	
+
+You can use pre-trained word vectors for text classification or language identification. See the tutorials and resources on its official website to look for tasks that interest you.
+
+
+
+
+
+		How to use
+	
+
+Here is how to use this model to detect the language of a given text:
+>>> import fasttext
+>>> from huggingface_hub import hf_hub_download
+
+>>> model_path = hf_hub_download(repo_id="facebook/fasttext-language-identification", filename="model.bin")
+>>> model = fasttext.load_model(model_path)
+>>> model.predict("Hello, world!")
+
+(('__label__eng_Latn',), array([0.81148803]))
+
+>>> model.predict("Hello, world!", k=5)
+
+(('__label__eng_Latn', '__label__vie_Latn', '__label__nld_Latn', '__label__pol_Latn', '__label__deu_Latn'), 
+ array([0.61224753, 0.21323682, 0.09696738, 0.01359863, 0.01319415]))
+
+
+
+
+
+
+		Limitations and bias
+	
+
+Even if the training data used for this model could be characterized as fairly neutral, this model can have biased predictions. 
+Cosine similarity can be used to measure the similarity between two different word vectors. If two two vectors are identical, the cosine similarity will be 1. For two completely unrelated vectors, the value will be 0. If two vectors have an opposite relationship, the value will be -1.
+>>> import numpy as np
+
+>>> def cosine_similarity(word1, word2):
+>>>     return np.dot(model[word1], model[word2]) / (np.linalg.norm(model[word1]) * np.linalg.norm(model[word2]))
+
+>>> cosine_similarity("man", "boy")
+
+0.061653383
+
+>>> cosine_similarity("man", "ceo")
+
+0.11989131
+
+>>> cosine_similarity("woman", "ceo")
+
+-0.08834904
+
+
+
+
+
+
+		Training data
+	
+
+Pre-trained word vectors for 157 languages were trained on Common Crawl and Wikipedia using fastText. These models were trained using CBOW with position-weights, in dimension 300, with character n-grams of length 5, a window of size 5 and 10 negatives. We also distribute three new word analogy datasets, for French, Hindi and Polish.
+
+
+
+
+
+		Training procedure
+	
+
+
+
+
+
+
+		Tokenization
+	
+
+We used the Stanford word segmenter for Chinese, Mecab for Japanese and UETsegmenter for Vietnamese. For languages using the Latin, Cyrillic, Hebrew or Greek scripts, we used the tokenizer from the Europarl preprocessing tools. For the remaining languages, we used the ICU tokenizer.
+More information about the training of these models can be found in the article Learning Word Vectors for 157 Languages.
+
+
+
+
+
+		License
+	
+
+The language identification model is distributed under the Creative Commons Attribution-NonCommercial 4.0 International Public License.
+
+
+
+
+
+		Evaluation datasets
+	
+
+The analogy evaluation datasets described in the paper are available here: French, Hindi, Polish.
+
+
+
+
+
+		BibTeX entry and citation info
+	
+
+Please cite [1] if using this code for learning word representations or [2] if using for text classification.
+[1] P. Bojanowski*, E. Grave*, A. Joulin, T. Mikolov, Enriching Word Vectors with Subword Information
+@article{bojanowski2016enriching,
+  title={Enriching Word Vectors with Subword Information},
+  author={Bojanowski, Piotr and Grave, Edouard and Joulin, Armand and Mikolov, Tomas},
+  journal={arXiv preprint arXiv:1607.04606},
+  year={2016}
+}
+
+[2] A. Joulin, E. Grave, P. Bojanowski, T. Mikolov, Bag of Tricks for Efficient Text Classification
+@article{joulin2016bag,
+  title={Bag of Tricks for Efficient Text Classification},
+  author={Joulin, Armand and Grave, Edouard and Bojanowski, Piotr and Mikolov, Tomas},
+  journal={arXiv preprint arXiv:1607.01759},
+  year={2016}
+}
+
+[3] A. Joulin, E. Grave, P. Bojanowski, M. Douze, H. Jégou, T. Mikolov, FastText.zip: Compressing text classification models
+@article{joulin2016fasttext,
+  title={FastText.zip: Compressing text classification models},
+  author={Joulin, Armand and Grave, Edouard and Bojanowski, Piotr and Douze, Matthijs and J{'e}gou, H{'e}rve and Mikolov, Tomas},
+  journal={arXiv preprint arXiv:1612.03651},
+  year={2016}
+}
+
+If you use these word vectors, please cite the following paper:
+[4] E. Grave*, P. Bojanowski*, P. Gupta, A. Joulin, T. Mikolov, Learning Word Vectors for 157 Languages
+@inproceedings{grave2018learning,
+  title={Learning Word Vectors for 157 Languages},
+  author={Grave, Edouard and Bojanowski, Piotr and Gupta, Prakhar and Joulin, Armand and Mikolov, Tomas},
+  booktitle={Proceedings of the International Conference on Language Resources and Evaluation (LREC 2018)},
+  year={2018}
+}
+
+(* These authors contributed equally.)
+
+
+Downloads last month0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						Spaces using
+						facebook/fasttext-language-identification
+9
+🍋
+kargaranamir/LangID-LIME🏃
+dperales/ITACA_Insurance_Core_v4💯
+danielperales/ITACA_Insurace_NLP_v2🦀
+Chuanming/facebook-fasttext-language-identification🐠
+grabsky/facebook-fasttext-language-identification👁
+anzorq/lid🌍
+SANCTVM/facebook-fasttext-language-identification👀🌍
+futranbg/language_classiy📐
+kargaranamir/language-identification
++ 4 Spaces
+				
+
+
+
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

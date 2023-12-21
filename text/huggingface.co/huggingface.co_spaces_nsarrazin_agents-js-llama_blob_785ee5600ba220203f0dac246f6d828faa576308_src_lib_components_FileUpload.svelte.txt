@@ -1,0 +1,245 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+src/lib/components/FileUpload.svelte · nsarrazin/agents-js-llama at 785ee5600ba220203f0dac246f6d828faa576308
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+					Duplicated from 
+					nsarrazin/agents-js-oasst
+
+
+nsarrazin
+/
+agents-js-llama
+
+
+
+like
+1
+
+			Runtime error
+			
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+			785ee56
+		
+
+agents-js-llama
+/
+src
+							
+/lib
+							
+/components
+							
+/FileUpload.svelte
+
+
+nsarrazin
+					
+HF staff
+
+Duplicate from nsarrazin/agents-js-oasst
+d61fb4a
+5 months ago
+
+
+							raw
+						
+							history
+						
+							blame
+						
+
+
+							No virus
+						
+725 Bytes
+
+
+
+
+<script lang="ts">
+
+
+ export let files: FileList | null = null;
+
+
+</script>
+
+
+
+
+
+
+<div class="grid grid-cols-2 gap-5">
+
+
+ <div class="form-control">
+
+
+ <label class="label">
+
+
+ <span class="label-text">
+
+
+ {#if files && files.length > 0}
+
+
+ {files[0].type.split("/")[0]} detected
+
+
+ <button class="btn-sm btn btn-ghost" on:click={() => (files = null)}
+
+
+            >clear
+
+
+ </button>
+
+
+ {:else}
+
+
+          Upload a file (image or audio)
+
+
+ {/if}
+
+
+ </span>
+
+
+ </label>
+
+
+ <input
+
+
+ type="file"
+
+
+ bind:files
+
+
+ accept="audio/*, image/*"
+
+
+ class="mt-auto file-input file-input-bordered max-w-xs"
+
+
+ class:file-input-primary={files && files.length > 0}
+
+
+    />
+
+
+ </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+

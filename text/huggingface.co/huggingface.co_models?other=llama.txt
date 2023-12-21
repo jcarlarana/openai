@@ -1,0 +1,629 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Models - Hugging Face
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Edit Models filters
+
+Tasks
+				
+Libraries
+				
+Datasets
+				
+Languages
+				
+Licenses
+				
+Other
+				1
+					
+
+
+
+
+				Reset Other
+
+
+llama
+
+text-generation-inference
+
+AutoTrain Compatible
+
+Inference Endpoints
+
+Has a Space
+
+4-bit precision
+
+custom_code
+
+Eval Results
+
+8-bit precision
+
+Carbon Emissions
+
+
+
+
+				Apply filters
+			
+Models
+15,401
+
+
+new
+				Full-text search
+			
+
+					Edit filters
+				
+
+
+
+		Sort: 
+		Trending
+	
+		
+
+Active filters: 
+					llama
+Clear all 
+
+
+upstage/SOLAR-10.7B-Instruct-v1.0
+
+
+
+			Text Generation
+			• 
+Updated
+				3 days ago
+• 
+
+				5.18k
+			• 
+
+				277
+			
+
+meta-llama/Llama-2-7b-chat-hf
+
+
+
+			Text Generation
+			• 
+Updated
+				Nov 13
+• 
+
+				771k
+			• 
+
+				2.21k
+			
+
+upstage/SOLAR-10.7B-v1.0
+
+
+
+			Text Generation
+			• 
+Updated
+				7 days ago
+• 
+
+				2.03k
+			• 
+
+				78
+			
+
+whiterabbitneo/WhiteRabbitNeo-13B
+
+
+
+			Text Generation
+			• 
+Updated
+				about 23 hours ago
+• 
+
+				37
+			• 
+
+				51
+			
+
+meta-llama/Llama-2-7b
+
+
+
+			Text Generation
+			• 
+Updated
+				Nov 13
+• 
+
+				3.19k
+			
+
+sarvamai/OpenHathi-7B-Hi-v0.1-Base
+
+
+
+			Text Generation
+			• 
+Updated
+				1 day ago
+• 
+
+				1.18k
+			• 
+
+				33
+			
+
+Nexusflow/NexusRaven-V2-13B
+
+
+
+			Text Generation
+			• 
+Updated
+				9 days ago
+• 
+
+				3.23k
+			• 
+
+				252
+			
+
+meta-llama/Llama-2-70b-chat-hf
+
+
+
+			Text Generation
+			• 
+Updated
+				Nov 13
+• 
+
+				261k
+			• 
+
+				1.79k
+			
+
+meta-llama/Llama-2-7b-hf
+
+
+
+			Text Generation
+			• 
+Updated
+				Nov 13
+• 
+
+				476k
+			• 
+
+				934
+			
+
+tokyotech-llm/Swallow-70b-instruct-hf
+
+
+
+			Text Generation
+			• 
+Updated
+				2 days ago
+• 
+
+				101
+			• 
+
+				18
+			
+
+ehartford/WizardLM-13B-Uncensored
+
+
+
+			Text Generation
+			• 
+Updated
+				May 12
+• 
+
+				1.99k
+			• 
+
+				465
+			
+
+kroonen/phi-2-GGUF
+
+
+Updated
+				2 days ago
+• 
+
+				16
+			
+
+LLM360/Amber
+
+
+
+			Text Generation
+			• 
+Updated
+				2 days ago
+• 
+
+				445
+			• 
+
+				45
+			
+
+meta-llama/Llama-2-13b-chat-hf
+
+
+
+			Text Generation
+			• 
+Updated
+				Nov 13
+• 
+
+				343k
+			• 
+
+				751
+			
+
+microsoft/Orca-2-13b
+
+
+
+			Text Generation
+			• 
+Updated
+				28 days ago
+• 
+
+				25.1k
+			• 
+
+				576
+			
+
+01-ai/Yi-34B-Chat
+
+
+
+			Text Generation
+			• 
+Updated
+				3 days ago
+• 
+
+				25.2k
+			• 
+
+				161
+			
+
+ise-uiuc/Magicoder-S-DS-6.7B
+
+
+
+			Text Generation
+			• 
+Updated
+				6 days ago
+• 
+
+				1.96k
+			• 
+
+				110
+			
+
+meta-llama/Llama-2-70b
+
+
+
+			Text Generation
+			• 
+Updated
+				Nov 13
+• 
+
+				350
+			
+
+kaist-ai/prometheus-13b-v1.0
+
+
+
+			Text2Text Generation
+			• 
+Updated
+				Oct 14
+• 
+
+				5.86k
+			• 
+
+				73
+			
+
+SUSTech/SUS-Chat-34B
+
+
+
+			Text Generation
+			• 
+Updated
+				12 days ago
+• 
+
+				2.95k
+			• 
+
+				78
+			
+
+meta-llama/LlamaGuard-7b
+
+
+
+			Text Generation
+			• 
+Updated
+				10 days ago
+• 
+
+				2.42k
+			• 
+
+				75
+			
+
+mlx-community/Llama-2-7b-chat-mlx
+
+
+
+			Text Generation
+			• 
+Updated
+				about 9 hours ago
+• 
+
+				74
+			
+
+Phind/Phind-CodeLlama-34B-v2
+
+
+
+			Text Generation
+			• 
+Updated
+				Aug 28
+• 
+
+				16.8k
+			• 
+
+				606
+			
+
+tokyotech-llm/Swallow-7b-instruct-hf
+
+
+
+			Text Generation
+			• 
+Updated
+				2 days ago
+• 
+
+				260
+			• 
+
+				11
+			
+
+ehartford/WizardLM-7B-Uncensored
+
+
+
+			Text Generation
+			• 
+Updated
+				May 12
+• 
+
+				2.03k
+			• 
+
+				365
+			
+
+TheBloke/Llama-2-7B-Chat-GGUF
+
+
+
+			Text Generation
+			• 
+Updated
+				Oct 14
+• 
+
+				3.02k
+			• 
+
+				194
+			
+
+TinyLlama/TinyLlama-1.1B-intermediate-step-1195k-token-2.5T
+
+
+
+			Text Generation
+			• 
+Updated
+				10 days ago
+• 
+
+				6.42k
+			• 
+
+				29
+			
+
+TheBloke/Wizard-Vicuna-30B-Uncensored-GPTQ
+
+
+
+			Text Generation
+			• 
+Updated
+				Sep 27
+• 
+
+				13k
+			• 
+
+				467
+			
+
+TheBloke/Llama-2-7B-Chat-GPTQ
+
+
+
+			Text Generation
+			• 
+Updated
+				Sep 27
+• 
+
+				388k
+			• 
+
+				200
+			
+
+TinyLlama/TinyLlama-1.1B-Chat-v0.6
+
+
+
+			Text Generation
+			• 
+Updated
+				about 1 month ago
+• 
+
+				18.9k
+			• 
+
+				34
+			
+
+		Previous
+1
+2
+3
+...
+514
+
+Next
+		
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

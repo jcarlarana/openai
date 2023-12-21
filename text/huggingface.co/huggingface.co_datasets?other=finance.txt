@@ -1,0 +1,590 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hugging Face – The AI community building the future.
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Edit Datasets filters
+
+Tasks
+				
+Sizes
+				
+Sub-tasks
+				
+Languages
+				
+Licenses
+				
+Other
+				1
+					
+
+
+
+
+				Reset Other
+
+
+finance
+
+code
+
+legal
+
+art
+
+biology
+
+chemistry
+
+medical
+
+music
+
+climate
+
+Trained with AutoTrain
+
+
+
+
+				Apply filters
+			
+Datasets
+183
+
+
+new
+				Full-text search
+			
+
+					Edit filters
+				
+
+
+
+		Sort: 
+		Trending
+	
+		
+
+Active filters: 
+					finance
+Clear all 
+
+
+Open-Orca/SlimOrca-Dedup
+
+
+
+			Viewer
+			• 
+Updated
+				13 days ago
+• 
+
+				4.29k
+			• 
+
+				23
+			
+
+Salesforce/summedits
+
+
+
+			Viewer
+			• 
+Updated
+				7 days ago
+• 
+
+				10
+			• 
+
+				4
+			
+
+MMMU/MMMU
+
+
+
+			Viewer
+			• 
+Updated
+				5 days ago
+• 
+
+				9k
+			• 
+
+				76
+			
+
+StephanAkkerman/stock-market-tweets-data
+
+
+
+			Viewer
+			• 
+Updated
+				3 days ago
+• 
+
+				1
+			• 
+
+				2
+			
+
+financial_phrasebank
+
+
+
+			Viewer
+			• 
+Updated
+				Jul 26
+• 
+
+				9.35k
+			• 
+
+				119
+			
+
+nickmuchi/financial-classification
+
+
+
+			Viewer
+			• 
+Updated
+				Jan 27
+• 
+
+				68
+			• 
+
+				8
+			
+
+mohammadtaghizadeh/Dollar_Rial_Price_Dataset
+
+
+
+			Viewer
+			• 
+Updated
+				Jul 7
+• 
+
+				4
+			• 
+
+				1
+			
+
+TrainingDataPro/ocr-text-detection-in-the-documents
+
+
+
+			Viewer
+			• 
+Updated
+				Sep 14
+• 
+
+				2
+			• 
+
+				2
+			
+
+Duxiaoman-DI/FinCorpus
+
+
+
+			Viewer
+			• 
+Updated
+				Sep 22
+• 
+
+				13
+			• 
+
+				30
+			
+
+IceMasterT/BTC-Data-Daily-2014-2023
+
+
+
+			Viewer
+			• 
+Updated
+				Sep 29
+• 
+
+				2
+			
+
+TimKoornstra/financial-tweets-sentiment
+
+
+
+			Viewer
+			• 
+Updated
+				about 17 hours ago
+• 
+
+				131
+			• 
+
+				2
+			
+
+zeroshot/twitter-financial-news-sentiment
+
+
+
+			Viewer
+			• 
+Updated
+				Dec 12, 2022
+• 
+
+				2.5k
+			• 
+
+				43
+			
+
+zeroshot/twitter-financial-news-topic
+
+
+
+			Viewer
+			• 
+Updated
+				Dec 4, 2022
+• 
+
+				331
+			• 
+
+				16
+			
+
+eloukas/edgar-corpus
+
+
+
+			Viewer
+			• 
+Updated
+				Jul 14
+• 
+
+				1.01k
+			• 
+
+				17
+			
+
+amphora/korfin-asc
+
+
+
+			Viewer
+			• 
+Updated
+				Jan 16
+• 
+
+				2
+			• 
+
+				1
+			
+
+nickmuchi/financial-text-combo-classification
+
+
+
+			Viewer
+			• 
+Updated
+				Jan 27
+• 
+
+				4
+			• 
+
+				5
+			
+
+nguha/legalbench
+
+
+
+			Viewer
+			• 
+Updated
+				Oct 18
+• 
+
+				21.4k
+			• 
+
+				29
+			
+
+Zexuan/soc_data
+
+
+
+			Viewer
+			• 
+Updated
+				Apr 10
+• 
+
+				1
+			
+
+fimu-docproc-research/CIVQA-TesseractOCR
+
+
+
+			Viewer
+			• 
+Updated
+				29 days ago
+• 
+
+				2
+			
+			
+
+CNXT/autotrain-data-chatx
+
+
+Updated
+				May 31
+• 
+
+				1
+			• 
+
+				1
+			
+
+Jornt/calculations
+
+
+Updated
+				Apr 7
+• 
+
+				1
+			
+			
+
+danielpark/kmi2122-v1
+
+
+
+			Viewer
+			• 
+Updated
+				Oct 3
+• 
+
+				2
+			• 
+
+				1
+			
+
+AyoubChLin/northwind_invocies
+
+
+Updated
+				Apr 6
+• 
+
+				1
+			
+			
+
+AyoubChLin/northwind_Shipping_orders
+
+
+Updated
+				Apr 6
+• 
+
+				1
+			
+			
+
+AyoubChLin/northwind_PurchaseOrders
+
+
+Updated
+				Apr 7
+• 
+
+				2
+			• 
+
+				1
+			
+
+AyoubChLin/northwind-Stock_rapport
+
+
+Updated
+				Apr 7
+• 
+
+				2
+			
+			
+
+Lisandro2/teste
+
+
+Updated
+				Apr 7
+• 
+
+				2
+			
+			
+
+YunqiLI/test
+
+
+Updated
+				Apr 8
+• 
+
+				1
+			
+			
+
+Alejandrapulidoa/stocks
+
+
+Updated
+				Apr 13
+• 
+
+				1
+			
+			
+
+elenanaymova/elenanaymova
+
+
+Updated
+				Apr 17
+• 
+
+				1
+			
+			
+
+		Previous
+1
+2
+3
+...
+7
+
+Next
+		
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

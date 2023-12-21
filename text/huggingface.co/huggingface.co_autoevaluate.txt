@@ -1,0 +1,456 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+autoevaluate (Evaluation on the Hub)
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+
+Evaluation on the Hub
+
+
+
+
+
+
+
+				AI & ML interests
+			
+None defined yet.
+
+Team members
+		12
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+spaces
+3
+
+
+
+
+
+
+		Sort: 
+		Recently updated
+	
+		
+
+
+
+
+
+172
+📊
+Model Evaluator
+
+
+
+
+135
+📈
+Leaderboards
+
+
+
+					Runtime error
+
+3
+🐛
+Interactive Error Analysis
+
+
+
+
+models
+23
+
+
+
+
+
+
+		Sort: 
+		Recently updated
+	
+		
+
+
+
+autoevaluate/translation-not-evaluated
+
+
+
+			Text2Text Generation
+			• 
+Updated
+				Dec 2, 2022
+• 
+
+				1
+			
+			
+
+autoevaluate/summarization-not-evaluated
+
+
+
+			Summarization
+			• 
+Updated
+				Dec 2, 2022
+• 
+
+				2
+			
+			
+
+autoevaluate/extractive-question-answering-not-evaluated
+
+
+
+			Question Answering
+			• 
+Updated
+				Dec 2, 2022
+• 
+
+				17
+			• 
+
+				1
+			
+
+autoevaluate/multi-class-classification-not-evaluated
+
+
+
+			Text Classification
+			• 
+Updated
+				Dec 2, 2022
+• 
+
+				2
+			
+			
+
+autoevaluate/image-multi-class-classification-not-evaluated
+
+
+
+			Image Classification
+			• 
+Updated
+				Dec 2, 2022
+• 
+
+				3
+			
+			
+
+autoevaluate/natural-language-inference-not-evaluated
+
+
+
+			Text Classification
+			• 
+Updated
+				Dec 2, 2022
+• 
+
+				4
+			
+			
+
+autoevaluate/zero-shot-classification-not-evaluated
+
+
+
+			Text Generation
+			• 
+Updated
+				Dec 2, 2022
+• 
+
+				8
+			
+			
+
+autoevaluate/entity-extraction-not-evaluated
+
+
+
+			Token Classification
+			• 
+Updated
+				Dec 2, 2022
+• 
+
+				9
+			
+			
+
+autoevaluate/binary-classification
+
+
+
+			Text Classification
+			• 
+Updated
+				Dec 2, 2022
+• 
+
+				31
+			• 
+
+				2
+			
+
+autoevaluate/binary-classification-not-evaluated
+
+
+
+			Text Classification
+			• 
+Updated
+				Nov 29, 2022
+• 
+
+				3
+			
+			
+
+
+							Expand 23
+							models
+
+
+
+datasets
+3232
+
+
+
+
+
+
+		Sort: 
+		Recently updated
+	
+		
+
+
+
+autoevaluate/autoeval-eval-banking77-default-b28a77-98055146974
+
+
+
+			Viewer
+			• 
+Updated
+				Oct 29
+• 
+
+				2
+			
+			
+
+autoevaluate/autoeval-eval-adversarial_qa-adversarialQA-abccc5-96424146663
+
+
+Updated
+				Oct 20
+
+
+autoevaluate/autoeval-eval-acronym_identification-default-ecf72e-96411146660
+
+
+Updated
+				Oct 20
+• 
+
+				1
+			
+			
+
+autoevaluate/autoeval-eval-conll2003-conll2003-11847a-96327146637
+
+
+
+			Viewer
+			• 
+Updated
+				Oct 20
+• 
+
+				2
+			
+			
+
+autoevaluate/autoeval-eval-acronym_identification-default-221bb5-96318146635
+
+
+Updated
+				Oct 20
+• 
+
+				2
+			
+			
+
+autoevaluate/autoeval-eval-acronym_identification-default-0e34b7-96304146634
+
+
+Updated
+				Oct 20
+• 
+
+				1
+			
+			
+
+autoevaluate/autoeval-eval-acronym_identification-default-ab70e7-96295146633
+
+
+Updated
+				Oct 20
+• 
+
+				1
+			
+			
+
+autoevaluate/autoeval-eval-acronym_identification-default-e413c7-96238146605
+
+
+Updated
+				Oct 19
+• 
+
+				1
+			
+			
+
+autoevaluate/autoeval-eval-samsum-samsum-ec1044-95879146522
+
+
+
+			Viewer
+			• 
+Updated
+				Oct 18
+
+
+autoevaluate/autoeval-eval-samsum-samsum-fda4ec-95880146523
+
+
+
+			Viewer
+			• 
+Updated
+				Oct 18
+• 
+
+				2
+			
+			
+
+
+							Expand 3232
+							datasets
+
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

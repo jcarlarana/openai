@@ -1,0 +1,614 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Models - Hugging Face
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Edit Models filters
+
+Tasks
+				
+Libraries
+				
+Datasets
+				
+Languages
+				
+Licenses
+				
+Other
+				1
+					
+
+
+
+
+				Reset Other
+
+
+nlp
+
+AutoTrain Compatible
+
+Inference Endpoints
+
+text-generation-inference
+
+Has a Space
+
+custom_code
+
+4-bit precision
+
+Eval Results
+
+Carbon Emissions
+
+
+
+Other with no match
+			
+
+
+
+8-bit precision
+
+
+
+				Apply filters
+			
+Models
+137
+
+
+new
+				Full-text search
+			
+
+					Edit filters
+				
+
+
+
+		Sort: 
+		Trending
+	
+		
+
+Active filters: 
+					nlp
+Clear all 
+
+
+microsoft/phi-2
+
+
+
+			Text Generation
+			• 
+Updated
+				7 days ago
+• 
+
+				38.2k
+			• 
+
+				1.23k
+			
+
+TheBloke/phi-2-GGUF
+
+
+
+			Text Generation
+			• 
+Updated
+				2 days ago
+• 
+
+				21
+			• 
+
+				36
+			
+
+microsoft/phi-1_5
+
+
+
+			Text Generation
+			• 
+Updated
+				7 days ago
+• 
+
+				153k
+			• 
+
+				1.17k
+			
+
+TheBloke/phi-2-GPTQ
+
+
+
+			Text Generation
+			• 
+Updated
+				2 days ago
+• 
+
+				865
+			• 
+
+				18
+			
+
+mlx-community/phi-2
+
+
+
+			Text Generation
+			• 
+Updated
+				about 9 hours ago
+• 
+
+				16
+			
+
+LLM360/Amber
+
+
+
+			Text Generation
+			• 
+Updated
+				2 days ago
+• 
+
+				445
+			• 
+
+				45
+			
+
+Onymity/phi-2-NaturalChat
+
+
+Updated
+				4 days ago
+• 
+
+				9
+			• 
+
+				4
+			
+
+afrideva/phi-2-GGUF
+
+
+
+			Text Generation
+			• 
+Updated
+				3 days ago
+• 
+
+				4
+			
+
+LLM360/AmberChat
+
+
+
+			Text Generation
+			• 
+Updated
+				2 days ago
+• 
+
+				169
+			• 
+
+				8
+			
+
+1-800-BAD-CODE/sentence_boundary_detection_multilang
+
+
+Updated
+				May 25
+• 
+
+				30
+			• 
+
+				5
+			
+
+Fsoft-AIC/videberta-base
+
+
+
+			Token Classification
+			• 
+Updated
+				Mar 1
+• 
+
+				149
+			• 
+
+				6
+			
+
+inu-ai/dolly-japanese-gpt-1b
+
+
+
+			Conversational
+			• 
+Updated
+				Aug 1
+• 
+
+				336
+			• 
+
+				31
+			
+
+rinna/nue-asr
+
+
+
+			Automatic Speech Recognition
+			• 
+Updated
+				13 days ago
+• 
+
+				4.84k
+			• 
+
+				11
+			
+
+TheBloke/AmberChat-GGUF
+
+
+
+			Text Generation
+			• 
+Updated
+				9 days ago
+• 
+
+				3
+			• 
+
+				1
+			
+
+saihtaungkham/BurmeseRoBERTa
+
+
+
+			Fill-Mask
+			• 
+Updated
+				13 minutes ago
+• 
+
+				44
+			• 
+
+				3
+			
+
+TKDKid1000/phi-1_5-GGUF
+
+
+
+			Text Generation
+			• 
+Updated
+				2 days ago
+• 
+
+				1
+			
+
+Harveenchadha/model-entailment
+
+
+Updated
+				Feb 16, 2022
+• 
+
+				3
+			
+			
+
+NlpHUST/gpt-neo-vi-small
+
+
+
+			Text Generation
+			• 
+Updated
+				Feb 3
+• 
+
+				154
+			• 
+
+				1
+			
+
+ai4bharat/IndicBART
+
+
+
+			Text2Text Generation
+			• 
+Updated
+				Aug 7, 2022
+• 
+
+				600
+			• 
+
+				13
+			
+
+ibraheemmoosa/xlmindic-base-multiscript-soham
+
+
+
+			Text Classification
+			• 
+Updated
+				Feb 10, 2022
+• 
+
+				1
+			
+			
+
+ibraheemmoosa/xlmindic-base-multiscript
+
+
+
+			Fill-Mask
+			• 
+Updated
+				Jul 27, 2022
+
+
+ibraheemmoosa/xlmindic-base-uniscript-soham
+
+
+
+			Text Classification
+			• 
+Updated
+				Jan 12, 2022
+
+
+ibraheemmoosa/xlmindic-base-uniscript
+
+
+
+			Fill-Mask
+			• 
+Updated
+				Jul 27, 2022
+• 
+
+				3
+			• 
+
+				2
+			
+
+rinna/japanese-gpt-1b
+
+
+
+			Text Generation
+			• 
+Updated
+				Mar 22
+• 
+
+				2.89k
+			• 
+
+				91
+			
+
+rinna/japanese-gpt2-medium
+
+
+
+			Text Generation
+			• 
+Updated
+				Mar 22
+• 
+
+				4.71k
+			• 
+
+				64
+			
+
+rinna/japanese-gpt2-small
+
+
+
+			Text Generation
+			• 
+Updated
+				Mar 22
+• 
+
+				6.48k
+			• 
+
+				15
+			
+
+rinna/japanese-gpt2-xsmall
+
+
+
+			Text Generation
+			• 
+Updated
+				Jun 6
+• 
+
+				2.54k
+			• 
+
+				12
+			
+
+rinna/japanese-roberta-base
+
+
+
+			Fill-Mask
+			• 
+Updated
+				Mar 22
+• 
+
+				51.7k
+			• 
+
+				30
+			
+
+uf-aice-lab/math-roberta
+
+
+
+			Text Generation
+			• 
+Updated
+				24 days ago
+• 
+
+				48
+			• 
+
+				1
+			
+
+yohida/yoshida_gpt
+
+
+
+			Text Generation
+			• 
+Updated
+				Feb 4, 2022
+• 
+
+				6
+			
+			
+
+		Previous
+1
+2
+3
+...
+5
+
+Next
+		
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

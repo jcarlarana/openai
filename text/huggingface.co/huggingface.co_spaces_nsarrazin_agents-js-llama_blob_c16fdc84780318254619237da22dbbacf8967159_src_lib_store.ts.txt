@@ -1,0 +1,197 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+src/lib/store.ts · nsarrazin/agents-js-llama at c16fdc84780318254619237da22dbbacf8967159
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+					Duplicated from 
+					nsarrazin/agents-js-oasst
+
+
+nsarrazin
+/
+agents-js-llama
+
+
+
+like
+1
+
+			Runtime error
+			
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+			c16fdc8
+		
+
+agents-js-llama
+/
+src
+							
+/lib
+							
+/store.ts
+
+
+nsarrazin
+					
+HF staff
+
+Duplicate from nsarrazin/agents-js-oasst
+d61fb4a
+5 months ago
+
+
+							raw
+						
+							history
+						
+							blame
+						
+
+
+							No virus
+						
+313 Bytes
+
+
+
+
+import { writable } from "svelte/store";
+
+
+import { browser } from "$app/environment";
+
+
+
+
+
+
+// Set the stored value or a sane default.
+
+
+export const HF_ACCESS_TOKEN = writable(
+
+
+  (browser && localStorage.HF_ACCESS_TOKEN) || ""
+
+
+);
+
+
+
+
+
+
+if (browser) {
+
+
+ HF_ACCESS_TOKEN.subscribe((value) => (localStorage.content = value));
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

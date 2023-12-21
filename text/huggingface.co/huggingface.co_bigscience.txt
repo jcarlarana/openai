@@ -1,0 +1,621 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bigscience (BigScience Workshop)
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+
+BigScience Workshop
+
+non-profit
+
+
+https://bigscience.huggingface.co
+
+bigscienceW
+
+bigscience-workshop
+
+
+
+
+				AI & ML interests
+			
+A one-year long research workshop on large language models: the Summer of Language Models 21 🌸
+
+Team members
+		330
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
++296
++283
++262
++252
++232
+
+
+
+			Organization Card
+		
+
+				About org cards
+			
+
+
+BigScience is an open and collaborative workshop around the study and creation of very large language models gathering more than 1000 researchers around the worlds.
+You can find more information on the main website at https://bigscience.huggingface.co.
+You can also follow BigScience on Twitter at https://twitter.com/BigScienceW and follow the training of BigScience 176B model at https://twitter.com/BigScienceLLM
+
+
+
+spaces
+8
+
+
+
+
+
+
+		Sort: 
+		Recently updated
+	
+		
+
+
+
+
+
+67
+👁
+Promptsource
+
+
+
+
+69
+📖
+Bloom Book
+
+
+
+
+7
+🌸
+SourcingCatalog
+
+
+
+
+36
+🌍
+BigScienceCorpus
+
+
+
+					Runtime error
+
+18
+🚀
+Distributd-Bloom API
+
+
+
+
+39
+⚖️
+License
+
+
+
+							Expand 8
+							spaces
+
+
+
+models
+162
+
+
+
+
+
+
+		Sort: 
+		Recently updated
+	
+		
+
+
+
+bigscience/bloom-7b1
+
+
+
+			Text Generation
+			• 
+Updated
+				18 days ago
+• 
+
+				29.1k
+			• 
+
+				151
+			
+
+bigscience/mt0-base
+
+
+
+			Text2Text Generation
+			• 
+Updated
+				Sep 26
+• 
+
+				1.26k
+			• 
+
+				22
+			
+
+bigscience/mt0-small
+
+
+
+			Text2Text Generation
+			• 
+Updated
+				Sep 26
+• 
+
+				5.29k
+			• 
+
+				16
+			
+
+bigscience/mt0-large
+
+
+
+			Text2Text Generation
+			• 
+Updated
+				Sep 26
+• 
+
+				7.58k
+			• 
+
+				31
+			
+
+bigscience/bloom-560m
+
+
+
+			Text Generation
+			• 
+Updated
+				Sep 26
+• 
+
+				1.18M
+			• 
+
+				293
+			
+
+bigscience/bloom-1b1
+
+
+
+			Text Generation
+			• 
+Updated
+				Sep 26
+• 
+
+				19.1k
+			• 
+
+				47
+			
+
+bigscience/test-bloomd
+
+
+
+			Text Generation
+			• 
+Updated
+				Sep 15
+• 
+
+				4
+			
+			
+
+bigscience/bloom-7b1-petals
+
+
+
+			Text Generation
+			• 
+Updated
+				Sep 13
+• 
+
+				33
+			• 
+
+				1
+			
+
+bigscience/bloom-3b-intermediate
+
+
+
+			Text Generation
+			• 
+Updated
+				Aug 30
+• 
+
+				23
+			• 
+
+				1
+			
+
+bigscience/bloomz-ckpts
+
+
+Updated
+				Aug 28
+
+
+
+							Expand 162
+							models
+
+
+
+datasets
+10
+
+
+
+
+
+
+		Sort: 
+		Recently updated
+	
+		
+
+
+
+bigscience/xP3megds
+
+
+Updated
+				May 30
+• 
+
+				8
+			• 
+
+				1
+			
+
+bigscience/xP3all
+
+
+
+			Viewer
+			• 
+Updated
+				May 30
+• 
+
+				999
+			• 
+
+				17
+			
+
+bigscience/xP3mt
+
+
+
+			Viewer
+			• 
+Updated
+				May 30
+• 
+
+				478
+			• 
+
+				18
+			
+
+bigscience/xP3
+
+
+Updated
+				May 30
+• 
+
+				259
+			• 
+
+				88
+			
+
+bigscience/evaluation-results
+
+
+
+			Viewer
+			• 
+Updated
+				May 28
+• 
+
+				13
+			• 
+
+				10
+			
+
+bigscience/P3
+
+
+Updated
+				Feb 1
+• 
+
+				9.21k
+			• 
+
+				163
+			
+
+bigscience/massive-probing-results
+
+
+Updated
+				Oct 13, 2022
+• 
+
+				2
+			
+			
+
+bigscience/tokenizer-probing-ud2.10
+
+
+
+			Viewer
+			• 
+Updated
+				Oct 4, 2022
+• 
+
+				3
+			• 
+
+				1
+			
+
+bigscience/collaborative_catalog
+
+
+
+			Viewer
+			• 
+Updated
+				May 10, 2022
+• 
+
+				125
+			• 
+
+				1
+			
+
+bigscience/bloom-book-prompts
+
+
+
+			Viewer
+			• 
+Updated
+				May 10, 2022
+• 
+
+				13
+			• 
+
+				1
+			
+
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

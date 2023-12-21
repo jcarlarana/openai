@@ -1,0 +1,172 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Models - Hugging Face
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Edit Models filters
+
+Tasks
+				
+Libraries
+				
+Datasets
+				
+Languages
+				
+Licenses
+				
+Other
+				1
+					
+
+
+
+
+				Reset Other
+
+
+arxiv:
+2306.11372
+
+
+
+Other with no match
+			
+
+
+
+Inference Endpoints
+
+AutoTrain Compatible
+
+text-generation-inference
+
+Eval Results
+
+Has a Space
+
+custom_code
+
+4-bit precision
+
+Carbon Emissions
+
+8-bit precision
+
+
+
+				Apply filters
+			
+Models
+1
+
+
+new
+				Full-text search
+			
+
+					Edit filters
+				
+
+
+
+		Sort: 
+		Trending
+	
+		
+
+Active filters: 
+					2306.11372
+Clear all 
+
+
+SeaLLMs/SeaLLM-13B-Chat
+
+
+Updated
+				10 days ago
+• 
+
+				38
+			
+
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

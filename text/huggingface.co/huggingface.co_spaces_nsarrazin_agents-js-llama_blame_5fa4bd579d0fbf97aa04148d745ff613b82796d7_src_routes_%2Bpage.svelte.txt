@@ -1,0 +1,433 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+src/routes/+page.svelte · nsarrazin/agents-js-llama at 5fa4bd579d0fbf97aa04148d745ff613b82796d7
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+					Duplicated from 
+					nsarrazin/agents-js-oasst
+
+
+nsarrazin
+/
+agents-js-llama
+
+
+
+like
+1
+
+			Runtime error
+			
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+			5fa4bd5
+		
+
+agents-js-llama
+
+
+File size: 3,942 Bytes
+			
+d61fb4a
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+43e4cb7
+ 
+ 
+ 
+ 
+ 
+d61fb4a
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+5fa4bd5
+d61fb4a
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104105106107108109110111112113114115116117118119120121122123124125126127128129130131132133134135136137138139140141142143144145146
+<script lang="ts">
+  import LogoHuggingFaceBorderless from "$lib/components/LogoHuggingFaceBorderless.svelte";
+  import FileUpload from "$lib/components/FileUpload.svelte";
+  import ToolSelector from "$lib/components/ToolSelector.svelte";
+  import CodePreview from "$lib/components/CodePreview.svelte";
+  import ResultsDisplay from "$lib/components/ResultsDisplay.svelte";
+  import { HfAgent, LLMFromHub, defaultTools } from "@huggingface/agents";
+  import { PUBLIC_MODEL_NAME, PUBLIC_MODEL_URL } from "$env/static/public";
+  import ApiKeyModal from "$lib/components/ApiKeyModal.svelte";
+  import { HF_ACCESS_TOKEN } from "$lib/store";
+
+  let prompt =
+    "Draw a picture of a cat wearing a top hat and display it. Then caption the picture and read it out loud.";
+  let selectedTools: Array<string> = defaultTools.map((el) => el.name);
+
+  let llm: "hf" | "openai" = "hf";
+
+  let codePromise: Promise<string> | null = null;
+  let code: string = "";
+  let messages: Array<{ message: string; data: string | Blob | undefined }> =
+    [];
+
+  let files: FileList | undefined;
+
+  let isLoading = false;
+
+  const onGenerate = async () => {
+    messages = [];
+
+    const filetypes = files
+      ? Array.from(files).map((el) => el?.type)
+      : undefined;
+
+    codePromise = fetch("/generate", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        prompt,
+        tools: selectedTools,
+        filetypes,
+      }),
+    })
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error("Something went wrong with the code generation.");
+        }
+        return res.json();
+      })
+      .then((res) => {
+        code = res;
+        return res;
+      });
+
+    code = await codePromise;
+  };
+
+  const onRun = async (code: string) => {
+    isLoading = true;
+    messages = [];
+
+    const agent = new HfAgent(
+      $HF_ACCESS_TOKEN ?? "",
+      undefined,
+      defaultTools.filter((el) => selectedTools.includes(el.name))
+    );
+
+    messages = await agent.evaluateCode(code, files);
+    window.scrollTo(0, document.body.scrollHeight);
+    isLoading = false;
+  };
+
+  let dialogElement: HTMLDialogElement;
+</script>
+
+<ApiKeyModal bind:dialogElement />
+
+<div class="flex flex-col space-y-4 max-w-2xl">
+  <div class="flex flex-row">
+    <LogoHuggingFaceBorderless classNames="text-4xl" />
+    <h1 class="text-3xl font-semibold mx-auto">Agents.js</h1>
+    <button
+      class="btn btn-ghost"
+      on:click={() => dialogElement.showModal()}
+      on:keydown={() => dialogElement.showModal()}>API keys</button
+    >
+    <div />
+  </div>
+  <p class="text-justify">
+    This demo is meant to showcase some of the features that we released with <a
+      class="link"
+      href="https://huggingface.co/blog/agents-js">agents.js</a
+    >. This demo is using
+    <a class="font-bold link-hover" href={PUBLIC_MODEL_URL}
+      >{PUBLIC_MODEL_NAME}</a
+    >.
+  </p>
+
+  <div class="divider" />
+
+  <ToolSelector bind:selectedTools />
+
+  <div class="divider" />
+
+  <span class="label-text text-lg pb-3"> Input your request </span>
+
+  <textarea
+    class="textarea border-base-300 bg-base-300"
+    placeholder="Ask something here"
+    bind:value={prompt}
+  />
+
+  <FileUpload bind:files />
+
+  <button
+    class="btn btn-primary mt-auto w-fit mx-auto"
+    on:click={onGenerate}
+    on:keypress={onGenerate}
+    disabled={selectedTools.length === 0}>generate</button
+  >
+
+  {#await codePromise}
+    <div class="loading loading-lg mx-auto" />
+  {:then}
+    {#if code !== ""}
+      <CodePreview bind:code {onRun} />
+    {/if}
+  {:catch error}
+    <div class="alert alert-error mx-auto">
+      <p class="font-bold">Error</p>
+      <p>{error.message}</p>
+    </div>
+  {/await}
+
+  {#if messages.length !== 0}
+    <div class="divider" />
+    <ResultsDisplay bind:messages />
+  {/if}
+  {#if isLoading}
+    <div class="divider" />
+
+    <div class="loading loading-lg mx-auto" />
+  {/if}
+</div>
+
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

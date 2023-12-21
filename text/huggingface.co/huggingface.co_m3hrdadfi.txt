@@ -1,0 +1,318 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+m3hrdadfi (Mehrdad Farahani)
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+
+
+1
+5
+Mehrdad Farahani
+PRO
+
+
+m3hrdadfi
+Follow
+
+
+mem15381's profile picture
+
+OmidGoudarzi's profile picture
+
+Mr-Parvaresh's profile picture
+
+20
+					followers
+·
+2 following
+				
+
+https://linkedin.com/in/m3hrdadfi/
+
+m3hrdadfi
+
+m3hrdadfi
+
+			AI & ML interests
+		
+Natural Language Processing, Representation Learning
+
+			Organizations
+		
+
+
+
+
+
+
+
+
+
+
+Papers
+2
+
+
+arxiv:2012.11204
+
+
+
+arxiv:2005.12515
+
+
+
+
+
+spaces
+4
+
+
+
+
+
+
+		Sort: 
+		Recently updated
+	
+		
+
+
+
+pinned
+				
+
+
+3
+⚡
+Typo Detector
+
+
+pinned
+				
+
+					Runtime error
+⁉️
+GPT2 QA
+
+
+pinned
+				
+
+					Sleeping
+
+4
+🕵
+Zabanshenas
+
+
+
+
+5
+⁉️
+GPT2 QA - Persian
+
+
+
+models
+94
+
+
+
+
+
+
+		Sort: 
+		Recently updated
+	
+		
+
+
+
+m3hrdadfi/psgs_w100-nq-exact
+
+
+Updated
+				Oct 2
+
+
+m3hrdadfi/rag-token-multiset-base
+
+
+Updated
+				Aug 31
+
+
+m3hrdadfi/MoGPT-experiments-pc-medium
+
+
+Updated
+				May 20
+
+
+m3hrdadfi/MoGPT-experiments-pc-small
+
+
+Updated
+				May 20
+
+
+m3hrdadfi/MoGPT-experiments-dd-medium
+
+
+Updated
+				May 20
+
+
+m3hrdadfi/MoGPT-experiments-dd-small
+
+
+Updated
+				May 20
+
+
+m3hrdadfi/keysentence-finder
+
+
+
+			Sentence Similarity
+			• 
+Updated
+				Apr 18
+• 
+
+				7
+			
+			
+
+m3hrdadfi/AuxGPT2-alvis-pc-urb-gpt2-small-context-2
+
+
+Updated
+				Mar 1
+
+
+m3hrdadfi/AuxGPT2-alvis-dd-urb-gpt2-small-context-2
+
+
+Updated
+				Mar 1
+
+
+m3hrdadfi/AuxGPT2-alvis-pc-umt-gpt2-medium-personacontext
+
+
+Updated
+				Mar 1
+
+
+
+							Expand 94
+							models
+
+
+datasets
+1
+
+
+
+
+
+
+m3hrdadfi/recipe_nlg_lite
+
+
+
+			Preview
+			• 
+Updated
+				Jul 3, 2021
+• 
+
+				54
+			• 
+
+				3
+			
+
+
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

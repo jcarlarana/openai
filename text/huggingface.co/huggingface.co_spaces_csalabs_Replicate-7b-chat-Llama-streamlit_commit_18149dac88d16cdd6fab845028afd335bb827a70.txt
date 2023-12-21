@@ -1,0 +1,281 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Update requirements.txt · csalabs/Replicate-7b-chat-Llama-streamlit at 18149da
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+
+csalabs
+/
+Replicate-7b-chat-Llama-streamlit
+
+
+
+like
+0
+
+			Runtime error
+			
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+csalabs
+			
+commited on
+		Sep 21
+
+Commit 
+
+18149da
+
+
+• 
+1
+								Parent(s):
+							
+6d14bdc
+								
+Update requirements.txt
+
+							Browse files
+						
+Including chromadb in requirement.txt
+
+
+
+Files changed (1)
+hide
+show
+
+
+
+
+
+
+ requirements.txt
+
++1
+-0
+
+
+
+
+
+
+
+
+
+
+ requirements.txt
+CHANGED
+
+
+    Viewed
+
+
+
+
+
+
+
+
+
+
+@@ -14,3 +14,4 @@ python-dotenv
+
+
+
+      14
+    
+
+
+ 
+replicate
+
+
+
+
+      15
+    
+
+
+ 
+docx2txt
+
+
+
+
+      16
+    
+
+
+ 
+streamlit_chat
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      14
+    
+
+
+ 
+replicate
+
+
+
+
+      15
+    
+
+
+ 
+docx2txt
+
+
+
+
+      16
+    
+
+
+ 
+streamlit_chat
+
+
+
+
+      17
+    
+
+
++
+chromadb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

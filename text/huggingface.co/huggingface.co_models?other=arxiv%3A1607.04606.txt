@@ -1,0 +1,495 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Models - Hugging Face
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Edit Models filters
+
+Tasks
+				
+Libraries
+				
+Datasets
+				
+Languages
+				
+Licenses
+				
+Other
+				1
+					
+
+
+
+
+				Reset Other
+
+
+arxiv:
+1607.04606
+
+Has a Space
+
+
+
+Other with no match
+			
+
+
+
+Inference Endpoints
+
+AutoTrain Compatible
+
+text-generation-inference
+
+Eval Results
+
+custom_code
+
+4-bit precision
+
+Carbon Emissions
+
+8-bit precision
+
+
+
+				Apply filters
+			
+Models
+159
+
+
+new
+				Full-text search
+			
+
+					Edit filters
+				
+
+
+
+		Sort: 
+		Trending
+	
+		
+
+Active filters: 
+					1607.04606
+Clear all 
+
+
+facebook/fasttext-en-vectors
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Jun 3
+• 
+
+				7
+			
+
+facebook/fasttext-language-identification
+
+
+
+			Text Classification
+			• 
+Updated
+				Jun 9
+• 
+
+				70
+			
+
+facebook/fasttext-ko-vectors
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Jun 3
+• 
+
+				7
+			
+
+facebook/fasttext-af-vectors
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Jun 3
+
+
+facebook/fasttext-sq-vectors
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Jun 3
+• 
+
+				1
+			
+
+facebook/fasttext-als-vectors
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Jun 3
+
+
+facebook/fasttext-am-vectors
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Jun 3
+
+
+facebook/fasttext-ar-vectors
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Jun 3
+• 
+
+				3
+			
+
+facebook/fasttext-an-vectors
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Jun 3
+
+
+facebook/fasttext-hy-vectors
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Jun 3
+
+
+facebook/fasttext-as-vectors
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Jun 3
+
+
+facebook/fasttext-ast-vectors
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Jun 3
+
+
+facebook/fasttext-az-vectors
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Jun 3
+
+
+facebook/fasttext-ba-vectors
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Jun 3
+
+
+facebook/fasttext-eu-vectors
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Jun 3
+
+
+facebook/fasttext-bar-vectors
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Jun 3
+
+
+facebook/fasttext-be-vectors
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Jun 3
+
+
+facebook/fasttext-bn-vectors
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Jun 3
+• 
+
+				1
+			
+
+facebook/fasttext-bh-vectors
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Jun 3
+
+
+facebook/fasttext-bpy-vectors
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Jun 3
+
+
+facebook/fasttext-bs-vectors
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Jun 3
+
+
+facebook/fasttext-br-vectors
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Jun 3
+
+
+facebook/fasttext-bg-vectors
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Jun 3
+• 
+
+				1
+			
+
+facebook/fasttext-my-vectors
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Jun 3
+
+
+facebook/fasttext-ca-vectors
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Jun 3
+
+
+facebook/fasttext-ceb-vectors
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Jun 3
+
+
+facebook/fasttext-bcl-vectors
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Jun 3
+
+
+facebook/fasttext-ce-vectors
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Jun 3
+
+
+facebook/fasttext-zh-vectors
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Jun 3
+• 
+
+				7
+			
+
+facebook/fasttext-cv-vectors
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Jun 3
+
+
+		Previous
+1
+2
+3
+...
+6
+
+Next
+		
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

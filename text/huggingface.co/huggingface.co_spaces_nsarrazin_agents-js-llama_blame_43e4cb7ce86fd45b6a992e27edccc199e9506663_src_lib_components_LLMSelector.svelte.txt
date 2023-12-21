@@ -1,0 +1,211 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+src/lib/components/LLMSelector.svelte · nsarrazin/agents-js-llama at 43e4cb7ce86fd45b6a992e27edccc199e9506663
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+					Duplicated from 
+					nsarrazin/agents-js-oasst
+
+
+nsarrazin
+/
+agents-js-llama
+
+
+
+like
+1
+
+			Runtime error
+			
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+			43e4cb7
+		
+
+agents-js-llama
+
+
+File size: 745 Bytes
+			
+d61fb4a
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1234567891011121314151617181920212223242526272829303132333435
+<script lang="ts">
+  export let llm: "openai" | "hf";
+</script>
+
+<h3 class="text-lg">Select your LLM</h3>
+
+<div class="join mx-auto gap-5">
+  <label
+    class="label cursor-pointer"
+    on:click={() => (llm = "openai")}
+    on:keypress={() => (llm = "openai")}
+  >
+    <span class="label-text pr-2">OpenAI</span>
+    <input
+      type="radio"
+      name="radio-10"
+      class="radio checked:bg-primary-500"
+      checked
+    />
+  </label>
+  <label
+    class="label cursor-pointer"
+    on:click={() => (llm = "hf")}
+    on:keypress={() => (llm = "hf")}
+  >
+    <span class="label-text pr-2">Hugging Face</span>
+    <input
+      type="radio"
+      name="radio-10"
+      class="radio checked:bg-primary-500"
+      checked
+    />
+  </label>
+</div>
+
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

@@ -1,0 +1,640 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Models - Hugging Face
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Edit Models filters
+
+Tasks
+				
+Libraries
+				
+Datasets
+				
+Languages
+				
+Licenses
+				
+Other
+				1
+					
+
+
+
+
+				Reset Other
+
+
+Inference Endpoints
+
+AutoTrain Compatible
+
+Has a Space
+
+text-generation-inference
+
+multilingual
+
+Eval Results
+
+custom_code
+
+Carbon Emissions
+
+8-bit precision
+
+
+
+Other with no match
+			
+
+
+
+4-bit precision
+
+
+
+				Apply filters
+			
+Models
+949
+
+
+new
+				Full-text search
+			
+
+					Edit filters
+				
+
+
+
+		Sort: 
+		Trending
+	
+		
+
+Active filters: 
+					multilingual
+Clear all 
+
+
+google/flan-t5-base
+
+
+
+			Text2Text Generation
+			• 
+Updated
+				Jul 17
+• 
+
+				1.53M
+			• 
+
+				470
+			
+
+sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+
+
+
+			Sentence Similarity
+			• 
+Updated
+				Nov 2
+• 
+
+				340k
+			• 
+
+				329
+			
+
+intfloat/multilingual-e5-large
+
+
+
+			Feature Extraction
+			• 
+Updated
+				Sep 23
+• 
+
+				78.1k
+			• 
+
+				310
+			
+xlm-roberta-base
+
+
+
+			Fill-Mask
+			• 
+Updated
+				Apr 7
+• 
+
+				10.2M
+			• 
+
+				436
+			
+
+jbochi/madlad400-3b-mt
+
+
+
+			Translation
+			• 
+Updated
+				Nov 17
+• 
+
+				16.5k
+			• 
+
+				63
+			
+
+google/deplot
+
+
+
+			Visual Question Answering
+			• 
+Updated
+				Sep 6
+• 
+
+				10.6k
+			• 
+
+				150
+			
+t5-small
+
+
+
+			Translation
+			• 
+Updated
+				Jun 30
+• 
+
+				2.93M
+			• 
+
+				184
+			
+
+google/flan-t5-small
+
+
+
+			Text2Text Generation
+			• 
+Updated
+				Oct 10
+• 
+
+				195k
+			• 
+
+				160
+			
+
+google/flan-t5-large
+
+
+
+			Text2Text Generation
+			• 
+Updated
+				Jul 17
+• 
+
+				346k
+			• 
+
+				324
+			
+
+timpal0l/mdeberta-v3-base-squad2
+
+
+
+			Question Answering
+			• 
+Updated
+				Nov 13
+• 
+
+				96.5k
+			• 
+
+				100
+			
+
+intfloat/multilingual-e5-base
+
+
+
+			Sentence Similarity
+			• 
+Updated
+				Sep 8
+• 
+
+				56.2k
+			• 
+
+				135
+			
+xlm-roberta-large
+
+
+
+			Fill-Mask
+			• 
+Updated
+				Sep 29
+• 
+
+				1.89M
+			• 
+
+				234
+			
+
+facebook/mbart-large-50
+
+
+
+			Text2Text Generation
+			• 
+Updated
+				Mar 28
+• 
+
+				456k
+			• 
+
+				109
+			
+
+google/mt5-base
+
+
+
+			Text2Text Generation
+			• 
+Updated
+				Jan 24
+• 
+
+				650k
+			• 
+
+				124
+			
+
+sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+
+
+
+			Sentence Similarity
+			• 
+Updated
+				Nov 2
+• 
+
+				274k
+			• 
+
+				179
+			
+
+google/flan-t5-xxl
+
+
+
+			Text2Text Generation
+			• 
+Updated
+				Jul 27
+• 
+
+				316k
+			• 
+
+				1.02k
+			
+
+SeaLLMs/SeaLLM-13B-Chat
+
+
+Updated
+				10 days ago
+• 
+
+				38
+			
+
+MoritzLaurer/mDeBERTa-v3-base-mnli-xnli
+
+
+
+			Zero-Shot Classification
+			• 
+Updated
+				Mar 22
+• 
+
+				89.8k
+			• 
+
+				182
+			
+
+facebook/m2m100_1.2B
+
+
+
+			Text2Text Generation
+			• 
+Updated
+				Nov 16
+• 
+
+				123k
+			• 
+
+				73
+			
+
+facebook/m2m100_418M
+
+
+
+			Text2Text Generation
+			• 
+Updated
+				Aug 11
+• 
+
+				831k
+			• 
+
+				166
+			
+
+facebook/mbart-large-50-many-to-many-mmt
+
+
+
+			Translation
+			• 
+Updated
+				Sep 28
+• 
+
+				183k
+			• 
+
+				116
+			
+
+google/flan-t5-xl
+
+
+
+			Text2Text Generation
+			• 
+Updated
+				23 days ago
+• 
+
+				235k
+			• 
+
+				378
+			
+
+google/madlad400-10b-mt
+
+
+
+			Translation
+			• 
+Updated
+				24 days ago
+• 
+
+				294
+			• 
+
+				16
+			
+t5-large
+
+
+
+			Translation
+			• 
+Updated
+				Apr 6
+• 
+
+				616k
+			• 
+
+				122
+			
+
+cardiffnlp/twitter-xlm-roberta-base-sentiment
+
+
+
+			Text Classification
+			• 
+Updated
+				Jul 19
+• 
+
+				1.44M
+			• 
+
+				155
+			
+
+cointegrated/rut5-base
+
+
+
+			Text2Text Generation
+			• 
+Updated
+				Mar 20
+• 
+
+				347
+			• 
+
+				6
+			
+
+google/mt5-large
+
+
+
+			Text2Text Generation
+			• 
+Updated
+				Jan 24
+• 
+
+				56k
+			• 
+
+				61
+			
+
+papluca/xlm-roberta-base-language-detection
+
+
+
+			Text Classification
+			• 
+Updated
+				1 day ago
+• 
+
+				1.16M
+			• 
+
+				172
+			
+
+sentence-transformers/distiluse-base-multilingual-cased-v2
+
+
+
+			Sentence Similarity
+			• 
+Updated
+				Nov 2
+• 
+
+				274k
+			• 
+
+				101
+			
+
+MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7
+
+
+
+			Zero-Shot Classification
+			• 
+Updated
+				Mar 20
+• 
+
+				110k
+			• 
+
+				148
+			
+
+		Previous
+1
+2
+3
+...
+32
+
+Next
+		
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

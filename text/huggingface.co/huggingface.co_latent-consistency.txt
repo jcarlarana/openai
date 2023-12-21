@@ -1,0 +1,499 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+latent-consistency (Latent Consistency)
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+
+Latent Consistency
+
+community
+
+
+
+ Request to join this org
+				
+
+
+				AI & ML interests
+			
+None defined yet.
+
+Team members
+		11
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			Organization Card
+		
+
+				About org cards
+			
+
+Welcome to the Latent Consistency Models organization. Here you will find collections, demos and weights for different assortments of Latent Consistency models and LoRAs.
+Resources:
+
+Blog: SDXL in 4 steps with Latent Consistency LoRAs
+Technical report: LCM-LORA: A Universal Stable Diffusion Acceleration Module
+
+
+
+Collections
+3
+
+
+
+Latent Consistency Models LoRAs
+Latent Consistency Models for Stable Diffusion - LoRAs and full fine-tuned weights
+
+
+
+
+latent-consistency/lcm-lora-sdxl
+
+
+
+			Text-to-Image
+			• 
+Updated
+				27 days ago
+• 
+
+				129k
+			• 
+
+				504
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+latent-consistency/lcm-lora-sdv1-5
+
+
+
+			Text-to-Image
+			• 
+Updated
+				Nov 16
+• 
+
+				416k
+			• 
+
+				271
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+latent-consistency/lcm-lora-ssd-1b
+
+
+
+			Text-to-Image
+			• 
+Updated
+				Nov 10
+• 
+
+				10.3k
+			• 
+
+				66
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+LCM-LoRA: A Universal Stable-Diffusion Acceleration Module
+
+			Paper
+			•
+			2311.05556
+			•
+Published
+				Nov 9
+•
+
+
+				66
+			
+
+
+
+Latent Consistency Models Weights
+Full-fine tune weights for Latent Consistency models
+
+
+
+
+latent-consistency/lcm-sdxl
+
+
+
+			Text-to-Image
+			• 
+Updated
+				Nov 12
+• 
+
+				8.09k
+			• 
+
+				114
+			
+
+
+
+
+
+
+
+
+
+
+latent-consistency/lcm-ssd-1b
+
+
+
+			Text-to-Image
+			• 
+Updated
+				Nov 10
+• 
+
+				1.28k
+			• 
+
+				30
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SimianLuo/LCM_Dreamshaper_v7
+
+
+
+			Text-to-Image
+			• 
+Updated
+				Nov 8
+• 
+
+				132k
+			• 
+
+				297
+			
+
+
+
+
+						Expand 3 collections
+					
+
+
+
+spaces
+5
+
+
+
+
+
+
+		Sort: 
+		Recently updated
+	
+		
+
+
+
+			Running
+			ona100
+
+
+
+119
+📚
+LCM-LoRA on SDXL
+
+
+			Running
+			ona10g
+
+
+
+166
+📚
+Super Fast LCM-LoRA on SD1.5
+
+
+			Running
+			ona10g
+
+
+
+64
+🔎 🖼️
+LCM-LoRA the Explorer
+
+
+			Running
+			ona10g
+
+
+
+10
+💬🖼️
+Real-Time Latent Consistency Model Text-to-Image-Lora-SD1.5
+
+
+			Running
+			ona10g
+
+
+
+56
+🖼️🖼️
+Real-Time Latent Consistency Model ControlNet-Lora-SD1.5
+
+
+
+
+models
+5
+
+
+
+
+
+
+		Sort: 
+		Recently updated
+	
+		
+
+
+
+latent-consistency/lcm-lora-sdxl
+
+
+
+			Text-to-Image
+			• 
+Updated
+				27 days ago
+• 
+
+				129k
+			• 
+
+				504
+			
+
+latent-consistency/lcm-lora-sdv1-5
+
+
+
+			Text-to-Image
+			• 
+Updated
+				Nov 16
+• 
+
+				416k
+			• 
+
+				271
+			
+
+latent-consistency/lcm-sdxl
+
+
+
+			Text-to-Image
+			• 
+Updated
+				Nov 12
+• 
+
+				8.09k
+			• 
+
+				114
+			
+
+latent-consistency/lcm-ssd-1b
+
+
+
+			Text-to-Image
+			• 
+Updated
+				Nov 10
+• 
+
+				1.28k
+			• 
+
+				30
+			
+
+latent-consistency/lcm-lora-ssd-1b
+
+
+
+			Text-to-Image
+			• 
+Updated
+				Nov 10
+• 
+
+				10.3k
+			• 
+
+				66
+			
+
+
+
+datasets
+
+
+
+None public yet
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

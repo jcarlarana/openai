@@ -1,0 +1,536 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fix package-lock · nsarrazin/agents-js-llama at c16fdc8
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+					Duplicated from 
+					nsarrazin/agents-js-oasst
+
+
+nsarrazin
+/
+agents-js-llama
+
+
+
+like
+1
+
+			Runtime error
+			
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+nsarrazin
+			
+HF staff
+commited on
+		Jul 27
+
+Commit 
+
+c16fdc8
+
+
+• 
+1
+								Parent(s):
+							
+785ee56
+								
+fix package-lock
+
+							Browse files
+						
+
+
+
+
+Files changed (1)
+hide
+show
+
+
+
+
+
+
+ package-lock.json
+
++4
+-4
+
+
+
+
+
+
+
+
+
+
+ package-lock.json
+CHANGED
+
+
+    Viewed
+
+
+
+
+
+
+
+
+
+
+@@ -8,7 +8,7 @@
+
+
+
+      8
+    
+
+
+ 
+      "name": "poc-agents-js",
+
+
+
+
+      9
+    
+
+
+ 
+      "version": "0.0.1",
+
+
+
+
+      10
+    
+
+
+ 
+      "dependencies": {
+
+
+
+
+      11
+    
+
+
+-
+        "@huggingface/agents": "^0.0.4",
+
+
+
+
+      12
+    
+
+
+ 
+        "@huggingface/inference": "^2.5.2",
+
+
+
+
+      13
+    
+
+
+ 
+        "@sveltejs/adapter-node": "^1.3.1",
+
+
+
+
+      14
+    
+
+
+ 
+        "daisyui": "^3.1.6",
+
+
+
+
+
+@@ -439,9 +439,9 @@
+
+
+
+      439
+    
+
+
+ 
+      }
+
+
+
+
+      440
+    
+
+
+ 
+    },
+
+
+
+
+      441
+    
+
+
+ 
+    "node_modules/@huggingface/agents": {
+
+
+
+
+      442
+    
+
+
+-
+      "version": "0.0.4",
+
+
+
+
+      443
+    
+
+
+-
+      "resolved": "https://registry.npmjs.org/@huggingface/agents/-/agents-0.0.4.tgz",
+
+
+
+
+      444
+    
+
+
+-
+      "integrity": "sha512-jjsiMEba2dLLYUkMnX0g+bddM/9De0tk73RAiXL0uE117qdDOlUK/D+tI1krDfxpn9J+Qu9w7BqmufIMZFhV4Q==",
+
+
+
+
+      445
+    
+
+
+ 
+      "dependencies": {
+
+
+
+
+      446
+    
+
+
+ 
+        "@huggingface/inference": "^2.6.1"
+
+
+
+
+      447
+    
+
+
+ 
+      },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      8
+    
+
+
+ 
+      "name": "poc-agents-js",
+
+
+
+
+      9
+    
+
+
+ 
+      "version": "0.0.1",
+
+
+
+
+      10
+    
+
+
+ 
+      "dependencies": {
+
+
+
+
+      11
+    
+
+
++
+        "@huggingface/agents": "^0.0.5",
+
+
+
+
+      12
+    
+
+
+ 
+        "@huggingface/inference": "^2.5.2",
+
+
+
+
+      13
+    
+
+
+ 
+        "@sveltejs/adapter-node": "^1.3.1",
+
+
+
+
+      14
+    
+
+
+ 
+        "daisyui": "^3.1.6",
+
+
+
+
+
+
+
+
+
+      439
+    
+
+
+ 
+      }
+
+
+
+
+      440
+    
+
+
+ 
+    },
+
+
+
+
+      441
+    
+
+
+ 
+    "node_modules/@huggingface/agents": {
+
+
+
+
+      442
+    
+
+
++
+      "version": "0.0.5",
+
+
+
+
+      443
+    
+
+
++
+      "resolved": "https://registry.npmjs.org/@huggingface/agents/-/agents-0.0.5.tgz",
+
+
+
+
+      444
+    
+
+
++
+      "integrity": "sha512-h3mutXX0sFg4o9ZDHh3gzsF+qydcrTW9MVll2g/IVrNiQ0pSfXZqOQPRnfd85XU49buY3Zd1oHUDI0Bz8PznJw==",
+
+
+
+
+      445
+    
+
+
+ 
+      "dependencies": {
+
+
+
+
+      446
+    
+
+
+ 
+        "@huggingface/inference": "^2.6.1"
+
+
+
+
+      447
+    
+
+
+ 
+      },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

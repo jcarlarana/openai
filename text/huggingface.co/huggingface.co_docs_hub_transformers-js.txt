@@ -1,0 +1,398 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Using Transformers.js at Hugging Face
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+
+Hub documentation
+			
+Using Transformers.js at Hugging Face
+
+
+
+
+
+					Hub
+					
+
+
+
+Search documentation
+
+
+EN
+
+
+
+
+
+
+
+
+
+🤗 Hugging Face Hub
+
+
+Repositories
+
+
+Getting Started with Repositories
+
+
+Repository Settings
+
+
+Pull Requests & Discussions
+
+
+Notifications
+
+
+Collections
+
+
+Webhooks
+
+
+Repository size recommendations
+
+
+Next Steps
+
+
+Licenses
+
+
+Models
+
+
+The Model Hub
+
+
+Model Cards
+
+
+Gated Models
+
+
+Uploading Models
+
+
+Downloading Models
+
+
+Integrated Libraries
+
+
+Adapter Transformers
+
+
+AllenNLP
+
+
+Asteroid
+
+
+Diffusers
+
+
+ESPnet
+
+
+fastai
+
+
+Flair
+
+
+Keras
+
+
+ML-Agents
+
+
+OpenCLIP
+
+
+PaddleNLP
+
+
+peft
+
+
+RL-Baselines3-Zoo
+
+
+Sample Factory
+
+
+Sentence Transformers
+
+
+SetFit
+
+
+spaCy
+
+
+SpanMarker
+
+
+SpeechBrain
+
+
+Stable-Baselines3
+
+
+Stanza
+
+
+TensorBoard
+
+
+timm
+
+
+Transformers
+
+
+Transformers.js
+
+
+Model Widgets
+
+
+Inference API docs
+
+
+Models Download Stats
+
+
+Frequently Asked Questions
+
+
+Advanced Topics
+
+
+Datasets
+
+
+Datasets Overview
+
+
+Dataset Cards
+
+
+Gated Datasets
+
+
+Uploading Datasets
+
+
+Downloading Datasets
+
+
+Integrated Libraries
+
+
+Dataset Viewer
+
+
+Datasets Download Stats
+
+
+Data files Configuration
+
+
+Spaces
+
+
+Spaces Overview
+
+
+Spaces GPU Upgrades
+
+
+Spaces Persistent Storage
+
+
+Gradio Spaces
+
+
+Streamlit Spaces
+
+
+Static HTML Spaces
+
+
+Docker Spaces
+
+
+Embed your Space
+
+
+Run Spaces with Docker
+
+
+Spaces Configuration Reference
+
+
+Sign-In with HF button
+
+
+Spaces Changelog
+
+
+Advanced Topics
+
+
+Other
+
+
+Organizations
+
+
+Billing
+
+
+Security
+
+
+Moderation
+
+
+Paper Pages
+
+
+Search
+
+
+Digital Object Identifier (DOI)
+
+
+Hub API Endpoints
+
+
+Sign-In with HF
+
+
+
+
+Join the Hugging Face community
+and get access to the augmented documentation experience
+		
+
+Collaborate on models, datasets and Spaces
+				
+
+Faster examples with accelerated inference
+				
+
+Switch between documentation themes
+				
+Sign Up
+to get started
+ 
+
+
+
+
+
+
+
+
+
+   Using Transformers.js at Hugging Face Transformers.js is a JavaScript library for running 🤗 Transformers directly in your browser, with no need for a server! It is designed to be functionally equivalent to the original Python library, meaning you can run the same pretrained models using a very similar API.  Exploring transformers.js in the Hub You can find transformers.js models by filtering by library in the models page.  Quick tour It’s super simple to translate from existing code! Just like the Python library, we support the pipeline API. Pipelines group together a pretrained model with preprocessing of inputs and postprocessing of outputs, making it the easiest way to run models with the library. Python (original) Javascript (ours)   Copied from transformers import pipeline
+
+# Allocate a pipeline for sentiment-analysis
+pipe = pipeline('sentiment-analysis')
+
+out = pipe('I love transformers!')
+# [{'label': 'POSITIVE', 'score': 0.999806941}]   Copied import { pipeline } from '@xenova/transformers';
+
+// Allocate a pipeline for sentiment-analysis
+let pipe = await pipeline('sentiment-analysis');
+
+let out = await pipe('I love transformers!');
+// [{'label': 'POSITIVE', 'score': 0.999817686}] You can also use a different model by specifying the model id or path as the second argument to the pipeline function. For example:   Copied // Use a different model for sentiment-analysis
+let pipe = await pipeline('sentiment-analysis', 'nlptown/bert-base-multilingual-uncased-sentiment'); Refer to the documentation for the full list of supported tasks and models.  Installation To install via NPM, run:   Copied npm i @xenova/transformers For more information, including how to use it in vanilla JS (without any bundler) via a CDN or static hosting, refer to the README.  Additional resources Transformers.js repository Transformers.js docs Transformers.js demo 
+
+
+←Transformers
+Model Widgets→
+
+Using Transformers.js at Hugging Face
+Exploring transformers.js in the Hub
+Quick tour
+Installation
+Additional resources
+
+
+
+
+
+
+
+
+
+

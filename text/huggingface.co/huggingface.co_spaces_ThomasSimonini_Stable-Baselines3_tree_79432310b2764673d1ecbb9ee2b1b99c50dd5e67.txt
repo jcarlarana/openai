@@ -1,0 +1,206 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ThomasSimonini/Stable-Baselines3 at 79432310b2764673d1ecbb9ee2b1b99c50dd5e67
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+
+ThomasSimonini
+/
+Stable-Baselines3
+
+
+
+like
+12
+
+			Sleeping
+			
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+			7943231
+		
+
+Stable-Baselines3
+
+
+
+1 contributor
+
+History:
+4 commits
+
+
+
+Thomas Simonini
+				
+			
+Upload LunarLander-v2.mp4
+7943231
+about 2 years ago
+
+
+.gitattributes
+
+
+
+1.17 kB
+				
+
+				
+
+initial commit
+about 2 years ago
+
+
+LunarLander-v2.mp4
+
+
+
+1.25 MB
+				
+
+				
+
+Upload LunarLander-v2.mp4
+about 2 years ago
+
+
+README.md
+
+
+
+907 Bytes
+				
+
+				
+
+initial commit
+about 2 years ago
+
+
+SpaceInvadersNoFrameskip-v4.mp4
+
+
+
+278 kB
+				
+
+				
+
+Upload SpaceInvadersNoFrameskip-v4.mp4
+about 2 years ago
+
+
+app.py
+
+
+
+149 Bytes
+				
+
+				
+
+Create test version
+about 2 years ago
+
+
+
+
+
+
+
+
+
+
+

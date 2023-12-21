@@ -1,0 +1,191 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+topic_train.csv · zeroshot/twitter-financial-news-topic at 11d59a59eeee7591bd6e8fe2611be016e9f15f22
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Datasets:
+
+
+zeroshot
+/
+twitter-financial-news-topic
+
+
+
+like
+16
+
+Tasks:
+	
+
+Text Classification
+
+Sub-tasks:
+	
+
+multi-class-classification
+
+Languages:
+	
+
+English
+
+Multilinguality:
+	
+
+monolingual
+
+Size Categories:
+	
+
+10K<n<100K
+
+Language Creators:
+	
+
+other
+
+Annotations Creators:
+	
+
+other
+
+Source Datasets:
+	
+
+original
+
+Tags:
+	
+
+twitter
+
+finance
+
+markets
+
++ 4License:
+	
+
+
+
+mit
+
+
+
+
+
+			Dataset card
+			
+			
+		
+Files
+Files and versions
+
+			Community
+			1
+				
+
+
+
+
+
+
+			11d59a5
+		
+
+twitter-financial-news-topic
+/
+topic_train.csv
+
+
+Ricky Costa
+				
+			
+Upload topic_train.csv
+4e154b3
+over 1 year ago
+
+
+							raw
+						
+							history
+						
+
+
+							No virus
+						
+2.39 MB
+
+File too large to display, you can
+						check the raw version
+						instead.
+					
+
+
+
+
+
+
+
+

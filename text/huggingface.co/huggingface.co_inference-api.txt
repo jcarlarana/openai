@@ -1,0 +1,288 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Inference API - Hugging Face
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+Try out our
+		NEW paid inference solution for production workloads
+	
+
+Free Plug & Play Machine Learning API
+Easily integrate NLP, audio and computer vision models deployed for inference via simple API calls. Harness
+					the power of machine learning while staying out of MLOps!
+				
+Read the docs
+elastic/distilbert-base-uncased-finetuned-conll03-english
+
+
+Token Classification
+
+
+Inference API is disabled for an unknown reason. Please open a
+				Discussion in the Community tab.
+			
+
+
+Join leading AI organizations already on Hugging Face
+		
+
+
+
+
+
+
+Serve Machine Learning Models Without the Hassle
+Acceleration and scalability built-in
+Natural Language Processing Tasks
+Text generation, text classification, token classification, zero-shot classification, feature extraction,
+							NER, translation, summarization, conversational, question answering, table question answering, text2text
+							generation and fill mask.
+						
+
+Audio Tasks
+Automatic speech recognition (ASR) and audio classification.
+
+Computer Vision Tasks
+Object detection and image segmentation.
+
+How Does It Work?
+State of the Art as easy as HTTP requests
+
+
+
+huggingface@transformers:~
+import requests
+
+def query(payload, model_id, api_token):
+	headers = {"Authorization": f"Bearer {api_token}"}
+	API_URL = f"https://api-inference.huggingface.co/models/{model_id}"
+	response = requests.post(API_URL, headers=headers, json=payload)
+	return response.json()
+
+model_id = "distilbert-base-uncased"
+api_token = "hf_XXXXXXXX" # get yours at hf.co/settings/tokens
+data = query("The goal of life is [MASK].", model_id, api_token)
+Fully-hosted API for AI
+Up and running in minutes
+
++50,000 state-of-the-art models
+Instantly integrate ML models, deployed for inference via simple API calls.
+					
+
+Wide variety of machine learning tasks
+We support a broad range of NLP, audio, and vision tasks, including sentiment analysis, text generation,
+						speech recognition, object detection and more!
+					
+
+Production ready
+We have built the most robust, secure and efficient AI infrastructure to handle production level loads with
+						unmatched performance and reliability.
+					
+
+Real-time inferences
+We optimize and accelerate our models to serve predictions up to 10x faster, with the latency required for
+						real-time applications.
+					
+
+Scalability
+The PRO Plan offers higher request rate limits to experiment with models. Need more? Use Inference Endpoints
+						for dedicated resources and autoscaling.
+					
+
+SLAs
+Production level support and 24/7 SLAs are available through our enterprise plans.
+					
+Why Inference API?
+
+
+Implement and iterate in no time
+Leverage the largest and most diverse library of models for NLP, audio and computer vision to easily build
+						machine learning powered applications in minutes.
+					
+
+
+Stay on the cutting edge of AI
+Seamlessly upgrade to a new model so you're always up to date with the state of the art.
+					
+
+
+Focus on building
+Stop worrying about infrastructure. We take care of models' performance and reliability at scale. Run models
+						in milliseconds with just a few lines of code.
+					
+
+
+Let us do the machine learning
+Harness the power of AI while staying out of data science and MLOps. The Inference API democratizes machine
+						learning to all engineering teams.
+					
+Pricing
+Use the Inference API shared infrastructure for free, or switch to dedicated Inference Endpoints for production
+			
+
+🧪
+						PRO Plan
+					
+🏢
+						Enterprise
+					
+Get free inference to explore models
+
+
+
+Higher rate limits to the Free Inference API
+
+Experiment with text, audio, vision models without hitting limits
+
+
+Support
+
+Email support and no SLAs
+
+
+Infrastructure
+
+Shared resources, no auto-scaling, standard latency
+
+Get started
+						
+Get production inference with dedicated Inference Enpoints
+
+
+
+Enterprise support for Inference Endpoints
+
+Custom pricing based on volume commit
+Starts at $2k/mo, annual contracts
+
+
+Support
+
+Production level support, 24/7 SLAs and uptime guarantees
+
+
+Infrastructure
+
+Auto-scaling, dedicated resources to achieve desired latency, and support large models
+									
+
+Contact us
+						
+
+Frequently Asked Questions
+What’s the latency?We accelerate our models on CPU and GPU so your apps work faster. Read up on
+						how we achieved 100x speedup on Transformers.
+					
+Is my data secure?All data transfers are encrypted in transit with SSL. Hugging Face protects your inference data - no
+						third-party access.
+						Enterprise plans offer additional layers of security
+						for log-less requests.
+					
+What is your uptime?Check out our
+						status page
+						to learn more about our uptime and follow status updates on any identified performance issues.
+					
+Do you offer SLAs?For the free tier, there is no service-level agreement (SLA) on support response times. However,
+						enterprise plans include an SLA on support response
+						times and uptime guarantees.
+					
+Does it support large models?Large models (>10gb) require dedicated infrastructure and maintenance to work reliably, we can support this
+						via an
+						enterprise plan with yearly commitment.
+					
+What’s your support email?For customer support and general inquiries about Inference API, please contact us at
+						api-enterprise@huggingface.co.
+					
+Website
+Models 
+Datasets 
+Spaces 
+Tasks 
+Inference Endpoints 
+Expert Acceleration Program 
+Company
+About 
+HF Store 
+Brand assets 
+Terms of service 
+Privacy 
+Jobs 
+Press 
+Resources
+Learn 
+Documentation 
+Blog 
+Forum 
+Service Status 
+Social
+GitHub 
+Twitter 
+LinkedIn 
+Discord 
+
+
+
+
+
+
+
+

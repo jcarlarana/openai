@@ -1,0 +1,152 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Commits · csalabs/Replicate-7b-chat-Llama-streamlit
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+
+csalabs
+/
+Replicate-7b-chat-Llama-streamlit
+
+
+
+like
+0
+
+			Runtime error
+			
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+			18149da
+		
+
+Replicate-7b-chat-Llama-streamlit
+/
+requirements.txt
+
+Commit History
+				
+
+Update requirements.txt
+18149da
+
+
+
+
+csalabs
+			
+commited on
+		Sep 21
+
+Upload 4 files
+6d14bdc
+
+
+
+
+csalabs
+			
+commited on
+		Sep 21
+
+
+
+
+
+
+
+
+
+
+

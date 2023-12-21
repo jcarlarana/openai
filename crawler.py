@@ -10,8 +10,8 @@ import os
 # Regex pattern to match a url
 HTTP_URL_PATTERN = r'^http[s]*://.+'
 
-domain = "openai.com" # <- your domain to be crawled
-full_url = "https://openai.com/" # <- your domain to be crawled with http or https
+domain = "seriouseats.com" # <- your domain to be crawled
+full_url = "https://www.seriouseats.com/" # <- your domain to be crawled with http or https
 
 # A Class to parse the html and get the hyperlinks
 class HyperlinkParser(HTMLParser):

@@ -1,0 +1,182 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AutoTrain – Hugging Face
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+Create powerful AI models without code
+A new way to automatically train, evaluate and deploy state-of-the-art Machine Learning models.
+				
+Create new project
+					
+
+
+
+				Machine Learning made simple
+			
+Train custom machine learning models by simply uploading data.
+
+				Automatic training
+			
+AutoTrain will find the best models for your data automatically.
+
+				Fast deployment
+			
+Your models are available on the Hugging Face Hub, and ready to serve.
+			
+Tasks available in AutoTrain:
+
+					LLM Finetuning
+				
+					Image classfication
+				
+					Text Classification
+				
+					Token Classification
+				
+					Question Answering (extractive)
+				
+					Translation
+				
+					Summarization
+				
+					Text Regression
+				
+					Tabular Data Classification
+				
+					Tabular Data Regression
+				
+Customer stories
+
+
+
+AutoTrain is the first AutoML tool we have used that can compete with a dedicated ML Engineer. This allows us to spend our time on research and improving data filters/generation, which is game-changing for a small team like ours. The integration with the Hugging Face ecosystem is great, and adds a lot of value even if you host the models yourself.
+Sam Havens - Director of NLP Engineering, Writer
+
+
+Hugging Face's AutoTrain tool chain is a step forward towards Democratizing NLP. It offers non-researchers like me the ability to train highly performant NLP models and get them deployed at scale, quickly and efficiently.
+Kumaresan Manickavelu - NLP Product Manager, eBay
+
+
+AutoTrain has provided us with zero to hero model in minutes with no experience required.
+Ben Nimmo - Founder & CTO, Orlo
+
+FAQ
+
+What is AutoTrain?AutoTrain is an automatic way to train and deploy state-of-the-art Machine Learning models, seamlessly
+						integrated with the Hugging Face ecosystem.
+					
+What Machine Learning tasks are available for training?Available today: text classification, entity recognition, summarization, question answering, translation,
+						tabular classification and regression, image classification and LLM finetuning.
+					
+Which model languages are available?Any language! We support all languages available in the Hugging Face Hub.
+How is my training data secure?Your training data stays on our server, and is private to your account. All data transfers are protected
+						with encryption.
+					
+How much does it cost?Based on the hardware you choose, you are billed per minute for the resource usage during training time.
+						More information can be found in the pricing page.
+					
+What training data formats are supported?CSV, TSV, JSON, ZIP files, depending on the type of task.
+Website
+Models 
+Datasets 
+Spaces 
+Tasks 
+Inference Endpoints 
+Expert Acceleration Program 
+Company
+About 
+HF Store 
+Brand assets 
+Terms of service 
+Privacy 
+Jobs 
+Press 
+Resources
+Learn 
+Documentation 
+Blog 
+Forum 
+Service Status 
+Social
+GitHub 
+Twitter 
+LinkedIn 
+Discord 
+
+
+
+
+
+
+
+

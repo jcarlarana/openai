@@ -1,0 +1,269 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nsarrazin (Nathan Sarrazin)
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+
+
+94
+4
+15
+Nathan Sarrazin
+PRO
+
+
+nsarrazin
+Follow
+
+
+orion-penner's profile picture
+
+scaraliu's profile picture
+
+VictorSanh's profile picture
+
+75
+					followers
+·
+158 following
+				
+
+http://www.nsarrazin.com
+
+
+nsarrazin
+
+			AI & ML interests
+		
+None yet
+
+			Organizations
+		
+
+
+
+
+
+
+Collections
+1
+
+
+
+Cool chat-ui Spaces
+Model showcases using chat-ui as their frontend 
+
+
+
+
+			Running
+			ona100
+
+
+
+748
+🪁
+Zephyr Chat
+
+
+
+
+
+			Running
+			oncpu upgrade
+
+
+
+791
+🔥
+chat-ui
+
+
+
+
+
+			Running
+			oncpu upgrade
+
+
+
+247
+🔥
+Yi-34B-Chat
+
+
+
+
+
+
+
+89
+📚
+Blind Chat
+
+
+
+
+
+Papers
+1
+
+
+arxiv:2310.16944
+
+
+
+
+
+spaces
+4
+
+
+
+
+
+
+		Sort: 
+		Recently updated
+	
+		
+
+
+
+pinned
+				
+
+					Build error
+
+5
+🦙
+Serge
+
+
+
+					Sleeping
+
+3
+📈
+Agent Chat
+
+
+
+
+5
+🤖
+Agents.js PoC - Open Assistant 30B
+
+
+
+					Runtime error
+
+1
+🦙
+Agents.js PoC - Llama 2 70B
+
+
+
+models
+1
+
+
+
+
+
+
+nsarrazin/alpaca
+
+
+Updated
+				Apr 2
+
+
+
+datasets
+
+
+
+None public yet
+
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

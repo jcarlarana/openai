@@ -1,0 +1,231 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+src/lib/components/CodePreview.svelte · nsarrazin/agents-js-llama at main
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+					Duplicated from 
+					nsarrazin/agents-js-oasst
+
+
+nsarrazin
+/
+agents-js-llama
+
+
+
+like
+1
+
+			Runtime error
+			
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+			main
+		
+
+agents-js-llama
+
+
+File size: 997 Bytes
+			
+d61fb4a
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+123456789101112131415161718192021222324252627282930313233343536373839404142434445
+<script lang="ts">
+  export let code: string;
+  export let onRun: (code: string) => void;
+
+  let editMode: boolean = false;
+  let codeElement: HTMLElement;
+</script>
+
+<div class="divider" />
+<div>
+  <h3 class="text-lg inline-block">Check the code</h3>
+  <button
+    class="btn btn-ghost inline-block w-min"
+    on:click={() => (editMode = !editMode)}
+    on:keypress={() => (editMode = !editMode)}
+  >
+    {editMode ? "done" : "edit"}
+  </button>
+</div>
+<div
+  class="mockup-code text-sm focus:outline-none"
+  class:bg-base-200={editMode}
+  on:dblclick={() => (editMode = true)}
+>
+  <pre
+    class="ml-4"
+    on:click={() => codeElement && codeElement.focus()}
+    on:keypress={() => codeElement && codeElement.focus()}>
+  {#if editMode}
+      <code contenteditable bind:textContent={code} bind:this={codeElement} />
+    {:else}
+      <code>{code}</code>
+    {/if}
+    </pre>
+</div>
+
+<button
+  class="btn btn-primary w-fit mx-auto"
+  on:click={() => {
+    onRun(code);
+  }}
+>
+  run code
+</button>
+
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

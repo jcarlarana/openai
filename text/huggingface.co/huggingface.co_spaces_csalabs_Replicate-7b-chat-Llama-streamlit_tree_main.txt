@@ -1,0 +1,273 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+csalabs/Replicate-7b-chat-Llama-streamlit at main
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+
+csalabs
+/
+Replicate-7b-chat-Llama-streamlit
+
+
+
+like
+0
+
+			Runtime error
+			
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+			main
+		
+
+Replicate-7b-chat-Llama-streamlit
+
+
+
+1 contributor
+
+History:
+18 commits
+
+
+
+csalabs
+					
+
+Update app.py
+26481e9
+3 months ago
+
+
+.env
+
+
+
+232 Bytes
+				
+
+				
+
+Upload 4 files
+3 months ago
+
+
+.gitattributes
+
+
+
+1.95 kB
+				
+
+				
+
+Upload 4 files
+3 months ago
+
+
+Freedom of Information and Protection of Privacy Act, R.S.O. 1990, c. F.31[462] - Copy.pdf
+
+
+
+1.27 MB
+				
+	LFS
+
+
+
+Upload 4 files
+3 months ago
+
+
+Highway Traffic Act, R.S.O. 1990, c. H.8[465] - Copy.pdf
+
+
+
+1.18 MB
+				
+	LFS
+
+
+
+Upload 4 files
+3 months ago
+
+
+Narcotics Safety and Awareness Act, 2010, S.O. 2010, c. 22[463].pdf
+
+
+
+207 kB
+				
+
+				
+
+Upload 4 files
+3 months ago
+
+
+Nutrient Management Act, 2002, S.O. 2002, c. 4[464].pdf
+
+
+
+903 kB
+				
+
+				
+
+Upload 4 files
+3 months ago
+
+
+README.md
+
+
+
+285 Bytes
+				
+
+				
+
+initial commit
+3 months ago
+
+
+app.py
+
+
+
+4.97 kB
+				
+
+				
+
+Update app.py
+3 months ago
+
+
+constants.py
+
+
+
+6.02 kB
+				
+
+				
+
+Upload 4 files
+3 months ago
+
+
+requirements.txt
+
+
+
+224 Bytes
+				
+
+				
+
+Update requirements.txt
+3 months ago
+
+
+
+
+
+
+
+
+
+
+

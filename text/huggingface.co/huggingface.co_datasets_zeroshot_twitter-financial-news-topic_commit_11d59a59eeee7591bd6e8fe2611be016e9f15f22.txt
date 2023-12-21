@@ -1,0 +1,385 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Update README.md · zeroshot/twitter-financial-news-topic at 11d59a5
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Datasets:
+
+
+zeroshot
+/
+twitter-financial-news-topic
+
+
+
+like
+16
+
+Tasks:
+	
+
+Text Classification
+
+Sub-tasks:
+	
+
+multi-class-classification
+
+Languages:
+	
+
+English
+
+Multilinguality:
+	
+
+monolingual
+
+Size Categories:
+	
+
+10K<n<100K
+
+Language Creators:
+	
+
+other
+
+Annotations Creators:
+	
+
+other
+
+Source Datasets:
+	
+
+original
+
+Tags:
+	
+
+twitter
+
+finance
+
+markets
+
++ 4License:
+	
+
+
+
+mit
+
+
+
+
+
+			Dataset card
+			
+			
+		
+Files
+Files and versions
+
+			Community
+			1
+				
+
+
+
+
+zeroshot
+			
+commited on
+		Dec 4, 2022
+
+Commit 
+
+11d59a5
+
+
+• 
+1
+								Parent(s):
+							
+86e1027
+								
+Update README.md
+
+							Browse files
+						
+
+
+
+
+Files changed (1)
+hide
+show
+
+
+
+
+
+
+ README.md
+
++1
+-1
+
+
+
+
+
+
+
+
+
+
+ README.md
+CHANGED
+
+
+    Viewed
+
+
+
+
+
+
+
+
+
+
+@@ -29,7 +29,7 @@ task_ids:
+
+
+
+      29
+    
+
+
+ 
+- multi-class-classification
+
+
+
+
+      30
+    
+
+
+ 
+---
+
+
+
+
+      31
+    
+
+
+ 
+
+
+
+
+
+      32
+    
+
+
+-
+Read this [blog](https://neuralmagic.com/blog/classifying-finance-tweets-in-real-time-with-sparse-transformers/) to see how I fine-tuned a sparse transformer on this dataset.
+
+
+
+
+      33
+    
+
+
+ 
+
+
+
+
+
+      34
+    
+
+
+ 
+### Dataset Description
+
+
+
+
+      35
+    
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      29
+    
+
+
+ 
+- multi-class-classification
+
+
+
+
+      30
+    
+
+
+ 
+---
+
+
+
+
+      31
+    
+
+
+ 
+
+
+
+
+
+      32
+    
+
+
++
+Read this [BLOG](https://neuralmagic.com/blog/classifying-finance-tweets-in-real-time-with-sparse-transformers/) to see how I fine-tuned a sparse transformer on this dataset.
+
+
+
+
+      33
+    
+
+
+ 
+
+
+
+
+
+      34
+    
+
+
+ 
+### Dataset Description
+
+
+
+
+      35
+    
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

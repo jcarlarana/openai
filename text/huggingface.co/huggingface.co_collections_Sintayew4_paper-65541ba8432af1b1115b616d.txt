@@ -1,0 +1,488 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Paper  - a Sintayew4 Collection
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Sintayew4
+'s Collections
+
+
+
+
+
+
+
+Paper 
+
+
+Paper 
+updated
+			about 17 hours ago
+
+
+		Upvote
+
+		1
+
+
+
+
+
+
+
+
+Evaluate & Evaluation on the Hub: Better Best Practices for Data and
+  Model Measurements
+
+			Paper
+			•
+			2210.01970
+			•
+Published
+				Sep 30, 2022
+•
+
+
+				9
+			
+
+
+
+Zephyr: Direct Distillation of LM Alignment
+
+			Paper
+			•
+			2310.16944
+			•
+Published
+				Oct 25
+•
+
+
+				102
+			
+
+
+
+
+			Running
+			ont4
+
+
+
+6
+🎤
+Whisper KI Spracherkennung
+
+
+
+
+Datasets: A Community Library for Natural Language Processing
+
+			Paper
+			•
+			2109.02846
+			•
+Published
+				Sep 7, 2021
+•
+
+
+				6
+			
+
+
+
+HuggingFace's Transformers: State-of-the-art Natural Language Processing
+
+			Paper
+			•
+			1910.03771
+			•
+Published
+				Oct 9, 2019
+•
+
+
+				12
+			
+
+
+
+A Broad-Coverage Challenge Corpus for Sentence Understanding through
+  Inference
+
+			Paper
+			•
+			1704.05426
+			•
+Published
+				Apr 18, 2017
+•
+
+
+				1
+			
+
+
+
+XNLI: Evaluating Cross-lingual Sentence Representations
+
+			Paper
+			•
+			1809.05053
+			•
+Published
+				Sep 13, 2018
+•
+
+
+				1
+			
+
+
+
+SQuALITY: Building a Long-Document Summarization Dataset the Hard Way
+
+			Paper
+			•
+			2205.11465
+			•
+Published
+				May 23, 2022
+•
+
+
+				1
+			
+
+
+
+Does Putting a Linguist in the Loop Improve NLU Data Collection?
+
+			Paper
+			•
+			2104.07179
+			•
+Published
+				Apr 15, 2021
+•
+
+
+				1
+			
+
+
+
+The Pile: An 800GB Dataset of Diverse Text for Language Modeling
+
+			Paper
+			•
+			2101.00027
+			•
+Published
+				Dec 31, 2020
+•
+
+
+				4
+			
+
+
+
+
+stabilityai/stable-video-diffusion-img2vid-xt
+
+
+
+			Image-to-Video
+			• 
+Updated
+				19 days ago
+• 
+
+				130k
+			• 
+
+				1.41k
+			
+
+
+
+
+tiiuae/falcon-7b
+
+
+
+			Text Generation
+			• 
+Updated
+				Sep 29
+• 
+
+				94.6k
+			• 
+
+				954
+			
+
+
+
+
+			Running
+			onzero
+
+
+
+362
+🏆
+Llama 2 7B Chat
+
+
+
+
+
+			Running
+			oncpu upgrade
+
+
+
+1.14k
+💻
+Explore Llamav2 With TGI
+
+
+
+
+
+meta-llama/Llama-2-70b-chat-hf
+
+
+
+			Text Generation
+			• 
+Updated
+				Nov 13
+• 
+
+				261k
+			• 
+
+				1.79k
+			
+
+
+
+
+Intel/neural-chat-7b-v3-1
+
+
+
+			Text Generation
+			• 
+Updated
+				21 days ago
+• 
+
+				45.4k
+			• 
+
+				490
+			
+
+
+
+
+Cr4yfish/zipnerf
+
+
+
+			Depth Estimation
+			• 
+Updated
+				Jun 29
+• 
+
+				4
+			
+
+
+
+
+
+
+19
+🚀
+gradio_pdf V0.0.3
+
+
+
+
+
+TheBloke/Stheno-v2-Delta-GPTQ
+
+
+
+			Text Generation
+			• 
+Updated
+				23 days ago
+• 
+
+				47
+			• 
+
+				2
+			
+
+
+
+
+christophalt/test-model
+
+
+Updated
+				Nov 19, 2021
+• 
+
+				1
+			
+
+
+
+
+			Running
+			oncpu upgrade
+
+
+
+1.01k
+🏋️
+Stable Diffusion XL on TPUv5e
+
+
+
+
+
+stabilityai/sdxl-turbo
+
+
+
+			Text-to-Image
+			• 
+Updated
+				13 days ago
+• 
+
+				589k
+			• 
+
+				1.3k
+			
+
+
+
+
+		Upvote
+
+		1
+
+
+
+
+
+
+
+Share collection
+							
+
+								View history
+							
+
+								Collection guide
+							
+
+								Browse collections
+							
+
+
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

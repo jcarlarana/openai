@@ -1,0 +1,232 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ThomasSimonini/Stable-Baselines3 at main
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+
+ThomasSimonini
+/
+Stable-Baselines3
+
+
+
+like
+12
+
+			Sleeping
+			
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+			main
+		
+
+Stable-Baselines3
+
+
+
+1 contributor
+
+History:
+13 commits
+
+
+
+Thomas Simonini
+				
+			
+Added work in progress generate video live
+1c71ebe
+about 2 years ago
+
+
+.gitattributes
+
+
+
+1.17 kB
+				
+
+				
+
+initial commit
+about 2 years ago
+
+
+CartPole-v1.mp4
+
+
+
+328 kB
+				
+
+				
+
+Upload CartPole-v1.mp4
+about 2 years ago
+
+
+LunarLander-v2.mp4
+
+
+
+1.25 MB
+				
+
+				
+
+Upload LunarLander-v2.mp4
+about 2 years ago
+
+
+README.md
+
+
+
+910 Bytes
+				
+
+				
+
+Update emoji
+about 2 years ago
+
+
+SpaceInvadersNoFrameskip-v4.mp4
+
+
+
+278 kB
+				
+
+				
+
+Upload SpaceInvadersNoFrameskip-v4.mp4
+about 2 years ago
+
+
+app.py
+
+
+
+5.87 kB
+				
+
+				
+
+Added work in progress generate video live
+about 2 years ago
+
+
+requirements.txt
+
+
+
+7 Bytes
+				
+
+				
+
+Create requirements.txt
+about 2 years ago
+
+
+
+
+
+
+
+
+
+
+

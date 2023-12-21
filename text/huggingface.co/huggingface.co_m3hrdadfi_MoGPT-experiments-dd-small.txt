@@ -1,0 +1,152 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+m3hrdadfi/MoGPT-experiments-dd-small · Hugging Face
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+
+
+m3hrdadfi
+/
+MoGPT-experiments-dd-small
+
+
+
+like
+0
+
+
+TensorBoard
+
+
+			Model card
+			
+			
+		
+Files
+Files and versions
+
+Metrics
+Training metrics
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+		Use with library
+
+
+
+No model card
+New: Create and edit this model card directly on the website!
+Contribute a Model Card
+							
+
+Downloads last month0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Unable to determine this model's library. Check the
+				docs 
+.
+			
+
+
+
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

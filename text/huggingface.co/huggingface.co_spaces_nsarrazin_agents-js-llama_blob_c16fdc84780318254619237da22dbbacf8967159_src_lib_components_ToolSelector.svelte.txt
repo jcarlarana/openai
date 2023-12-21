@@ -1,0 +1,286 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+src/lib/components/ToolSelector.svelte · nsarrazin/agents-js-llama at c16fdc84780318254619237da22dbbacf8967159
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+					Duplicated from 
+					nsarrazin/agents-js-oasst
+
+
+nsarrazin
+/
+agents-js-llama
+
+
+
+like
+1
+
+			Runtime error
+			
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+			c16fdc8
+		
+
+agents-js-llama
+/
+src
+							
+/lib
+							
+/components
+							
+/ToolSelector.svelte
+
+
+nsarrazin
+					
+HF staff
+
+Duplicate from nsarrazin/agents-js-oasst
+d61fb4a
+5 months ago
+
+
+							raw
+						
+							history
+						
+							blame
+						
+
+
+							No virus
+						
+1.07 kB
+
+
+
+
+<script lang="ts">
+
+
+ import { defaultTools } from "@huggingface/agents";
+
+
+ export let selectedTools: Array<string> = [];
+
+
+</script>
+
+
+
+
+
+
+<div class="w-fit mx-auto">
+
+
+ <h3 class="text-lg pb-3">Select your tools</h3>
+
+
+
+
+
+
+ <div class="join mx-auto grid grid-cols-4 gap-3">
+
+
+ {#each defaultTools as tool}
+
+
+ <label class="label cursor-pointer gap-2">
+
+
+ <span class="label-text">
+
+
+ {tool.name}
+
+
+ </span>
+
+
+ <input
+
+
+ class="checkbox"
+
+
+ type="checkbox"
+
+
+ bind:group={selectedTools}
+
+
+ name="tools"
+
+
+ value={tool.name}
+
+
+        />
+
+
+ </label>
+
+
+ {/each}
+
+
+ </div>
+
+
+
+
+
+
+ <div class="mx-auto w-fit mt-2">
+
+
+ {#if selectedTools.length === defaultTools.length}
+
+
+ <button
+
+
+ class="btn btn-ghost inline-block w-fit btn-sm"
+
+
+ on:click={() => (selectedTools = [])}>clear</button
+
+
+      >
+
+
+ {:else}
+
+
+ <button
+
+
+ class="btn btn-ghost inline-block w-fit btn-sm"
+
+
+ on:click={() => (selectedTools = defaultTools.map((el) => el.name))}
+
+
+        >select all</button
+
+
+      >
+
+
+ {/if}
+
+
+ </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+

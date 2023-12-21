@@ -1,0 +1,545 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+app.py · csalabs/Replicate-7b-chat-Llama-streamlit at afb085f1b07e253e3304b0464527395f17f65203
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+
+csalabs
+/
+Replicate-7b-chat-Llama-streamlit
+
+
+
+like
+0
+
+			Runtime error
+			
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+			afb085f
+		
+
+Replicate-7b-chat-Llama-streamlit
+/
+app.py
+
+
+csalabs
+					
+
+Upload 4 files
+6d14bdc
+3 months ago
+
+
+							raw
+						
+							history
+						
+							blame
+						
+
+
+							No virus
+						
+5.03 kB
+
+
+
+
+import streamlit as st
+
+
+from streamlit_chat import message
+
+
+from langchain.chains import ConversationalRetrievalChain
+
+
+from langchain.embeddings import HuggingFaceEmbeddings
+
+
+from langchain.llms import CTransformers
+
+
+from langchain.llms import Replicate
+
+
+from langchain.text_splitter import CharacterTextSplitter
+
+
+from langchain.vectorstores import FAISS
+
+
+from langchain.memory import ConversationBufferMemory
+
+
+from langchain.document_loaders import PyPDFLoader, UnstructuredFileLoader
+
+
+from langchain.document_loaders import TextLoader
+
+
+from langchain.document_loaders import Docx2txtLoader
+
+
+from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
+
+
+from langchain.text_splitter import Language, RecursiveCharacterTextSplitter
+
+
+import os
+
+
+from dotenv import load_dotenv
+
+
+import tempfile
+
+
+from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor, as_completed
+
+
+from constants import (
+
+
+    CHROMA_SETTINGS,
+
+
+    DOCUMENT_MAP,
+
+
+    EMBEDDING_MODEL_NAME,
+
+
+    INGEST_THREADS,
+
+
+    PERSIST_DIRECTORY,
+
+
+    SOURCE_DIRECTORY,
+
+
+)
+
+
+from langchain.docstore.document import Document
+
+
+load_dotenv()
+
+
+
+
+
+
+
+
+
+
+def initialize_session_state():
+
+
+ if 'history' not in st.session_state:
+
+
+        st.session_state['history'] = []
+
+
+
+
+
+
+ if 'generated' not in st.session_state:
+
+
+        st.session_state['generated'] = ["Hello! Ask me anything about 🤗"]
+
+
+
+
+
+
+ if 'past' not in st.session_state:
+
+
+        st.session_state['past'] = ["Hey! 👋"]
+
+
+
+
+
+
+def conversation_chat(query, chain, history):
+
+
+    result = chain({"question": query, "chat_history": history})
+
+
+    history.append((query, result["answer"]))
+
+
+ return result["answer"]
+
+
+
+
+
+
+def display_chat_history(chain):
+
+
+    reply_container = st.container()
+
+
+    container = st.container()
+
+
+
+
+
+
+ with container:
+
+
+ with st.form(key='my_form', clear_on_submit=True):
+
+
+            user_input = st.text_input("Question:", placeholder="Ask about your Documents", key='input')
+
+
+            submit_button = st.form_submit_button(label='Send')
+
+
+
+
+
+
+ if submit_button and user_input:
+
+
+ with st.spinner('Generating response...'):
+
+
+                output = conversation_chat(user_input, chain, st.session_state['history'])
+
+
+
+
+
+
+            st.session_state['past'].append(user_input)
+
+
+            st.session_state['generated'].append(output)
+
+
+
+
+
+
+ if st.session_state['generated']:
+
+
+ with reply_container:
+
+
+ for i in range(len(st.session_state['generated'])):
+
+
+                message(st.session_state["past"][i], is_user=True, key=str(i) + '_user', avatar_style="thumbs")
+
+
+                message(st.session_state["generated"][i], key=str(i), avatar_style="fun-emoji")
+
+
+
+
+
+
+
+
+
+
+def create_conversational_chain(vector_store):
+
+
+    load_dotenv()
+
+
+    llm = Replicate(
+
+
+        streaming = True,
+
+
+ # model = "replicate/llama-2-70b-chat:58d078176e02c219e11eb4da5a02a7830a283b14cf8f94537af893ccff5ee781",
+
+
+        model = "meta/llama-2-7b-chat:8e6975e5ed6174911a6ff3d60540dfd4844201974602551e10e9e87ab143d81e",
+
+
+        callbacks=[StreamingStdOutCallbackHandler()],
+
+
+ input = {"temperature": 0.01, "max_length" :500,"top_p":1})
+
+
+    memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
+
+
+
+
+
+
+    chain = ConversationalRetrievalChain.from_llm(llm=llm, chain_type='stuff',
+
+
+                                                 retriever=vector_store.as_retriever(search_kwargs={"k": 2}),
+
+
+                                                 memory=memory)
+
+
+ return chain
+
+
+
+
+
+
+file_paths = [
+
+
+ './SOURCE_DOCUMENTS/Freedom of Information and Protection of Privacy Act, R.S.O. 1990, c. F.31[462] - Copy.pdf',
+
+
+ './SOURCE_DOCUMENTS/Highway Traffic Act, R.S.O. 1990, c. H.8[465] - Copy.pdf',
+
+
+ './SOURCE_DOCUMENTS/Narcotics Safety and Awareness Act, 2010, S.O. 2010, c. 22[463].pdf',
+
+
+ './SOURCE_DOCUMENTS/Nutrient Management Act, 2002, S.O. 2002, c. 4[464].pdf'
+
+
+ # Add more file paths as needed
+
+
+]
+
+
+
+
+
+
+def main():
+
+
+ # load_dotenv()
+
+
+    os.environ.get("REPLICATE_API_TOKEN")
+
+
+ # Initialize session state
+
+
+    initialize_session_state()
+
+
+    st.title("Multi-Docs ChatBot using llama-2-7b :books:")
+
+
+ # loader = UnstructuredFileLoader('./SOURCE_DOCUMENTS/Freedom of Information and Protection of Privacy Act, R.S.O. 1990, c. F.31[462] - Copy.pdf')
+
+
+ # documents = loader.load()
+
+
+    documents = []
+
+
+ for file_path in file_paths:
+
+
+        loader = UnstructuredFileLoader(file_path)
+
+
+        loaded_doc = loader.load()  # Assuming this returns a list of pages
+
+
+        documents.extend(loaded_doc)
+
+
+
+
+
+
+    text_splitter=CharacterTextSplitter(separator='\n',
+
+
+                                    chunk_size=1500,
+
+
+                                    chunk_overlap=300)
+
+
+    text_chunks=text_splitter.split_documents(documents)
+
+
+
+
+
+
+    embeddings = HuggingFaceEmbeddings(model_name='sentence-transformers/all-MiniLM-L6-v2',model_kwargs={'device': 'cpu'})
+
+
+
+
+
+
+    vector_store=FAISS.from_documents(text_chunks, embeddings)
+
+
+
+
+
+
+# Create the chain object
+
+
+    chain = create_conversational_chain(vector_store)
+
+
+
+
+
+
+# Display chat history
+
+
+    display_chat_history(chain)
+
+
+
+
+
+
+
+
+
+
+if __name__ == "__main__":
+
+
+    main()
+
+
+
+
+
+
+
+
+
+
+
+
+
+

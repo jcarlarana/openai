@@ -1,0 +1,193 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+paredena/microsoft-BiomedCLIP-PubMedBERT_256-vit_base_patch16_224 at main
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+
+paredena
+/
+microsoft-BiomedCLIP-PubMedBERT_256-vit_base_patch16_224
+
+
+
+like
+0
+
+			Runtime error
+			
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+			main
+		
+
+microsoft-BiomedCLIP-PubMedBERT_256-vit_base_patch16_224
+
+
+
+1 contributor
+
+History:
+2 commits
+
+
+
+paredena
+					
+
+Upload 1200px-Pap_smear_showing_clamydia_in_the_vacuoles_500x_H&E.jpg
+e6c9329
+3 months ago
+
+
+.gitattributes
+
+
+
+1.52 kB
+				
+
+				
+
+initial commit
+3 months ago
+
+
+1200px-Pap_smear_showing_clamydia_in_the_vacuoles_500x_H&E.jpg
+
+
+
+152 kB
+				
+
+				
+
+Upload 1200px-Pap_smear_showing_clamydia_in_the_vacuoles_500x_H&E.jpg
+3 months ago
+
+
+README.md
+
+
+
+276 Bytes
+				
+
+				
+
+initial commit
+3 months ago
+
+
+app.py
+
+
+
+114 Bytes
+				
+
+				
+
+initial commit
+3 months ago
+
+
+
+
+
+
+
+
+
+
+

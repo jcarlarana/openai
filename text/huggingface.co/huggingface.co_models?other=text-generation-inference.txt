@@ -1,0 +1,633 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Models - Hugging Face
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Edit Models filters
+
+Tasks
+				
+Libraries
+				
+Datasets
+				
+Languages
+				
+Licenses
+				
+Other
+				1
+					
+
+
+
+
+				Reset Other
+
+
+text-generation-inference
+
+AutoTrain Compatible
+
+Inference Endpoints
+
+Has a Space
+
+4-bit precision
+
+Eval Results
+
+custom_code
+
+Carbon Emissions
+
+8-bit precision
+
+
+
+
+				Apply filters
+			
+Models
+54,574
+
+
+new
+				Full-text search
+			
+
+					Edit filters
+				
+
+
+
+		Sort: 
+		Trending
+	
+		
+
+Active filters: 
+					text-generation-inference
+Clear all 
+
+
+ehartford/dolphin-2.5-mixtral-8x7b
+
+
+
+			Text Generation
+			• 
+Updated
+				3 days ago
+• 
+
+				20.9k
+			• 
+
+				626
+			
+
+mistralai/Mixtral-8x7B-Instruct-v0.1
+
+
+
+			Text Generation
+			• 
+Updated
+				6 days ago
+• 
+
+				121k
+			• 
+
+				1.23k
+			
+
+mistralai/Mixtral-8x7B-v0.1
+
+
+
+			Text Generation
+			• 
+Updated
+				6 days ago
+• 
+
+				43.7k
+			• 
+
+				706
+			
+
+upstage/SOLAR-10.7B-Instruct-v1.0
+
+
+
+			Text Generation
+			• 
+Updated
+				3 days ago
+• 
+
+				5.18k
+			• 
+
+				277
+			
+
+mistralai/Mistral-7B-Instruct-v0.2
+
+
+
+			Text Generation
+			• 
+Updated
+				6 days ago
+• 
+
+				46.8k
+			• 
+
+				438
+			
+
+TheBloke/dolphin-2.5-mixtral-8x7b-GGUF
+
+
+Updated
+				7 days ago
+• 
+
+				126
+			• 
+
+				126
+			
+
+openchat/openchat-3.5-1210
+
+
+
+			Text Generation
+			• 
+Updated
+				34 minutes ago
+• 
+
+				4.35k
+			• 
+
+				113
+			
+
+TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF
+
+
+Updated
+				7 days ago
+• 
+
+				272
+			• 
+
+				230
+			
+
+mistralai/Mistral-7B-v0.1
+
+
+
+			Text Generation
+			• 
+Updated
+				9 days ago
+• 
+
+				481k
+			• 
+
+				2.37k
+			
+
+meta-llama/Llama-2-7b-chat-hf
+
+
+
+			Text Generation
+			• 
+Updated
+				Nov 13
+• 
+
+				771k
+			• 
+
+				2.21k
+			
+
+TheBloke/Mixtral-8x7B-v0.1-GGUF
+
+
+Updated
+				7 days ago
+• 
+
+				345
+			• 
+
+				282
+			
+
+TheBloke/Mixtral-8x7B-v0.1-GPTQ
+
+
+
+			Text Generation
+			• 
+Updated
+				7 days ago
+• 
+
+				2.54k
+			• 
+
+				86
+			
+
+upstage/SOLAR-10.7B-v1.0
+
+
+
+			Text Generation
+			• 
+Updated
+				7 days ago
+• 
+
+				2.03k
+			• 
+
+				78
+			
+
+whiterabbitneo/WhiteRabbitNeo-13B
+
+
+
+			Text Generation
+			• 
+Updated
+				about 22 hours ago
+• 
+
+				37
+			• 
+
+				51
+			
+
+OpenPipe/mistral-ft-optimized-1218
+
+
+
+			Text Generation
+			• 
+Updated
+				2 days ago
+• 
+
+				134
+			• 
+
+				42
+			
+
+TheBloke/dolphin-2.5-mixtral-8x7b-GPTQ
+
+
+
+			Text Generation
+			• 
+Updated
+				7 days ago
+• 
+
+				897
+			• 
+
+				41
+			
+
+HuggingFaceH4/zephyr-7b-beta
+
+
+
+			Text Generation
+			• 
+Updated
+				7 days ago
+• 
+
+				168k
+			• 
+
+				1.1k
+			
+
+mistralai/Mistral-7B-Instruct-v0.1
+
+
+
+			Text Generation
+			• 
+Updated
+				6 days ago
+• 
+
+				500k
+			• 
+
+				1.23k
+			
+
+berkeley-nest/Starling-LM-7B-alpha
+
+
+
+			Text Generation
+			• 
+Updated
+				18 days ago
+• 
+
+				15.4k
+			• 
+
+				374
+			
+
+TheBloke/Mistral-7B-Instruct-v0.1-GGUF
+
+
+
+			Text Generation
+			• 
+Updated
+				12 days ago
+• 
+
+				3.88k
+			• 
+
+				365
+			
+
+openchat/openchat_3.5
+
+
+
+			Text Generation
+			• 
+Updated
+				8 days ago
+• 
+
+				53.3k
+			• 
+
+				959
+			
+
+TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+
+
+
+			Text Generation
+			• 
+Updated
+				9 days ago
+• 
+
+				294
+			• 
+
+				69
+			
+
+sarvamai/OpenHathi-7B-Hi-v0.1-Base
+
+
+
+			Text Generation
+			• 
+Updated
+				1 day ago
+• 
+
+				1.18k
+			• 
+
+				33
+			
+
+TheBloke/openchat-3.5-1210-GGUF
+
+
+
+			Text Generation
+			• 
+Updated
+				6 days ago
+• 
+
+				17
+			• 
+
+				28
+			
+
+teknium/OpenHermes-2.5-Mistral-7B
+
+
+
+			Text Generation
+			• 
+Updated
+				18 days ago
+• 
+
+				35.9k
+			• 
+
+				452
+			
+
+Nexusflow/NexusRaven-V2-13B
+
+
+
+			Text Generation
+			• 
+Updated
+				9 days ago
+• 
+
+				3.23k
+			• 
+
+				252
+			
+
+WizardLM/WizardMath-7B-V1.1
+
+
+
+			Text Generation
+			• 
+Updated
+				1 day ago
+• 
+
+				4
+			• 
+
+				26
+			
+
+meta-llama/Llama-2-70b-chat-hf
+
+
+
+			Text Generation
+			• 
+Updated
+				Nov 13
+• 
+
+				261k
+			• 
+
+				1.79k
+			
+
+mobiuslabsgmbh/Mixtral-8x7B-Instruct-v0.1-hf-attn-4bit-moe-2bit-HQQ
+
+
+
+			Text Generation
+			• 
+Updated
+				3 days ago
+• 
+
+				9
+			• 
+
+				24
+			
+
+meta-llama/Llama-2-7b-hf
+
+
+
+			Text Generation
+			• 
+Updated
+				Nov 13
+• 
+
+				476k
+			• 
+
+				934
+			
+
+		Previous
+1
+2
+3
+...
+1,820
+
+Next
+		
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

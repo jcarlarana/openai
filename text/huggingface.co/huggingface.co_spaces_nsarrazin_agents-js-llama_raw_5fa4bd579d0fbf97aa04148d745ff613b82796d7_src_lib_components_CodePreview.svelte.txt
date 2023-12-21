@@ -1,0 +1,27 @@
+
+
+
+Check the code
+ (editMode = !editMode)}
+    on:keypress={() => (editMode = !editMode)}
+  >
+    {editMode ? "done" : "edit"}
+  
+
+ (editMode = true)}
+>
+   codeElement && codeElement.focus()}
+    on:keypress={() => codeElement && codeElement.focus()}>
+  {#if editMode}
+      
+    {:else}
+      {code}
+    {/if}
+    
+
+ {
+    onRun(code);
+  }}
+>
+  run code
+

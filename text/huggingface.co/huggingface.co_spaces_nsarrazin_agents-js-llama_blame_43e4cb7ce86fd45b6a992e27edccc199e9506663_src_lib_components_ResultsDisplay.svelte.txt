@@ -1,0 +1,229 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+src/lib/components/ResultsDisplay.svelte · nsarrazin/agents-js-llama at 43e4cb7ce86fd45b6a992e27edccc199e9506663
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+					Duplicated from 
+					nsarrazin/agents-js-oasst
+
+
+nsarrazin
+/
+agents-js-llama
+
+
+
+like
+1
+
+			Runtime error
+			
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+			43e4cb7
+		
+
+agents-js-llama
+
+
+File size: 1,391 Bytes
+			
+d61fb4a
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1234567891011121314151617181920212223242526272829303132333435363738394041424344
+<script lang="ts">
+  export let messages: Array<{
+    message: string;
+    data: string | Blob | undefined;
+  }>;
+
+  const isBlob = (message: string | Blob): message is Blob => {
+    return message instanceof Blob;
+  };
+</script>
+
+<div class="w-fit mx-auto">
+  <h3 class="text-lg pb-5">Results</h3>
+  <div class="space-y-5">
+    {#each messages as message}
+      <div class="collapse bg-base-200 collapse-plus">
+        <input type="checkbox" />
+        <div class="collapse-title text-xl font-medium">
+          {message.message}
+        </div>
+        <div class="collapse-content">
+          {#if !!message.data && isBlob(message.data)}
+            {#if message.data.type.startsWith("image")}
+              <div class="mx-auto border-2 border-neutral-focus w-full">
+                <img
+                  class="p-1 w-fit"
+                  alt="generated"
+                  src={URL.createObjectURL(message.data)}
+                />
+              </div>
+            {:else if message.data.type.startsWith("audio")}
+              <audio controls src={URL.createObjectURL(message.data)} />
+            {:else}
+              <p class="text-mono text-light w-full">blob type unknown</p>
+            {/if}
+          {:else if !!message.data}
+            <p class="text-mono mx-auto text-light w-full">{message.data}</p>
+          {/if}
+        </div>
+      </div>
+    {/each}
+  </div>
+</div>
+
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

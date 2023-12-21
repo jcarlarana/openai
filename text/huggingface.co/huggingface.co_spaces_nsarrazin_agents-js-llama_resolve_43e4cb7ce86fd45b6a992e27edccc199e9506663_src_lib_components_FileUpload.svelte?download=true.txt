@@ -1,0 +1,19 @@
+
+
+
+
+
+        {#if files && files.length > 0}
+          {files[0].type.split("/")[0]} detected
+           (files = null)}
+            >clear
+          
+        {:else}
+          Upload a file (image or audio)
+        {/if}
+      
+
+ 0}
+    />
+  
+

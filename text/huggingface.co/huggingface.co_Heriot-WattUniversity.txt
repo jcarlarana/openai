@@ -1,0 +1,196 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Heriot-WattUniversity (Heriot-Watt University)
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+
+Heriot-Watt University
+
+classroom
+
+
+https://www.hw.ac.uk/
+
+ Request to join this org
+				
+
+
+				AI & ML interests
+			
+Machine Learning, Dialogue Systems, Natural Language Processing
+
+Team members
+		27
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			Organization Card
+		
+
+				About org cards
+			
+
+Welcome to Heriot-Watt University's organization page on HuggingFace.
+This page is currently maintained by members of The Interaction Lab at Heriot-Watt University. 🤖💬
+
+
+
+spaces
+1
+
+
+
+
+
+
+
+					Runtime error
+
+1
+📊
+Generate Tone
+
+
+
+
+models
+
+
+
+None public yet
+
+
+datasets
+1
+
+
+
+
+
+
+Heriot-WattUniversity/dialog_babi
+
+
+
+			Viewer
+			• 
+Updated
+				Jul 12, 2022
+• 
+
+				76
+			• 
+
+				2
+			
+
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

@@ -1,0 +1,173 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+app.py · ThomasSimonini/Stable-Baselines3 at 821e8decfd992f6e2e4e49de9b5c26cdaa24a7c9
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+
+ThomasSimonini
+/
+Stable-Baselines3
+
+
+
+like
+12
+
+			Sleeping
+			
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+			821e8de
+		
+
+Stable-Baselines3
+/
+app.py
+
+
+Thomas Simonini
+				
+			
+Create test version
+821e8de
+about 2 years ago
+
+
+							raw
+						
+							history
+						
+							blame
+						
+
+
+							No virus
+						
+149 Bytes
+
+
+
+
+import gradio as gr
+
+
+
+
+
+
+def greet(name):
+
+
+ return "Hello " + name + "!!"
+
+
+
+
+
+
+iface = gr.Interface(fn=greet, inputs="text", outputs="text")
+
+
+iface.launch()
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,146 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+app.py · lethalhames/Phind-Phind-CodeLlama-34B-v2 at 5eba9e08b91b3a74c3a3952f6a52361040631996
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+
+lethalhames
+/
+Phind-Phind-CodeLlama-34B-v2
+
+
+
+like
+2
+
+
+			Running
+			
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+			5eba9e0
+		
+
+Phind-Phind-CodeLlama-34B-v2
+
+
+File size: 86 Bytes
+			
+5eba9e0
+ 
+ 
+123
+import gradio as gr
+
+gr.Interface.load("models/Phind/Phind-CodeLlama-34B-v2").launch()
+Company
+© Hugging Face
+TOS
+Privacy
+About
+Jobs
+
+Website
+Models
+Datasets
+Spaces
+Pricing
+Docs
+
+
+
+
+
+
+

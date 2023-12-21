@@ -1,0 +1,218 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+src/lib/LLMFromOpenAI.ts · nsarrazin/agents-js-llama at c16fdc84780318254619237da22dbbacf8967159
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Spaces:
+
+					Duplicated from 
+					nsarrazin/agents-js-oasst
+
+
+nsarrazin
+/
+agents-js-llama
+
+
+
+like
+1
+
+			Runtime error
+			
+
+
+
+
+
+
+
+
+			App
+			
+			
+		
+Files
+Files
+
+			Community
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+			c16fdc8
+		
+
+agents-js-llama
+/
+src
+							
+/lib
+							
+/LLMFromOpenAI.ts
+
+
+nsarrazin
+					
+HF staff
+
+Duplicate from nsarrazin/agents-js-oasst
+d61fb4a
+5 months ago
+
+
+							raw
+						
+							history
+						
+							blame
+						
+
+
+							No virus
+						
+528 Bytes
+
+
+
+
+import type { LLM } from "@huggingface/agents/src/types";
+
+
+import { Configuration, OpenAIApi } from "openai";
+
+
+export function LLMFromOpenAI(openAIKey: string): LLM {
+
+
+ const api = new OpenAIApi(new Configuration({ apiKey: openAIKey }));
+
+
+
+
+
+
+ return async (prompt: string): Promise<string> => {
+
+
+ const textAnswer =
+
+
+      (
+
+
+ await api.createCompletion({
+
+
+ model: "text-davinci-003",
+
+
+ prompt: prompt,
+
+
+ max_tokens: 1000,
+
+
+        })
+
+
+      ).data.choices[0].text ?? "";
+
+
+
+
+
+
+ return textAnswer;
+
+
+  };
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

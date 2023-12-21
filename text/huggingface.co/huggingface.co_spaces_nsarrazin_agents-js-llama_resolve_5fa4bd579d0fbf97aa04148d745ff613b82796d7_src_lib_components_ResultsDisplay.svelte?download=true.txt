@@ -1,0 +1,29 @@
+
+
+Results
+
+    {#each messages as message}
+      
+
+
+          {message.message}
+        
+
+          {#if !!message.data && isBlob(message.data)}
+            {#if message.data.type.startsWith("image")}
+              
+
+
+            {:else if message.data.type.startsWith("audio")}
+              
+            {:else}
+              blob type unknown
+            {/if}
+          {:else if !!message.data}
+            {message.data}
+          {/if}
+        
+
+    {/each}
+  
+

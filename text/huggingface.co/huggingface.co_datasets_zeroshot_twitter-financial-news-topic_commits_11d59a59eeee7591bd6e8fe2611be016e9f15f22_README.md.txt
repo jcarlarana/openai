@@ -1,0 +1,235 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Commits · zeroshot/twitter-financial-news-topic
+
+
+
+
+
+
+Hugging Face
+
+
+
+
+
+
+
+					Models
+
+					Datasets
+
+					Spaces
+
+					Docs
+
+
+
+
+			Solutions
+		
+
+Pricing
+			
+
+
+
+
+
+
+Log In
+				
+Sign Up
+					
+
+
+
+Datasets:
+
+
+zeroshot
+/
+twitter-financial-news-topic
+
+
+
+like
+16
+
+Tasks:
+	
+
+Text Classification
+
+Sub-tasks:
+	
+
+multi-class-classification
+
+Languages:
+	
+
+English
+
+Multilinguality:
+	
+
+monolingual
+
+Size Categories:
+	
+
+10K<n<100K
+
+Language Creators:
+	
+
+other
+
+Annotations Creators:
+	
+
+other
+
+Source Datasets:
+	
+
+original
+
+Tags:
+	
+
+twitter
+
+finance
+
+markets
+
++ 4License:
+	
+
+
+
+mit
+
+
+
+
+
+			Dataset card
+			
+			
+		
+Files
+Files and versions
+
+			Community
+			1
+				
+
+
+
+
+
+
+			11d59a5
+		
+
+twitter-financial-news-topic
+/
+README.md
+
+Commit History
+				
+
+Update README.md
+11d59a5
+
+
+
+
+zeroshot
+			
+commited on
+		Dec 4, 2022
+
+Update README.md
+86e1027
+
+
+
+
+zeroshot
+			
+commited on
+		Dec 4, 2022
+
+Update README.md
+10ef7f8
+
+
+
+
+Ricky Costa
+commited on
+		Sep 7, 2022
+
+Update README.md
+29d86b5
+
+
+
+
+Ricky Costa
+commited on
+		Sep 7, 2022
+
+Update README.md
+5b4b91d
+
+
+
+
+Ricky Costa
+commited on
+		Sep 7, 2022
+
+initial commit
+b6392c1
+
+
+
+
+Ricky Costa
+commited on
+		Sep 7, 2022
+
+
+
+
+
+
+
+
+
+
+
